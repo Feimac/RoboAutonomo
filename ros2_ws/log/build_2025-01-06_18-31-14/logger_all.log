@@ -1,0 +1,518 @@
+[0.265s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.265s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74e0acb35300>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74e0acb34e50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74e0acb34e50>>)
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.305s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/felipe/ros2_ws'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper_py) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper_py) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper_py) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper_py) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper_py) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper_py) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper_py) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper_py) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper_py) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_mapper_py' with type 'ros.ament_python' and name 'auto_mapper_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_layouts) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/_plugins) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/images) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/assets/js) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/docs/guides) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapviz/mapviz' with type 'ros.ament_cmake' and name 'mapviz'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_interfaces) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_interfaces) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_interfaces) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_interfaces) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_interfaces) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_interfaces) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_interfaces) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_interfaces) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapviz/mapviz_interfaces' with type 'ros.ament_cmake' and name 'mapviz_interfaces'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_plugins) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_plugins) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_plugins) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_plugins) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_plugins) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_plugins) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_plugins) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/mapviz_plugins) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapviz/mapviz_plugins' with type 'ros.ament_cmake' and name 'mapviz_plugins'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/multires_image) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/multires_image) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/multires_image) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/multires_image) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/multires_image) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/multires_image) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/multires_image) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/multires_image) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/multires_image) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapviz/multires_image' with type 'ros.ament_cmake' and name 'multires_image'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/tile_map) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/tile_map) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/tile_map) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/tile_map) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/tile_map) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/tile_map) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/tile_map) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/tile_map) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapviz/tile_map) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapviz/tile_map' with type 'ros.ament_cmake' and name 'tile_map'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/images) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/script) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/vacuum_robot) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vacuum_robot' with type 'ros.ament_python' and name 'vacuum_robot'
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.385s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/felipe/ros2_ws/install
+[0.387s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 411 installed packages in /opt/ros/humble
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper_py' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper_py' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'auto_mapper_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/felipe/ros2_ws/build/auto_mapper_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/felipe/ros2_ws/install/auto_mapper_py', 'merge_install': False, 'path': '/home/felipe/ros2_ws/src/auto_mapper_py', 'symlink_install': False, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'mapviz_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'mapviz_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'mapviz_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'mapviz_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'mapviz_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'mapviz_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'mapviz_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'mapviz_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'mapviz_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'mapviz_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/felipe/ros2_ws/build/mapviz_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/felipe/ros2_ws/install/mapviz_interfaces', 'merge_install': False, 'path': '/home/felipe/ros2_ws/src/mapviz/mapviz_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'vacuum_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'vacuum_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/felipe/ros2_ws/build/vacuum_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/felipe/ros2_ws/install/vacuum_robot', 'merge_install': False, 'path': '/home/felipe/ros2_ws/src/vacuum_robot', 'symlink_install': False, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'mapviz' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'mapviz' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'mapviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'mapviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'mapviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'mapviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'mapviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'mapviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'mapviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'mapviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/felipe/ros2_ws/build/mapviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/felipe/ros2_ws/install/mapviz', 'merge_install': False, 'path': '/home/felipe/ros2_ws/src/mapviz/mapviz', 'symlink_install': False, 'test_result_base': None}
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'mapviz_plugins' build argument 'cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'mapviz_plugins' build argument 'cmake_target' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'mapviz_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'mapviz_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'mapviz_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'mapviz_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'mapviz_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'mapviz_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'mapviz_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.442s] DEBUG:colcon.colcon_core.verb:Building package 'mapviz_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/felipe/ros2_ws/build/mapviz_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/felipe/ros2_ws/install/mapviz_plugins', 'merge_install': False, 'path': '/home/felipe/ros2_ws/src/mapviz/mapviz_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'multires_image' build argument 'cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'multires_image' build argument 'cmake_target' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'multires_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'multires_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'multires_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'multires_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'multires_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'multires_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'multires_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.442s] DEBUG:colcon.colcon_core.verb:Building package 'multires_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/felipe/ros2_ws/build/multires_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/felipe/ros2_ws/install/multires_image', 'merge_install': False, 'path': '/home/felipe/ros2_ws/src/mapviz/multires_image', 'symlink_install': False, 'test_result_base': None}
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tile_map' build argument 'cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tile_map' build argument 'cmake_target' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tile_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tile_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tile_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tile_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tile_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tile_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tile_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.443s] DEBUG:colcon.colcon_core.verb:Building package 'tile_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/felipe/ros2_ws/build/tile_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/felipe/ros2_ws/install/tile_map', 'merge_install': False, 'path': '/home/felipe/ros2_ws/src/mapviz/tile_map', 'symlink_install': False, 'test_result_base': None}
+[0.443s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/felipe/ros2_ws/src/mapviz/mapviz_interfaces' with build type 'ament_cmake'
+[0.444s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/felipe/ros2_ws/src/mapviz/mapviz_interfaces'
+[0.452s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/felipe/ros2_ws/src/auto_mapper_py' with build type 'ament_python'
+[0.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_mapper_py', 'ament_prefix_path')
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/auto_mapper_py/share/auto_mapper_py/hook/ament_prefix_path.ps1'
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/felipe/ros2_ws/install/auto_mapper_py/share/auto_mapper_py/hook/ament_prefix_path.dsv'
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/auto_mapper_py/share/auto_mapper_py/hook/ament_prefix_path.sh'
+[0.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.463s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/felipe/ros2_ws/src/vacuum_robot' with build type 'ament_python'
+[0.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('vacuum_robot', 'ament_prefix_path')
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/hook/ament_prefix_path.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/hook/ament_prefix_path.dsv'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/hook/ament_prefix_path.sh'
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/felipe/ros2_ws/build/mapviz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --build /home/felipe/ros2_ws/build/mapviz_interfaces -- -j8 -l8
+[0.737s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/felipe/ros2_ws/src/auto_mapper_py'
+[0.737s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.737s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.987s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/felipe/ros2_ws/src/vacuum_robot'
+[0.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/felipe/ros2_ws/build/mapviz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --build /home/felipe/ros2_ws/build/mapviz_interfaces -- -j8 -l8
+[1.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/felipe/ros2_ws/build/mapviz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --install /home/felipe/ros2_ws/build/mapviz_interfaces
+[1.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapviz_interfaces)
+[1.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/felipe/ros2_ws/build/mapviz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --install /home/felipe/ros2_ws/build/mapviz_interfaces
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces' for CMake module files
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces' for CMake config files
+[1.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapviz_interfaces', 'cmake_prefix_path')
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/cmake_prefix_path.ps1'
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/cmake_prefix_path.dsv'
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/cmake_prefix_path.sh'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces/lib'
+[1.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapviz_interfaces', 'ld_library_path_lib')
+[1.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/ld_library_path_lib.ps1'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/ld_library_path_lib.dsv'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/ld_library_path_lib.sh'
+[1.070s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces/bin'
+[1.070s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces/lib/pkgconfig/mapviz_interfaces.pc'
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces/lib/python3.10/site-packages'
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces/bin'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.ps1'
+[1.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.dsv'
+[1.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.sh'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.bash'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.zsh'
+[1.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/felipe/ros2_ws/install/mapviz_interfaces/share/colcon-core/packages/mapviz_interfaces)
+[1.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapviz_interfaces)
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces' for CMake module files
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces' for CMake config files
+[1.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapviz_interfaces', 'cmake_prefix_path')
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/cmake_prefix_path.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/cmake_prefix_path.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/cmake_prefix_path.sh'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces/lib'
+[1.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapviz_interfaces', 'ld_library_path_lib')
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/ld_library_path_lib.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/ld_library_path_lib.dsv'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/hook/ld_library_path_lib.sh'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces/bin'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces/lib/pkgconfig/mapviz_interfaces.pc'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces/lib/python3.10/site-packages'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_interfaces/bin'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.dsv'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.sh'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.bash'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.zsh'
+[1.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/felipe/ros2_ws/install/mapviz_interfaces/share/colcon-core/packages/mapviz_interfaces)
+[1.093s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/felipe/ros2_ws/src/mapviz/mapviz' with build type 'ament_cmake'
+[1.093s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/felipe/ros2_ws/src/mapviz/mapviz'
+[1.094s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.094s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/felipe/ros2_ws/build/mapviz': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/felipe/ros2_ws/build/mapviz -- -j8 -l8
+[1.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/felipe/ros2_ws/build/mapviz' returned '0': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/felipe/ros2_ws/build/mapviz -- -j8 -l8
+[1.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/felipe/ros2_ws/build/mapviz': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/felipe/ros2_ws/build/mapviz
+[1.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapviz)
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz' for CMake module files
+[1.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/felipe/ros2_ws/build/mapviz' returned '0': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/felipe/ros2_ws/build/mapviz
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz' for CMake config files
+[1.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapviz', 'cmake_prefix_path')
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz/share/mapviz/hook/cmake_prefix_path.ps1'
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/felipe/ros2_ws/install/mapviz/share/mapviz/hook/cmake_prefix_path.dsv'
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz/share/mapviz/hook/cmake_prefix_path.sh'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz/lib'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz/bin'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz/lib/pkgconfig/mapviz.pc'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz/lib/python3.10/site-packages'
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz/bin'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz/share/mapviz/package.ps1'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/felipe/ros2_ws/install/mapviz/share/mapviz/package.dsv'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz/share/mapviz/package.sh'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz/share/mapviz/package.bash'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz/share/mapviz/package.zsh'
+[1.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/felipe/ros2_ws/install/mapviz/share/colcon-core/packages/mapviz)
+[1.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapviz)
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz' for CMake module files
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz' for CMake config files
+[1.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapviz', 'cmake_prefix_path')
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz/share/mapviz/hook/cmake_prefix_path.ps1'
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/felipe/ros2_ws/install/mapviz/share/mapviz/hook/cmake_prefix_path.dsv'
+[1.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/felipe/ros2_ws/install/mapviz/share/mapviz/hook/cmake_prefix_path.sh'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz/lib'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz/bin'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz/lib/pkgconfig/mapviz.pc'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz/lib/python3.10/site-packages'
+[1.270s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz/bin'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz/share/mapviz/package.ps1'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/felipe/ros2_ws/install/mapviz/share/mapviz/package.dsv'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz/share/mapviz/package.sh'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz/share/mapviz/package.bash'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz/share/mapviz/package.zsh'
+[1.272s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/felipe/ros2_ws/install/mapviz/share/colcon-core/packages/mapviz)
+[1.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/felipe/ros2_ws/src/mapviz/mapviz_plugins' with build type 'ament_cmake'
+[1.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/felipe/ros2_ws/src/mapviz/mapviz_plugins'
+[1.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.277s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/felipe/ros2_ws/src/mapviz/multires_image' with build type 'ament_cmake'
+[1.277s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/felipe/ros2_ws/src/mapviz/multires_image'
+[1.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/felipe/ros2_ws/src/mapviz/tile_map' with build type 'ament_cmake'
+[1.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/felipe/ros2_ws/src/mapviz/tile_map'
+[1.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/felipe/ros2_ws/build/mapviz_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/felipe/ros2_ws/src/mapviz/mapviz_plugins -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/mapviz_plugins
+[1.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/felipe/ros2_ws/build/multires_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/felipe/ros2_ws/build/multires_image -- -j8 -l8
+[1.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/felipe/ros2_ws/build/tile_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/felipe/ros2_ws/build/tile_map -- -j8 -l8
+[3.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/felipe/ros2_ws/src/vacuum_robot': PYTHONPATH=/home/felipe/ros2_ws/build/vacuum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vacuum_robot build --build-base /home/felipe/ros2_ws/build/vacuum_robot/build install --record /home/felipe/ros2_ws/build/vacuum_robot/install.log --single-version-externally-managed install_data
+[3.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/felipe/ros2_ws/src/auto_mapper_py': PYTHONPATH=/home/felipe/ros2_ws/build/auto_mapper_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_mapper_py build --build-base /home/felipe/ros2_ws/build/auto_mapper_py/build install --record /home/felipe/ros2_ws/build/auto_mapper_py/install.log --single-version-externally-managed install_data
+[3.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/felipe/ros2_ws/build/mapviz_plugins' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/felipe/ros2_ws/src/mapviz/mapviz_plugins -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/mapviz_plugins
+[3.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapviz_plugins)
+[3.572s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_plugins' for CMake module files
+[3.573s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_plugins' for CMake config files
+[3.573s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_plugins/bin'
+[3.573s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_plugins/lib/pkgconfig/mapviz_plugins.pc'
+[3.574s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_plugins/lib/python3.10/site-packages'
+[3.574s] Level 1:colcon.colcon_core.environment:checking '/home/felipe/ros2_ws/install/mapviz_plugins/bin'
+[3.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_plugins/share/mapviz_plugins/package.ps1'
+[3.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/felipe/ros2_ws/install/mapviz_plugins/share/mapviz_plugins/package.dsv'
+[3.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_plugins/share/mapviz_plugins/package.sh'
+[3.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_plugins/share/mapviz_plugins/package.bash'
+[3.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/felipe/ros2_ws/install/mapviz_plugins/share/mapviz_plugins/package.zsh'
+[3.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/felipe/ros2_ws/install/mapviz_plugins/share/colcon-core/packages/mapviz_plugins)
+[34.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[34.937s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.943s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.944s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.944s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.955s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/felipe/ros2_ws/install/local_setup.ps1'
+[34.956s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/felipe/ros2_ws/install/_local_setup_util_ps1.py'
+[34.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/felipe/ros2_ws/install/setup.ps1'
+[34.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/felipe/ros2_ws/install/local_setup.sh'
+[34.960s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/felipe/ros2_ws/install/_local_setup_util_sh.py'
+[34.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/felipe/ros2_ws/install/setup.sh'
+[34.962s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/felipe/ros2_ws/install/local_setup.bash'
+[34.962s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/felipe/ros2_ws/install/setup.bash'
+[34.964s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/felipe/ros2_ws/install/local_setup.zsh'
+[34.964s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/felipe/ros2_ws/install/setup.zsh'

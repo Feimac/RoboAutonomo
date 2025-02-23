@@ -1,0 +1,21 @@
+[15.527s] Invoking command in '/home/felipe/ros2_ws/src/meu_pacote_launch': PYTHONPATH=/home/felipe/ros2_ws/build/meu_pacote_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/meu_pacote_launch build --build-base /home/felipe/ros2_ws/build/meu_pacote_launch/build install --record /home/felipe/ros2_ws/build/meu_pacote_launch/install.log --single-version-externally-managed install_data
+[18.347s] /home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[18.347s]   warnings.warn(msg)
+[21.092s] running egg_info
+[21.506s] writing ../../build/meu_pacote_launch/meu_pacote_launch.egg-info/PKG-INFO
+[21.517s] writing dependency_links to ../../build/meu_pacote_launch/meu_pacote_launch.egg-info/dependency_links.txt
+[21.524s] writing requirements to ../../build/meu_pacote_launch/meu_pacote_launch.egg-info/requires.txt
+[21.535s] writing top-level names to ../../build/meu_pacote_launch/meu_pacote_launch.egg-info/top_level.txt
+[22.379s] reading manifest file '../../build/meu_pacote_launch/meu_pacote_launch.egg-info/SOURCES.txt'
+[22.400s] writing manifest file '../../build/meu_pacote_launch/meu_pacote_launch.egg-info/SOURCES.txt'
+[22.407s] running build
+[22.408s] running build_py
+[22.419s] running install
+[22.487s] running install_lib
+[22.860s] running install_data
+[22.871s] running install_egg_info
+[23.439s] removing '/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages/meu_pacote_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[23.450s] Copying ../../build/meu_pacote_launch/meu_pacote_launch.egg-info to /home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages/meu_pacote_launch-0.0.0-py3.10.egg-info
+[23.469s] running install_scripts
+[26.854s] writing list of installed files to '/home/felipe/ros2_ws/build/meu_pacote_launch/install.log'
+[27.482s] Invoked command in '/home/felipe/ros2_ws/src/meu_pacote_launch' returned '0': PYTHONPATH=/home/felipe/ros2_ws/build/meu_pacote_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/meu_pacote_launch build --build-base /home/felipe/ros2_ws/build/meu_pacote_launch/build install --record /home/felipe/ros2_ws/build/meu_pacote_launch/install.log --single-version-externally-managed install_data

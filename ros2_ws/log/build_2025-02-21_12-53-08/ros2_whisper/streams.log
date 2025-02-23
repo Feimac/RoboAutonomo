@@ -1,0 +1,23 @@
+[6.590s] Invoking command in '/home/felipe/ros2_ws/src/ros2_whisper': PYTHONPATH=/home/felipe/ros2_ws/build/ros2_whisper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_whisper build --build-base /home/felipe/ros2_ws/build/ros2_whisper/build install --record /home/felipe/ros2_ws/build/ros2_whisper/install.log --single-version-externally-managed install_data
+[8.173s] /home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[8.174s]   warnings.warn(msg)
+[9.989s] running egg_info
+[10.345s] writing ../../build/ros2_whisper/ros2_whisper.egg-info/PKG-INFO
+[10.357s] writing dependency_links to ../../build/ros2_whisper/ros2_whisper.egg-info/dependency_links.txt
+[10.357s] writing entry points to ../../build/ros2_whisper/ros2_whisper.egg-info/entry_points.txt
+[10.358s] writing requirements to ../../build/ros2_whisper/ros2_whisper.egg-info/requires.txt
+[10.358s] writing top-level names to ../../build/ros2_whisper/ros2_whisper.egg-info/top_level.txt
+[10.958s] reading manifest file '../../build/ros2_whisper/ros2_whisper.egg-info/SOURCES.txt'
+[10.979s] writing manifest file '../../build/ros2_whisper/ros2_whisper.egg-info/SOURCES.txt'
+[10.980s] running build
+[10.980s] running build_py
+[10.980s] running install
+[11.037s] running install_lib
+[11.414s] running install_data
+[11.415s] running install_egg_info
+[11.798s] removing '/home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages/ros2_whisper-0.0.1-py3.10.egg-info' (and everything under it)
+[11.798s] Copying ../../build/ros2_whisper/ros2_whisper.egg-info to /home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages/ros2_whisper-0.0.1-py3.10.egg-info
+[11.808s] running install_scripts
+[13.942s] Installing whisper_node script to /home/felipe/ros2_ws/install/ros2_whisper/lib/ros2_whisper
+[13.944s] writing list of installed files to '/home/felipe/ros2_ws/build/ros2_whisper/install.log'
+[15.624s] Invoked command in '/home/felipe/ros2_ws/src/ros2_whisper' returned '0': PYTHONPATH=/home/felipe/ros2_ws/build/ros2_whisper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_whisper build --build-base /home/felipe/ros2_ws/build/ros2_whisper/build install --record /home/felipe/ros2_ws/build/ros2_whisper/install.log --single-version-externally-managed install_data

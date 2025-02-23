@@ -1,0 +1,6 @@
+-I/home/felipe/ros2_ws/src/mapviz/multires_image
+-I/home/felipe/ros2_ws/build/multires_image
+-DWFlags=WindowFlags
+-o
+/home/felipe/ros2_ws/build/multires_image/include/multires_image/moc_tile_cache.cpp
+/home/felipe/ros2_ws/src/mapviz/multires_image/include/multires_image/tile_cache.h

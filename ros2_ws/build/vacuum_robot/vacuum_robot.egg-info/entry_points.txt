@@ -1,0 +1,2 @@
+[console_scripts]
+vacuum_robot_controller = vacuum_robot.vacuum_robot_controller:main

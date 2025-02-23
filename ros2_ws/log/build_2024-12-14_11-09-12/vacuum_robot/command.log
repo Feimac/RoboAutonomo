@@ -1,0 +1,4 @@
+Invoking command in '/home/felipe/ros2_ws/build/vacuum_robot': /usr/bin/cmake --build /home/felipe/ros2_ws/build/vacuum_robot -- -j8 -l8
+Invoked command in '/home/felipe/ros2_ws/build/vacuum_robot' returned '0': /usr/bin/cmake --build /home/felipe/ros2_ws/build/vacuum_robot -- -j8 -l8
+Invoking command in '/home/felipe/ros2_ws/build/vacuum_robot': /usr/bin/cmake --install /home/felipe/ros2_ws/build/vacuum_robot
+Invoked command in '/home/felipe/ros2_ws/build/vacuum_robot' returned '0': /usr/bin/cmake --install /home/felipe/ros2_ws/build/vacuum_robot

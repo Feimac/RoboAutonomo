@@ -1,0 +1,20 @@
+[6.050s] Invoking command in '/home/felipe/ros2_ws/build/meu_pacote_launch': PYTHONPATH=/home/felipe/ros2_ws/build/meu_pacote_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/felipe/ros2_ws/build/meu_pacote_launch/build --no-deps symlink_data --force
+[7.260s] /home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[7.261s]   warnings.warn(msg)
+[9.151s] running develop
+[11.812s] running egg_info
+[12.007s] writing meu_pacote_launch.egg-info/PKG-INFO
+[12.010s] writing dependency_links to meu_pacote_launch.egg-info/dependency_links.txt
+[12.011s] writing requirements to meu_pacote_launch.egg-info/requires.txt
+[12.012s] writing top-level names to meu_pacote_launch.egg-info/top_level.txt
+[12.403s] reading manifest file 'meu_pacote_launch.egg-info/SOURCES.txt'
+[12.412s] writing manifest file 'meu_pacote_launch.egg-info/SOURCES.txt'
+[12.648s] running build_ext
+[12.651s] Creating /home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages/meu-pacote-launch.egg-link (link to .)
+[12.657s] 
+[12.659s] Installed /home/felipe/ros2_ws/build/meu_pacote_launch
+[12.660s] running symlink_data
+[12.661s] symbolically linking /home/felipe/ros2_ws/build/meu_pacote_launch/resource/meu_pacote_launch -> /home/felipe/ros2_ws/install/meu_pacote_launch/share/ament_index/resource_index/packages
+[12.662s] symbolically linking /home/felipe/ros2_ws/build/meu_pacote_launch/package.xml -> /home/felipe/ros2_ws/install/meu_pacote_launch/share/meu_pacote_launch
+[12.664s] error: [Errno 2] No such file or directory: '/home/felipe/ros2_ws/install/meu_pacote_launch/share/meu_pacote_launch/launch/all_nodes.launch.py'
+[12.879s] Invoked command in '/home/felipe/ros2_ws/build/meu_pacote_launch' returned '1': PYTHONPATH=/home/felipe/ros2_ws/build/meu_pacote_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/felipe/ros2_ws/build/meu_pacote_launch/build --no-deps symlink_data --force

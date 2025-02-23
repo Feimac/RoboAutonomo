@@ -1,0 +1,7 @@
+-I/home/felipe/ros2_ws/src/mapviz/mapviz
+-I/home/felipe/ros2_ws/build/mapviz
+-DWFlags=WindowFlags
+-DQT_NO_KEYWORDS
+-o
+/home/felipe/ros2_ws/build/mapviz/include/mapviz/moc_select_service_dialog.cpp
+/home/felipe/ros2_ws/src/mapviz/mapviz/include/mapviz/select_service_dialog.h

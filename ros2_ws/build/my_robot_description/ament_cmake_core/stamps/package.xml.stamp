@@ -1,0 +1,10 @@
+<package format="3">
+  <name>my_robot_description</name>
+  <version>0.1.0</version>
+  <description>Descrição do robô aspirador com ROS 2 e Gazebo</description>
+  <maintainer email="seu_email@example.com">Seu Nome</maintainer>
+  <license>Apache License 2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+</package>
+

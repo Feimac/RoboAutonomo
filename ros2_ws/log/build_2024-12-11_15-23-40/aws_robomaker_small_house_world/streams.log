@@ -1,0 +1,41 @@
+[0.030s] Invoking command in '/home/felipe/ros2_ws/build/aws_robomaker_small_house_world': /usr/bin/cmake /home/felipe/ros2_ws/src/aws-robomaker-small-house-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/aws_robomaker_small_house_world
+[0.066s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.066s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.067s]   CMake.
+[0.067s] 
+[0.067s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.067s]   CMake that the project does not need compatibility with older versions.
+[0.067s] 
+[0.067s] [0m
+[0.253s] -- The C compiler identification is GNU 11.4.0
+[0.417s] -- The CXX compiler identification is GNU 11.4.0
+[0.438s] -- Detecting C compiler ABI info
+[0.565s] -- Detecting C compiler ABI info - done
+[0.589s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.590s] -- Detecting C compile features
+[0.591s] -- Detecting C compile features - done
+[0.597s] -- Detecting CXX compiler ABI info
+[0.755s] -- Detecting CXX compiler ABI info - done
+[0.774s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.775s] -- Detecting CXX compile features
+[0.778s] -- Detecting CXX compile features - done
+[0.802s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.803s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.803s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.803s]   CMake did not find one.
+[0.803s] 
+[0.803s]   Could not find a package configuration file provided by "catkin" with any
+[0.803s]   of the following names:
+[0.803s] 
+[0.803s]     catkinConfig.cmake
+[0.803s]     catkin-config.cmake
+[0.803s] 
+[0.803s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.803s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.804s]   provides a separate development package or SDK, be sure it has been
+[0.804s]   installed.
+[0.804s] 
+[0.804s] [0m
+[0.804s] -- Configuring incomplete, errors occurred!
+[0.804s] See also "/home/felipe/ros2_ws/build/aws_robomaker_small_house_world/CMakeFiles/CMakeOutput.log".
+[0.810s] Invoked command in '/home/felipe/ros2_ws/build/aws_robomaker_small_house_world' returned '1': /usr/bin/cmake /home/felipe/ros2_ws/src/aws-robomaker-small-house-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/aws_robomaker_small_house_world

@@ -1,0 +1,27 @@
+[2.066s] Invoking command in '/home/felipe/ros2_ws/src/vacuum_robot': PYTHONPATH=/home/felipe/ros2_ws/build/vacuum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vacuum_robot build --build-base /home/felipe/ros2_ws/build/vacuum_robot/build install --record /home/felipe/ros2_ws/build/vacuum_robot/install.log --single-version-externally-managed install_data
+[2.652s] running egg_info
+[2.698s] writing ../../build/vacuum_robot/vacuum_robot.egg-info/PKG-INFO
+[2.700s] writing dependency_links to ../../build/vacuum_robot/vacuum_robot.egg-info/dependency_links.txt
+[2.701s] writing entry points to ../../build/vacuum_robot/vacuum_robot.egg-info/entry_points.txt
+[2.701s] writing requirements to ../../build/vacuum_robot/vacuum_robot.egg-info/requires.txt
+[2.702s] writing top-level names to ../../build/vacuum_robot/vacuum_robot.egg-info/top_level.txt
+[2.788s] reading manifest file '../../build/vacuum_robot/vacuum_robot.egg-info/SOURCES.txt'
+[2.790s] writing manifest file '../../build/vacuum_robot/vacuum_robot.egg-info/SOURCES.txt'
+[2.790s] running build
+[2.790s] running build_py
+[2.790s] copying vacuum_robot/vacuum_robot_controller.py -> /home/felipe/ros2_ws/build/vacuum_robot/build/lib/vacuum_robot
+[2.791s] copying vacuum_robot/__init__.py -> /home/felipe/ros2_ws/build/vacuum_robot/build/lib/vacuum_robot
+[2.791s] running install
+[2.802s] running install_lib
+[2.854s] copying /home/felipe/ros2_ws/build/vacuum_robot/build/lib/vacuum_robot/vacuum_robot_controller.py -> /home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot
+[2.855s] byte-compiling /home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot/vacuum_robot_controller.py to vacuum_robot_controller.cpython-310.pyc
+[2.858s] running install_data
+[2.858s] copying resource/vacuum_robot -> /home/felipe/ros2_ws/install/vacuum_robot/share/ament_index/resource_index/packages
+[2.858s] copying package.xml -> /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot
+[2.859s] running install_egg_info
+[2.917s] removing '/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.918s] Copying ../../build/vacuum_robot/vacuum_robot.egg-info to /home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot-0.0.0-py3.10.egg-info
+[2.919s] running install_scripts
+[3.281s] Installing vacuum_robot_controller script to /home/felipe/ros2_ws/install/vacuum_robot/lib/vacuum_robot
+[3.281s] writing list of installed files to '/home/felipe/ros2_ws/build/vacuum_robot/install.log'
+[3.338s] Invoked command in '/home/felipe/ros2_ws/src/vacuum_robot' returned '0': PYTHONPATH=/home/felipe/ros2_ws/build/vacuum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vacuum_robot build --build-base /home/felipe/ros2_ws/build/vacuum_robot/build install --record /home/felipe/ros2_ws/build/vacuum_robot/install.log --single-version-externally-managed install_data

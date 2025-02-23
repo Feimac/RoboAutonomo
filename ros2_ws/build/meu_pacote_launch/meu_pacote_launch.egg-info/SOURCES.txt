@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/meu_pacote_launch/meu_pacote_launch.egg-info/PKG-INFO
+../../build/meu_pacote_launch/meu_pacote_launch.egg-info/SOURCES.txt
+../../build/meu_pacote_launch/meu_pacote_launch.egg-info/dependency_links.txt
+../../build/meu_pacote_launch/meu_pacote_launch.egg-info/requires.txt
+../../build/meu_pacote_launch/meu_pacote_launch.egg-info/top_level.txt
+../../build/meu_pacote_launch/meu_pacote_launch.egg-info/zip-safe
+launch/all_nodes.launch.py
+meu_pacote_launch/__init__.py
+meu_pacote_launch/all_nodes.launch.py
+resource/meu_pacote_launch
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

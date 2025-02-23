@@ -1,0 +1,19 @@
+[6.149s] Invoking command in '/home/felipe/ros2_ws/build/vacuum_robot': PYTHONPATH=/home/felipe/ros2_ws/build/vacuum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/felipe/ros2_ws/build/vacuum_robot/build --no-deps symlink_data --force
+[8.804s] running develop
+[11.103s] running egg_info
+[11.269s] writing vacuum_robot.egg-info/PKG-INFO
+[11.271s] writing dependency_links to vacuum_robot.egg-info/dependency_links.txt
+[11.273s] writing entry points to vacuum_robot.egg-info/entry_points.txt
+[11.276s] writing requirements to vacuum_robot.egg-info/requires.txt
+[11.277s] writing top-level names to vacuum_robot.egg-info/top_level.txt
+[11.720s] reading manifest file 'vacuum_robot.egg-info/SOURCES.txt'
+[11.730s] writing manifest file 'vacuum_robot.egg-info/SOURCES.txt'
+[11.898s] running build_ext
+[11.900s] Creating /home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum-robot.egg-link (link to .)
+[11.906s] Installing vacuum_robot_controller script to /home/felipe/ros2_ws/install/vacuum_robot/lib/vacuum_robot
+[11.908s] 
+[11.909s] Installed /home/felipe/ros2_ws/build/vacuum_robot
+[11.910s] running symlink_data
+[11.911s] symbolically linking /home/felipe/ros2_ws/build/vacuum_robot/resource/vacuum_robot -> /home/felipe/ros2_ws/install/vacuum_robot/share/ament_index/resource_index/packages
+[11.911s] symbolically linking /home/felipe/ros2_ws/build/vacuum_robot/package.xml -> /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot
+[12.147s] Invoked command in '/home/felipe/ros2_ws/build/vacuum_robot' returned '0': PYTHONPATH=/home/felipe/ros2_ws/build/vacuum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/felipe/ros2_ws/build/vacuum_robot/build --no-deps symlink_data --force

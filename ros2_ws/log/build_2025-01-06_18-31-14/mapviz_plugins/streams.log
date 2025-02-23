@@ -1,0 +1,38 @@
+[0.016s] Invoking command in '/home/felipe/ros2_ws/build/mapviz_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/felipe/ros2_ws/src/mapviz/mapviz_plugins -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/mapviz_plugins
+[0.025s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.399s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.405s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.551s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.562s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.592s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.688s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.892s] -- Found gps_msgs: 2.0.4 (/opt/ros/humble/share/gps_msgs/cmake)
+[0.936s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[1.032s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.040s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.661s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[1.808s] -- Found mapviz: 2.4.4 (/home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake)
+[1.859s] -- Found marti_common_msgs: 1.6.1 (/opt/ros/humble/share/marti_common_msgs/cmake)
+[1.905s] -- Found marti_nav_msgs: 1.6.1 (/opt/ros/humble/share/marti_nav_msgs/cmake)
+[2.212s] -- Configuring incomplete, errors occurred!
+[2.212s] See also "/home/felipe/ros2_ws/build/mapviz_plugins/CMakeFiles/CMakeOutput.log".
+[2.215s] [31mCMake Error at CMakeLists.txt:34 (find_package):
+[2.215s]   By not providing "Findmarti_sensor_msgs.cmake" in CMAKE_MODULE_PATH this
+[2.215s]   project has asked CMake to find a package configuration file provided by
+[2.216s]   "marti_sensor_msgs", but CMake did not find one.
+[2.216s] 
+[2.216s]   Could not find a package configuration file provided by "marti_sensor_msgs"
+[2.216s]   with any of the following names:
+[2.216s] 
+[2.216s]     marti_sensor_msgsConfig.cmake
+[2.216s]     marti_sensor_msgs-config.cmake
+[2.216s] 
+[2.216s]   Add the installation prefix of "marti_sensor_msgs" to CMAKE_PREFIX_PATH or
+[2.217s]   set "marti_sensor_msgs_DIR" to a directory containing one of the above
+[2.217s]   files.  If "marti_sensor_msgs" provides a separate development package or
+[2.217s]   SDK, be sure it has been installed.
+[2.217s] 
+[2.217s] [0m
+[2.271s] Invoked command in '/home/felipe/ros2_ws/build/mapviz_plugins' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/felipe/ros2_ws/src/mapviz/mapviz_plugins -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/mapviz_plugins

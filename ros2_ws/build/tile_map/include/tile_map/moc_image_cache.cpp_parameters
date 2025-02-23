@@ -1,0 +1,6 @@
+-I/home/felipe/ros2_ws/src/mapviz/tile_map
+-I/home/felipe/ros2_ws/build/tile_map
+-DQT_NO_KEYWORDS
+-o
+/home/felipe/ros2_ws/build/tile_map/include/tile_map/moc_image_cache.cpp
+/home/felipe/ros2_ws/src/mapviz/tile_map/include/tile_map/image_cache.h

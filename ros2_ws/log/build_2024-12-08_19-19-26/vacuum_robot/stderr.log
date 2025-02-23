@@ -1,0 +1,5 @@
+  File "/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot/vacuum_robot_controller.py", line 1
+    considerando esse código, faz sentido ter a funcionalidade colisão?
+                 ^^^^
+SyntaxError: invalid syntax
+

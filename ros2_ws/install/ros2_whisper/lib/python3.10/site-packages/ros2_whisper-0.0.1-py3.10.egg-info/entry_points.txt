@@ -1,0 +1,2 @@
+[console_scripts]
+whisper_node = ros2_whisper.whisper_node:main

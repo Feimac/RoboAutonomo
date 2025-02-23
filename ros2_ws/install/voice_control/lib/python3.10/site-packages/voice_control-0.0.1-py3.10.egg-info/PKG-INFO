@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: voice_control
+Version: 0.0.1
+Summary: Pacote para comandos de voz e controle de movimento
+Author: Seu Nome
+Author-email: seu_email@exemplo.com
+License: Apache License 2.0
+Requires-Dist: setuptools
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

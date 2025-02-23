@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing vacuum_robot.egg-info/PKG-INFO
+writing dependency_links to vacuum_robot.egg-info/dependency_links.txt
+writing entry points to vacuum_robot.egg-info/entry_points.txt
+writing requirements to vacuum_robot.egg-info/requires.txt
+writing top-level names to vacuum_robot.egg-info/top_level.txt
+reading manifest file 'vacuum_robot.egg-info/SOURCES.txt'
+writing manifest file 'vacuum_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum-robot.egg-link (link to .)
+Installing vacuum_robot_controller script to /home/felipe/ros2_ws/install/vacuum_robot/lib/vacuum_robot
+
+Installed /home/felipe/ros2_ws/build/vacuum_robot
+running symlink_data
+symbolically linking /home/felipe/ros2_ws/build/vacuum_robot/resource/vacuum_robot -> /home/felipe/ros2_ws/install/vacuum_robot/share/ament_index/resource_index/packages
+symbolically linking /home/felipe/ros2_ws/build/vacuum_robot/package.xml -> /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-de574911026d02caf39e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "nav_2d_msgs__py",
+					"jsonFile" : "directory-nav_2d_msgs__py-674741a9764758601b4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/felipe/ros2_ws/build/nav_2d_msgs/nav_2d_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nav_2d_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_nav_2d_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_nav_2d_msgs_egg-8e68bf8208d4e456f9af.json",
+					"name" : "ament_cmake_python_build_nav_2d_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_nav_2d_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_nav_2d_msgs-17da9a535e9ec759b8c0.json",
+					"name" : "ament_cmake_python_copy_nav_2d_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs-fad25f559df624038217.json",
+					"name" : "nav_2d_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__cpp-4e952dc37ce9d2118ab8.json",
+					"name" : "nav_2d_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nav_2d_msgs__py::@e0bac88aea3abc49556a",
+					"jsonFile" : "target-nav_2d_msgs__py-98058b5366e3f3f2c98c.json",
+					"name" : "nav_2d_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_generator_c-95d1a148ae6966f8a6d5.json",
+					"name" : "nav_2d_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_generator_py-fd925f0de89643aeb564.json",
+					"name" : "nav_2d_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_c-dacf208d1a412fa92b4e.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_c__pyext-b62ac8afbddc7dd5c484.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_cpp-0c531aeb92119fa3d5fb.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_fastrtps_c-1a0c518b611e0ba9b8ce.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext-fc60d075dc49d2b59bb3.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_fastrtps_cpp-00b177e92ed92fe7e248.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_introspection_c-b030eafc240d69ce76c3.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_introspection_c__pyext-7673365d927e8ce47347.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs__rosidl_typesupport_introspection_cpp-54273f4464bf3c99f45d.json",
+					"name" : "nav_2d_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_msgs_uninstall-1ac5d0cc6142a81e521a.json",
+					"name" : "nav_2d_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-45f92654da488a625e7a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/felipe/ros2_ws/build/nav_2d_msgs",
+		"source" : "/home/felipe/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

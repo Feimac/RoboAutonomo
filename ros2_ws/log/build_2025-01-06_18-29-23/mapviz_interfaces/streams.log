@@ -1,0 +1,234 @@
+[0.039s] Invoking command in '/home/felipe/ros2_ws/build/mapviz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake /home/felipe/ros2_ws/src/mapviz/mapviz_interfaces -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/mapviz_interfaces
+[0.705s] -- The C compiler identification is GNU 11.4.0
+[0.784s] -- The CXX compiler identification is GNU 11.4.0
+[0.818s] -- Detecting C compiler ABI info
+[1.022s] -- Detecting C compiler ABI info - done
+[1.052s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.054s] -- Detecting C compile features
+[1.056s] -- Detecting C compile features - done
+[1.069s] -- Detecting CXX compiler ABI info
+[1.300s] -- Detecting CXX compiler ABI info - done
+[1.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.336s] -- Detecting CXX compile features
+[1.338s] -- Detecting CXX compile features - done
+[1.370s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.614s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.898s] -- Found marti_common_msgs: 1.6.1 (/opt/ros/humble/share/marti_common_msgs/cmake)
+[3.018s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.035s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.065s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.332s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.048s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.642s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.646s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.702s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.703s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.703s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.703s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.758s] -- Found PythonExtra: .so  
+[5.908s] -- Configuring done
+[5.978s] -- Generating done
+[6.003s] -- Build files have been written to: /home/felipe/ros2_ws/build/mapviz_interfaces
+[6.019s] Invoked command in '/home/felipe/ros2_ws/build/mapviz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake /home/felipe/ros2_ws/src/mapviz/mapviz_interfaces -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/mapviz_interfaces
+[6.022s] Invoking command in '/home/felipe/ros2_ws/build/mapviz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --build /home/felipe/ros2_ws/build/mapviz_interfaces -- -j8 -l8
+[6.089s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.108s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.122s] [  6%] Built target ament_cmake_python_copy_mapviz_interfaces
+[6.800s] running egg_info
+[6.875s] creating mapviz_interfaces.egg-info
+[6.875s] writing mapviz_interfaces.egg-info/PKG-INFO
+[6.877s] writing dependency_links to mapviz_interfaces.egg-info/dependency_links.txt
+[6.877s] writing top-level names to mapviz_interfaces.egg-info/top_level.txt
+[6.877s] writing manifest file 'mapviz_interfaces.egg-info/SOURCES.txt'
+[7.040s] [  6%] Built target mapviz_interfaces__cpp
+[7.069s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.069s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.070s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.093s] reading manifest file 'mapviz_interfaces.egg-info/SOURCES.txt'
+[7.093s] writing manifest file 'mapviz_interfaces.egg-info/SOURCES.txt'
+[7.174s] [ 16%] Built target ament_cmake_python_build_mapviz_interfaces_egg
+[7.182s] [ 19%] [32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapviz_interfaces/srv/detail/add_mapviz_display__functions.c.o[0m
+[7.395s] [ 22%] [32m[1mLinking C shared library libmapviz_interfaces__rosidl_generator_c.so[0m
+[7.478s] [ 22%] Built target mapviz_interfaces__rosidl_generator_c
+[7.504s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.509s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.515s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.269s] [ 35%] [32mBuilding CXX object CMakeFiles/mapviz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mapviz_interfaces/srv/add_mapviz_display__type_support.cpp.o[0m
+[8.280s] [ 38%] [32mBuilding CXX object CMakeFiles/mapviz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.cpp.o[0m
+[8.328s] [ 41%] [32mBuilding CXX object CMakeFiles/mapviz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapviz_interfaces/srv/detail/dds_fastrtps/add_mapviz_display__type_support.cpp.o[0m
+[8.597s] [ 45%] [32mBuilding CXX object CMakeFiles/mapviz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mapviz_interfaces/srv/add_mapviz_display__type_support.cpp.o[0m
+[8.708s] [ 48%] [32m[1mLinking CXX shared library libmapviz_interfaces__rosidl_typesupport_c.so[0m
+[8.755s] [ 51%] [32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.c.o[0m
+[8.769s] [ 54%] [32mBuilding CXX object CMakeFiles/mapviz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mapviz_interfaces/srv/detail/add_mapviz_display__type_support_c.cpp.o[0m
+[8.879s] [ 54%] Built target mapviz_interfaces__rosidl_typesupport_c
+[8.930s] [ 58%] [32m[1mLinking C shared library libmapviz_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.014s] [ 58%] Built target mapviz_interfaces__rosidl_typesupport_introspection_c
+[9.219s] [ 61%] [32m[1mLinking CXX shared library libmapviz_interfaces__rosidl_typesupport_cpp.so[0m
+[9.313s] [ 61%] Built target mapviz_interfaces__rosidl_typesupport_cpp
+[9.659s] [ 64%] [32m[1mLinking CXX shared library libmapviz_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.682s] [ 67%] [32m[1mLinking CXX shared library libmapviz_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.715s] [ 70%] [32m[1mLinking CXX shared library libmapviz_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.804s] [ 70%] Built target mapviz_interfaces__rosidl_typesupport_introspection_cpp
+[9.854s] [ 70%] Built target mapviz_interfaces__rosidl_typesupport_fastrtps_c
+[9.881s] [ 70%] Built target mapviz_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.911s] [ 70%] Built target mapviz_interfaces
+[9.939s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.836s] [ 74%] Built target mapviz_interfaces__py
+[10.863s] [ 77%] [32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mapviz_interfaces/srv/_add_mapviz_display_s.c.o[0m
+[11.093s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/mapviz_interfaces/libmapviz_interfaces__rosidl_generator_py.so[0m
+[11.148s] [ 80%] Built target mapviz_interfaces__rosidl_generator_py
+[11.187s] [ 83%] [32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.191s] [ 87%] [32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.193s] [ 90%] [32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.438s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.440s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.447s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.548s] [100%] Built target mapviz_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.549s] [100%] Built target mapviz_interfaces__rosidl_typesupport_introspection_c__pyext
+[11.556s] [100%] Built target mapviz_interfaces__rosidl_typesupport_c__pyext
+[11.580s] Invoked command in '/home/felipe/ros2_ws/build/mapviz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --build /home/felipe/ros2_ws/build/mapviz_interfaces -- -j8 -l8
+[11.599s] Invoking command in '/home/felipe/ros2_ws/build/mapviz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --install /home/felipe/ros2_ws/build/mapviz_interfaces
+[11.615s] -- Install configuration: ""
+[11.616s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/ament_index/resource_index/rosidl_interfaces/mapviz_interfaces
+[11.616s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces
+[11.616s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv
+[11.616s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/add_mapviz_display.h
+[11.617s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail
+[11.617s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.h
+[11.617s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__struct.h
+[11.617s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__functions.h
+[11.617s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__functions.c
+[11.618s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg
+[11.619s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.619s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/library_path.sh
+[11.619s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/library_path.dsv
+[11.619s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_generator_c.so
+[11.619s] -- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_generator_c.so" to ""
+[11.620s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces
+[11.620s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv
+[11.620s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail
+[11.620s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__rosidl_typesupport_fastrtps_c.h
+[11.620s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg
+[11.621s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.621s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.621s] -- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.621s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces
+[11.622s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv
+[11.622s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/add_mapviz_display.hpp
+[11.622s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail
+[11.622s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__traits.hpp
+[11.622s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.hpp
+[11.622s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__struct.hpp
+[11.623s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__builder.hpp
+[11.623s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg
+[11.623s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.623s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces
+[11.624s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv
+[11.624s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail
+[11.624s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__rosidl_typesupport_fastrtps_cpp.hpp
+[11.624s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/dds_fastrtps
+[11.624s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg
+[11.625s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.625s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.625s] -- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.625s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces
+[11.625s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv
+[11.626s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail
+[11.626s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__rosidl_typesupport_introspection_c.h
+[11.626s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.c
+[11.626s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg
+[11.626s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.626s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_introspection_c.so
+[11.627s] -- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.627s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_c.so
+[11.627s] -- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_c.so" to ""
+[11.627s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces
+[11.627s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv
+[11.627s] -- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail
+[11.627s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__rosidl_typesupport_introspection_cpp.hpp
+[11.627s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.cpp
+[11.628s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.628s] -- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.628s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_cpp.so
+[11.628s] -- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.629s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/pythonpath.sh
+[11.629s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/pythonpath.dsv
+[11.629s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces-2.4.4-py3.10.egg-info
+[11.629s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces-2.4.4-py3.10.egg-info/top_level.txt
+[11.630s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces-2.4.4-py3.10.egg-info/dependency_links.txt
+[11.630s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces-2.4.4-py3.10.egg-info/PKG-INFO
+[11.630s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces-2.4.4-py3.10.egg-info/SOURCES.txt
+[11.630s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces
+[11.632s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.633s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv
+[11.633s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv/_add_mapviz_display_s.c
+[11.635s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv/_add_mapviz_display.py
+[11.635s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv/__init__.py
+[11.636s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.637s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.638s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_c.c
+[11.639s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.639s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/libmapviz_interfaces__rosidl_generator_py.so
+[11.639s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/__init__.py
+[11.641s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.723s] Listing '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces'...
+[11.723s] Compiling '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/__init__.py'...
+[11.723s] Listing '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv'...
+[11.723s] Compiling '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv/__init__.py'...
+[11.723s] Compiling '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv/_add_mapviz_display.py'...
+[11.735s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.736s] -- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.736s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.737s] -- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.737s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.738s] -- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.738s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_generator_py.so
+[11.739s] -- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_generator_py.so" to ""
+[11.739s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/srv/AddMapvizDisplay.idl
+[11.739s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/srv/AddMapvizDisplay.srv
+[11.739s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/srv/AddMapvizDisplay_Request.msg
+[11.740s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/srv/AddMapvizDisplay_Response.msg
+[11.740s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/ament_index/resource_index/package_run_dependencies/mapviz_interfaces
+[11.741s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/ament_index/resource_index/parent_prefix_path/mapviz_interfaces
+[11.741s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/ament_prefix_path.sh
+[11.742s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/ament_prefix_path.dsv
+[11.744s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/path.sh
+[11.745s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/path.dsv
+[11.746s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/local_setup.bash
+[11.747s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/local_setup.sh
+[11.747s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/local_setup.zsh
+[11.748s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/local_setup.dsv
+[11.749s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.dsv
+[11.749s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/ament_index/resource_index/packages/mapviz_interfaces
+[11.749s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_generator_cExport.cmake
+[11.749s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.750s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.750s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.750s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_generator_cppExport.cmake
+[11.750s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.751s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.751s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.751s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.751s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_cExport.cmake
+[11.752s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.753s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.754s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.754s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_cppExport.cmake
+[11.754s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.754s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_generator_pyExport.cmake
+[11.754s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.754s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.755s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.755s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.755s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.755s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.755s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.756s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.756s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfacesConfig.cmake
+[11.756s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfacesConfig-version.cmake
+[11.756s] -- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.xml
+[11.764s] Invoked command in '/home/felipe/ros2_ws/build/mapviz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --install /home/felipe/ros2_ws/build/mapviz_interfaces

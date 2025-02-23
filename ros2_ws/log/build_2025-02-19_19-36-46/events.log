@@ -1,0 +1,438 @@
+[0.000000] (-) TimerEvent: {}
+[0.000797] (meu_pacote_launch) JobQueued: {'identifier': 'meu_pacote_launch', 'dependencies': OrderedDict()}
+[0.000917] (ros2_whisper) JobQueued: {'identifier': 'ros2_whisper', 'dependencies': OrderedDict()}
+[0.001001] (voice_control) JobQueued: {'identifier': 'voice_control', 'dependencies': OrderedDict()}
+[0.004989] (meu_pacote_launch) JobStarted: {'identifier': 'meu_pacote_launch'}
+[0.096530] (-) TimerEvent: {}
+[0.182056] (ros2_whisper) JobStarted: {'identifier': 'ros2_whisper'}
+[0.204189] (-) TimerEvent: {}
+[0.306009] (-) TimerEvent: {}
+[0.407845] (-) TimerEvent: {}
+[0.511585] (-) TimerEvent: {}
+[0.615936] (-) TimerEvent: {}
+[0.716513] (-) TimerEvent: {}
+[0.818039] (-) TimerEvent: {}
+[0.921841] (-) TimerEvent: {}
+[1.022785] (-) TimerEvent: {}
+[1.127005] (-) TimerEvent: {}
+[1.228916] (-) TimerEvent: {}
+[1.331520] (-) TimerEvent: {}
+[1.432334] (-) TimerEvent: {}
+[1.534987] (-) TimerEvent: {}
+[1.642720] (-) TimerEvent: {}
+[1.745444] (-) TimerEvent: {}
+[1.847124] (-) TimerEvent: {}
+[1.950058] (-) TimerEvent: {}
+[2.052723] (-) TimerEvent: {}
+[2.157233] (-) TimerEvent: {}
+[2.259263] (-) TimerEvent: {}
+[2.362190] (-) TimerEvent: {}
+[2.464401] (-) TimerEvent: {}
+[2.568103] (-) TimerEvent: {}
+[2.669307] (-) TimerEvent: {}
+[2.774324] (-) TimerEvent: {}
+[2.875627] (-) TimerEvent: {}
+[2.978722] (-) TimerEvent: {}
+[3.083918] (-) TimerEvent: {}
+[3.186402] (-) TimerEvent: {}
+[3.291836] (-) TimerEvent: {}
+[3.392625] (-) TimerEvent: {}
+[3.493181] (-) TimerEvent: {}
+[3.596036] (-) TimerEvent: {}
+[3.698129] (-) TimerEvent: {}
+[3.799099] (-) TimerEvent: {}
+[3.899992] (-) TimerEvent: {}
+[4.003992] (-) TimerEvent: {}
+[4.106907] (-) TimerEvent: {}
+[4.210997] (-) TimerEvent: {}
+[4.312821] (-) TimerEvent: {}
+[4.417450] (-) TimerEvent: {}
+[4.529282] (-) TimerEvent: {}
+[4.631990] (-) TimerEvent: {}
+[4.737990] (-) TimerEvent: {}
+[4.841312] (-) TimerEvent: {}
+[4.943275] (-) TimerEvent: {}
+[5.045282] (-) TimerEvent: {}
+[5.150656] (-) TimerEvent: {}
+[5.259995] (-) TimerEvent: {}
+[5.361402] (-) TimerEvent: {}
+[5.464408] (-) TimerEvent: {}
+[5.569043] (-) TimerEvent: {}
+[5.670119] (-) TimerEvent: {}
+[5.775044] (-) TimerEvent: {}
+[5.876877] (-) TimerEvent: {}
+[5.980118] (-) TimerEvent: {}
+[6.083051] (-) TimerEvent: {}
+[6.184303] (-) TimerEvent: {}
+[6.290004] (-) TimerEvent: {}
+[6.393325] (-) TimerEvent: {}
+[6.494287] (-) TimerEvent: {}
+[6.598546] (-) TimerEvent: {}
+[6.700044] (-) TimerEvent: {}
+[6.801497] (-) TimerEvent: {}
+[6.906001] (-) TimerEvent: {}
+[7.013018] (-) TimerEvent: {}
+[7.115291] (-) TimerEvent: {}
+[7.216131] (-) TimerEvent: {}
+[7.318828] (-) TimerEvent: {}
+[7.422391] (-) TimerEvent: {}
+[7.523206] (-) TimerEvent: {}
+[7.625479] (-) TimerEvent: {}
+[7.726672] (-) TimerEvent: {}
+[7.828595] (-) TimerEvent: {}
+[7.930126] (-) TimerEvent: {}
+[8.031000] (-) TimerEvent: {}
+[8.132471] (-) TimerEvent: {}
+[8.234001] (-) TimerEvent: {}
+[8.335389] (-) TimerEvent: {}
+[8.437175] (-) TimerEvent: {}
+[8.538112] (-) TimerEvent: {}
+[8.639265] (-) TimerEvent: {}
+[8.740517] (-) TimerEvent: {}
+[8.842461] (-) TimerEvent: {}
+[8.943021] (-) TimerEvent: {}
+[9.043821] (-) TimerEvent: {}
+[9.145400] (-) TimerEvent: {}
+[9.246375] (-) TimerEvent: {}
+[9.347006] (-) TimerEvent: {}
+[9.447637] (-) TimerEvent: {}
+[9.549235] (-) TimerEvent: {}
+[9.657588] (-) TimerEvent: {}
+[9.758738] (-) TimerEvent: {}
+[9.859346] (-) TimerEvent: {}
+[9.960923] (-) TimerEvent: {}
+[10.061905] (-) TimerEvent: {}
+[10.164018] (-) TimerEvent: {}
+[10.264998] (-) TimerEvent: {}
+[10.366399] (-) TimerEvent: {}
+[10.469253] (-) TimerEvent: {}
+[10.570084] (-) TimerEvent: {}
+[10.671016] (-) TimerEvent: {}
+[10.774018] (-) TimerEvent: {}
+[10.876527] (-) TimerEvent: {}
+[10.978079] (-) TimerEvent: {}
+[11.079168] (-) TimerEvent: {}
+[11.181677] (-) TimerEvent: {}
+[11.284261] (-) TimerEvent: {}
+[11.384979] (-) TimerEvent: {}
+[11.487339] (-) TimerEvent: {}
+[11.591172] (-) TimerEvent: {}
+[11.691818] (-) TimerEvent: {}
+[11.794789] (-) TimerEvent: {}
+[11.896660] (-) TimerEvent: {}
+[11.998697] (-) TimerEvent: {}
+[12.105672] (-) TimerEvent: {}
+[12.218130] (-) TimerEvent: {}
+[12.324640] (-) TimerEvent: {}
+[12.427954] (-) TimerEvent: {}
+[12.538994] (-) TimerEvent: {}
+[12.643065] (-) TimerEvent: {}
+[12.748455] (-) TimerEvent: {}
+[12.856960] (-) TimerEvent: {}
+[12.959677] (-) TimerEvent: {}
+[13.061308] (-) TimerEvent: {}
+[13.163751] (-) TimerEvent: {}
+[13.268022] (-) TimerEvent: {}
+[13.378363] (-) TimerEvent: {}
+[13.481349] (-) TimerEvent: {}
+[13.590241] (-) TimerEvent: {}
+[13.692338] (-) TimerEvent: {}
+[13.794128] (-) TimerEvent: {}
+[13.900647] (-) TimerEvent: {}
+[14.004833] (-) TimerEvent: {}
+[14.108279] (-) TimerEvent: {}
+[14.216771] (-) TimerEvent: {}
+[14.318751] (-) TimerEvent: {}
+[14.423058] (-) TimerEvent: {}
+[14.531040] (-) TimerEvent: {}
+[14.646037] (-) TimerEvent: {}
+[14.748199] (-) TimerEvent: {}
+[14.852188] (-) TimerEvent: {}
+[14.959951] (-) TimerEvent: {}
+[15.062187] (-) TimerEvent: {}
+[15.164994] (-) TimerEvent: {}
+[15.268458] (-) TimerEvent: {}
+[15.371252] (-) TimerEvent: {}
+[15.477582] (-) TimerEvent: {}
+[15.529600] (meu_pacote_launch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/meu_pacote_launch', 'build', '--build-base', '/home/felipe/ros2_ws/build/meu_pacote_launch/build', 'install', '--record', '/home/felipe/ros2_ws/build/meu_pacote_launch/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/felipe/ros2_ws/src/meu_pacote_launch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe', 'OLDPWD': '/home/felipe', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3641', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'felipe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/felipe-lenovo-ideapad-s145-15igm:@/tmp/.ICE-unix/1769,unix/felipe-lenovo-ideapad-s145-15igm:/tmp/.ICE-unix/1769', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/716352a0_a6aa_4f9b_92b4_5172ce71e62f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.581112', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felipe/ros2_ws/build/meu_pacote_launch', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe/ros2_ws/build/meu_pacote_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[15.578863] (-) TimerEvent: {}
+[15.689064] (-) TimerEvent: {}
+[15.791721] (-) TimerEvent: {}
+[15.898707] (-) TimerEvent: {}
+[16.009041] (-) TimerEvent: {}
+[16.109759] (-) TimerEvent: {}
+[16.214748] (-) TimerEvent: {}
+[16.331010] (-) TimerEvent: {}
+[16.435207] (-) TimerEvent: {}
+[16.442241] (ros2_whisper) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_whisper', 'build', '--build-base', '/home/felipe/ros2_ws/build/ros2_whisper/build', 'install', '--record', '/home/felipe/ros2_ws/build/ros2_whisper/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/felipe/ros2_ws/src/ros2_whisper', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe', 'OLDPWD': '/home/felipe', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3641', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'felipe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/felipe-lenovo-ideapad-s145-15igm:@/tmp/.ICE-unix/1769,unix/felipe-lenovo-ideapad-s145-15igm:/tmp/.ICE-unix/1769', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/716352a0_a6aa_4f9b_92b4_5172ce71e62f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.581112', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felipe/ros2_ws/build/ros2_whisper', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe/ros2_ws/build/ros2_whisper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[16.537850] (-) TimerEvent: {}
+[16.641937] (-) TimerEvent: {}
+[16.751733] (-) TimerEvent: {}
+[16.853858] (-) TimerEvent: {}
+[16.961086] (-) TimerEvent: {}
+[17.069865] (-) TimerEvent: {}
+[17.173165] (-) TimerEvent: {}
+[17.277630] (-) TimerEvent: {}
+[17.382157] (-) TimerEvent: {}
+[17.485041] (-) TimerEvent: {}
+[17.590548] (-) TimerEvent: {}
+[17.694666] (-) TimerEvent: {}
+[17.800772] (-) TimerEvent: {}
+[17.903523] (-) TimerEvent: {}
+[18.006145] (-) TimerEvent: {}
+[18.110082] (-) TimerEvent: {}
+[18.214413] (-) TimerEvent: {}
+[18.319021] (-) TimerEvent: {}
+[18.351644] (meu_pacote_launch) StderrLine: {'line': b"/home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[18.352183] (meu_pacote_launch) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[18.426484] (-) TimerEvent: {}
+[18.527348] (-) TimerEvent: {}
+[18.629812] (-) TimerEvent: {}
+[18.731854] (-) TimerEvent: {}
+[18.839058] (-) TimerEvent: {}
+[18.944276] (-) TimerEvent: {}
+[19.055596] (-) TimerEvent: {}
+[19.160244] (-) TimerEvent: {}
+[19.261576] (-) TimerEvent: {}
+[19.363082] (-) TimerEvent: {}
+[19.467026] (-) TimerEvent: {}
+[19.467786] (ros2_whisper) StderrLine: {'line': b"/home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[19.472812] (ros2_whisper) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[19.567285] (-) TimerEvent: {}
+[19.677311] (-) TimerEvent: {}
+[19.781038] (-) TimerEvent: {}
+[19.882272] (-) TimerEvent: {}
+[19.983058] (-) TimerEvent: {}
+[20.086654] (-) TimerEvent: {}
+[20.191987] (-) TimerEvent: {}
+[20.293619] (-) TimerEvent: {}
+[20.400333] (-) TimerEvent: {}
+[20.501812] (-) TimerEvent: {}
+[20.605508] (-) TimerEvent: {}
+[20.712576] (-) TimerEvent: {}
+[20.813844] (-) TimerEvent: {}
+[20.920837] (-) TimerEvent: {}
+[21.026752] (-) TimerEvent: {}
+[21.096544] (meu_pacote_launch) StdoutLine: {'line': b'running egg_info\n'}
+[21.128008] (-) TimerEvent: {}
+[21.233011] (-) TimerEvent: {}
+[21.337819] (-) TimerEvent: {}
+[21.438924] (-) TimerEvent: {}
+[21.510235] (meu_pacote_launch) StdoutLine: {'line': b'writing ../../build/meu_pacote_launch/meu_pacote_launch.egg-info/PKG-INFO\n'}
+[21.522084] (meu_pacote_launch) StdoutLine: {'line': b'writing dependency_links to ../../build/meu_pacote_launch/meu_pacote_launch.egg-info/dependency_links.txt\n'}
+[21.528614] (meu_pacote_launch) StdoutLine: {'line': b'writing requirements to ../../build/meu_pacote_launch/meu_pacote_launch.egg-info/requires.txt\n'}
+[21.539859] (meu_pacote_launch) StdoutLine: {'line': b'writing top-level names to ../../build/meu_pacote_launch/meu_pacote_launch.egg-info/top_level.txt\n'}
+[21.540320] (-) TimerEvent: {}
+[21.645425] (-) TimerEvent: {}
+[21.746495] (-) TimerEvent: {}
+[21.848988] (-) TimerEvent: {}
+[21.955547] (-) TimerEvent: {}
+[22.037996] (ros2_whisper) StdoutLine: {'line': b'running egg_info\n'}
+[22.058519] (-) TimerEvent: {}
+[22.163555] (-) TimerEvent: {}
+[22.265855] (-) TimerEvent: {}
+[22.366999] (-) TimerEvent: {}
+[22.382961] (meu_pacote_launch) StdoutLine: {'line': b"reading manifest file '../../build/meu_pacote_launch/meu_pacote_launch.egg-info/SOURCES.txt'\n"}
+[22.404834] (meu_pacote_launch) StdoutLine: {'line': b"writing manifest file '../../build/meu_pacote_launch/meu_pacote_launch.egg-info/SOURCES.txt'\n"}
+[22.412009] (meu_pacote_launch) StdoutLine: {'line': b'running build\n'}
+[22.412414] (meu_pacote_launch) StdoutLine: {'line': b'running build_py\n'}
+[22.423750] (meu_pacote_launch) StdoutLine: {'line': b'running install\n'}
+[22.437153] (ros2_whisper) StdoutLine: {'line': b'writing ../../build/ros2_whisper/ros2_whisper.egg-info/PKG-INFO\n'}
+[22.448907] (ros2_whisper) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_whisper/ros2_whisper.egg-info/dependency_links.txt\n'}
+[22.454318] (ros2_whisper) StdoutLine: {'line': b'writing entry points to ../../build/ros2_whisper/ros2_whisper.egg-info/entry_points.txt\n'}
+[22.456421] (ros2_whisper) StdoutLine: {'line': b'writing requirements to ../../build/ros2_whisper/ros2_whisper.egg-info/requires.txt\n'}
+[22.458860] (ros2_whisper) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_whisper/ros2_whisper.egg-info/top_level.txt\n'}
+[22.472430] (-) TimerEvent: {}
+[22.492057] (meu_pacote_launch) StdoutLine: {'line': b'running install_lib\n'}
+[22.572853] (-) TimerEvent: {}
+[22.680136] (-) TimerEvent: {}
+[22.783005] (-) TimerEvent: {}
+[22.864672] (meu_pacote_launch) StdoutLine: {'line': b'running install_data\n'}
+[22.875953] (meu_pacote_launch) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.884373] (-) TimerEvent: {}
+[22.966585] (ros2_whisper) StdoutLine: {'line': b"reading manifest file '../../build/ros2_whisper/ros2_whisper.egg-info/SOURCES.txt'\n"}
+[22.975243] (ros2_whisper) StdoutLine: {'line': b"writing manifest file '../../build/ros2_whisper/ros2_whisper.egg-info/SOURCES.txt'\n"}
+[22.978335] (ros2_whisper) StdoutLine: {'line': b'running build\n'}
+[22.978696] (ros2_whisper) StdoutLine: {'line': b'running build_py\n'}
+[22.983109] (ros2_whisper) StdoutLine: {'line': b'running install\n'}
+[22.986733] (-) TimerEvent: {}
+[22.999857] (ros2_whisper) StdoutLine: {'line': b'running install_lib\n'}
+[23.092433] (-) TimerEvent: {}
+[23.194418] (-) TimerEvent: {}
+[23.195022] (ros2_whisper) StdoutLine: {'line': b'running install_data\n'}
+[23.195369] (ros2_whisper) StdoutLine: {'line': b'running install_egg_info\n'}
+[23.307641] (-) TimerEvent: {}
+[23.411259] (-) TimerEvent: {}
+[23.443571] (meu_pacote_launch) StdoutLine: {'line': b"removing '/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages/meu_pacote_launch-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[23.454679] (meu_pacote_launch) StdoutLine: {'line': b'Copying ../../build/meu_pacote_launch/meu_pacote_launch.egg-info to /home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages/meu_pacote_launch-0.0.0-py3.10.egg-info\n'}
+[23.474194] (meu_pacote_launch) StdoutLine: {'line': b'running install_scripts\n'}
+[23.511385] (-) TimerEvent: {}
+[23.550878] (ros2_whisper) StdoutLine: {'line': b"removing '/home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages/ros2_whisper-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[23.552392] (ros2_whisper) StdoutLine: {'line': b'Copying ../../build/ros2_whisper/ros2_whisper.egg-info to /home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages/ros2_whisper-0.0.1-py3.10.egg-info\n'}
+[23.574441] (ros2_whisper) StdoutLine: {'line': b'running install_scripts\n'}
+[23.615006] (-) TimerEvent: {}
+[23.721648] (-) TimerEvent: {}
+[23.822944] (-) TimerEvent: {}
+[23.925215] (-) TimerEvent: {}
+[24.028314] (-) TimerEvent: {}
+[24.133141] (-) TimerEvent: {}
+[24.237257] (-) TimerEvent: {}
+[24.340998] (-) TimerEvent: {}
+[24.443836] (-) TimerEvent: {}
+[24.546447] (-) TimerEvent: {}
+[24.648831] (-) TimerEvent: {}
+[24.752942] (-) TimerEvent: {}
+[24.860111] (-) TimerEvent: {}
+[24.962025] (-) TimerEvent: {}
+[25.070995] (-) TimerEvent: {}
+[25.173067] (-) TimerEvent: {}
+[25.273988] (-) TimerEvent: {}
+[25.375430] (-) TimerEvent: {}
+[25.483553] (-) TimerEvent: {}
+[25.586040] (-) TimerEvent: {}
+[25.696009] (-) TimerEvent: {}
+[25.800317] (-) TimerEvent: {}
+[25.907386] (-) TimerEvent: {}
+[26.008675] (-) TimerEvent: {}
+[26.111545] (-) TimerEvent: {}
+[26.217984] (-) TimerEvent: {}
+[26.322674] (-) TimerEvent: {}
+[26.430508] (-) TimerEvent: {}
+[26.506974] (ros2_whisper) StdoutLine: {'line': b'Installing whisper_node script to /home/felipe/ros2_ws/install/ros2_whisper/lib/ros2_whisper\n'}
+[26.520816] (ros2_whisper) StdoutLine: {'line': b"writing list of installed files to '/home/felipe/ros2_ws/build/ros2_whisper/install.log'\n"}
+[26.536018] (-) TimerEvent: {}
+[26.636856] (-) TimerEvent: {}
+[26.742014] (-) TimerEvent: {}
+[26.844186] (-) TimerEvent: {}
+[26.857866] (meu_pacote_launch) StdoutLine: {'line': b"writing list of installed files to '/home/felipe/ros2_ws/build/meu_pacote_launch/install.log'\n"}
+[26.904256] (ros2_whisper) CommandEnded: {'returncode': 0}
+[26.948388] (-) TimerEvent: {}
+[27.056185] (-) TimerEvent: {}
+[27.157403] (-) TimerEvent: {}
+[27.258524] (-) TimerEvent: {}
+[27.361490] (-) TimerEvent: {}
+[27.363351] (ros2_whisper) JobEnded: {'identifier': 'ros2_whisper', 'rc': 0}
+[27.370804] (voice_control) JobStarted: {'identifier': 'voice_control'}
+[27.461684] (-) TimerEvent: {}
+[27.485718] (meu_pacote_launch) CommandEnded: {'returncode': 0}
+[27.543355] (meu_pacote_launch) JobEnded: {'identifier': 'meu_pacote_launch', 'rc': 0}
+[27.565459] (-) TimerEvent: {}
+[27.666431] (-) TimerEvent: {}
+[27.770721] (-) TimerEvent: {}
+[27.873113] (-) TimerEvent: {}
+[27.977697] (-) TimerEvent: {}
+[28.079672] (-) TimerEvent: {}
+[28.182599] (-) TimerEvent: {}
+[28.284594] (-) TimerEvent: {}
+[28.387078] (-) TimerEvent: {}
+[28.493960] (-) TimerEvent: {}
+[28.595049] (-) TimerEvent: {}
+[28.697397] (-) TimerEvent: {}
+[28.803467] (-) TimerEvent: {}
+[28.906855] (-) TimerEvent: {}
+[29.008541] (-) TimerEvent: {}
+[29.112223] (-) TimerEvent: {}
+[29.217765] (-) TimerEvent: {}
+[29.319232] (-) TimerEvent: {}
+[29.420375] (-) TimerEvent: {}
+[29.522257] (-) TimerEvent: {}
+[29.628650] (-) TimerEvent: {}
+[29.729241] (-) TimerEvent: {}
+[29.830774] (-) TimerEvent: {}
+[29.933013] (-) TimerEvent: {}
+[30.037925] (-) TimerEvent: {}
+[30.138495] (-) TimerEvent: {}
+[30.239703] (-) TimerEvent: {}
+[30.345279] (-) TimerEvent: {}
+[30.451530] (-) TimerEvent: {}
+[30.552353] (-) TimerEvent: {}
+[30.655148] (-) TimerEvent: {}
+[30.757611] (-) TimerEvent: {}
+[30.862777] (-) TimerEvent: {}
+[30.968052] (-) TimerEvent: {}
+[31.069664] (-) TimerEvent: {}
+[31.174354] (-) TimerEvent: {}
+[31.275164] (-) TimerEvent: {}
+[31.378036] (-) TimerEvent: {}
+[31.481138] (-) TimerEvent: {}
+[31.581707] (-) TimerEvent: {}
+[31.685086] (-) TimerEvent: {}
+[31.785712] (-) TimerEvent: {}
+[31.891064] (-) TimerEvent: {}
+[31.997410] (-) TimerEvent: {}
+[32.099212] (-) TimerEvent: {}
+[32.203648] (-) TimerEvent: {}
+[32.309021] (-) TimerEvent: {}
+[32.412558] (-) TimerEvent: {}
+[32.514167] (-) TimerEvent: {}
+[32.615776] (-) TimerEvent: {}
+[32.717217] (-) TimerEvent: {}
+[32.817814] (-) TimerEvent: {}
+[32.919018] (-) TimerEvent: {}
+[33.023346] (-) TimerEvent: {}
+[33.127620] (-) TimerEvent: {}
+[33.229737] (-) TimerEvent: {}
+[33.331769] (-) TimerEvent: {}
+[33.434169] (-) TimerEvent: {}
+[33.536300] (-) TimerEvent: {}
+[33.637311] (-) TimerEvent: {}
+[33.738105] (-) TimerEvent: {}
+[33.839748] (-) TimerEvent: {}
+[33.943484] (-) TimerEvent: {}
+[34.047745] (-) TimerEvent: {}
+[34.153951] (-) TimerEvent: {}
+[34.171436] (voice_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/voice_control', 'build', '--build-base', '/home/felipe/ros2_ws/build/voice_control/build', 'install', '--record', '/home/felipe/ros2_ws/build/voice_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/felipe/ros2_ws/src/voice_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe', 'OLDPWD': '/home/felipe', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3641', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'felipe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/felipe-lenovo-ideapad-s145-15igm:@/tmp/.ICE-unix/1769,unix/felipe-lenovo-ideapad-s145-15igm:/tmp/.ICE-unix/1769', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/716352a0_a6aa_4f9b_92b4_5172ce71e62f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.581112', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felipe/ros2_ws/build/voice_control', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe/ros2_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[34.254108] (-) TimerEvent: {}
+[34.354995] (-) TimerEvent: {}
+[34.456316] (-) TimerEvent: {}
+[34.557841] (-) TimerEvent: {}
+[34.659607] (-) TimerEvent: {}
+[34.761192] (-) TimerEvent: {}
+[34.863419] (-) TimerEvent: {}
+[34.869488] (voice_control) StderrLine: {'line': b"/home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[34.872016] (voice_control) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[34.963570] (-) TimerEvent: {}
+[35.066843] (-) TimerEvent: {}
+[35.169561] (-) TimerEvent: {}
+[35.270955] (-) TimerEvent: {}
+[35.373587] (-) TimerEvent: {}
+[35.450485] (voice_control) StdoutLine: {'line': b'running egg_info\n'}
+[35.475132] (-) TimerEvent: {}
+[35.545146] (voice_control) StdoutLine: {'line': b'writing ../../build/voice_control/voice_control.egg-info/PKG-INFO\n'}
+[35.547615] (voice_control) StdoutLine: {'line': b'writing dependency_links to ../../build/voice_control/voice_control.egg-info/dependency_links.txt\n'}
+[35.548979] (voice_control) StdoutLine: {'line': b'writing entry points to ../../build/voice_control/voice_control.egg-info/entry_points.txt\n'}
+[35.549264] (voice_control) StdoutLine: {'line': b'writing requirements to ../../build/voice_control/voice_control.egg-info/requires.txt\n'}
+[35.553903] (voice_control) StdoutLine: {'line': b'writing top-level names to ../../build/voice_control/voice_control.egg-info/top_level.txt\n'}
+[35.577186] (-) TimerEvent: {}
+[35.681147] (-) TimerEvent: {}
+[35.750056] (voice_control) StdoutLine: {'line': b"reading manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'\n"}
+[35.754939] (voice_control) StdoutLine: {'line': b"writing manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'\n"}
+[35.757613] (voice_control) StdoutLine: {'line': b'running build\n'}
+[35.758502] (voice_control) StdoutLine: {'line': b'running build_py\n'}
+[35.758738] (voice_control) StdoutLine: {'line': b'copying voice_control/voice_command_node.py -> /home/felipe/ros2_ws/build/voice_control/build/lib/voice_control\n'}
+[35.760532] (voice_control) StdoutLine: {'line': b'running install\n'}
+[35.773785] (voice_control) StdoutLine: {'line': b'running install_lib\n'}
+[35.782705] (-) TimerEvent: {}
+[35.870087] (voice_control) StdoutLine: {'line': b'copying /home/felipe/ros2_ws/build/voice_control/build/lib/voice_control/voice_command_node.py -> /home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages/voice_control\n'}
+[35.872274] (voice_control) StdoutLine: {'line': b'byte-compiling /home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages/voice_control/voice_command_node.py to voice_command_node.cpython-310.pyc\n'}
+[35.877124] (voice_control) StdoutLine: {'line': b'running install_data\n'}
+[35.878512] (voice_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[35.887014] (-) TimerEvent: {}
+[35.975390] (voice_control) StdoutLine: {'line': b"removing '/home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages/voice_control-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[35.978044] (voice_control) StdoutLine: {'line': b'Copying ../../build/voice_control/voice_control.egg-info to /home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages/voice_control-0.0.1-py3.10.egg-info\n'}
+[35.980327] (voice_control) StdoutLine: {'line': b'running install_scripts\n'}
+[35.988992] (-) TimerEvent: {}
+[36.094780] (-) TimerEvent: {}
+[36.195657] (-) TimerEvent: {}
+[36.297618] (-) TimerEvent: {}
+[36.400381] (-) TimerEvent: {}
+[36.504913] (-) TimerEvent: {}
+[36.608008] (-) TimerEvent: {}
+[36.705908] (voice_control) StdoutLine: {'line': b'Installing motion_control_node script to /home/felipe/ros2_ws/install/voice_control/lib/voice_control\n'}
+[36.707123] (voice_control) StdoutLine: {'line': b'Installing voice_command_node script to /home/felipe/ros2_ws/install/voice_control/lib/voice_control\n'}
+[36.708987] (-) TimerEvent: {}
+[36.710160] (voice_control) StdoutLine: {'line': b"writing list of installed files to '/home/felipe/ros2_ws/build/voice_control/install.log'\n"}
+[36.810093] (-) TimerEvent: {}
+[36.817106] (voice_control) CommandEnded: {'returncode': 0}
+[36.868949] (voice_control) JobEnded: {'identifier': 'voice_control', 'rc': 0}
+[36.874346] (-) EventReactorShutdown: {}

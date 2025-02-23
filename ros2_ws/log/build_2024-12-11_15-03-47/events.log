@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000390] (vacuum_robot) JobQueued: {'identifier': 'vacuum_robot', 'dependencies': OrderedDict()}
+[0.003148] (vacuum_robot) JobStarted: {'identifier': 'vacuum_robot'}
+[0.099744] (-) TimerEvent: {}
+[0.200125] (-) TimerEvent: {}
+[0.300632] (-) TimerEvent: {}
+[0.401168] (-) TimerEvent: {}
+[0.502229] (-) TimerEvent: {}
+[0.603645] (-) TimerEvent: {}
+[0.704065] (-) TimerEvent: {}
+[0.804710] (-) TimerEvent: {}
+[0.905837] (-) TimerEvent: {}
+[1.006772] (-) TimerEvent: {}
+[1.107983] (-) TimerEvent: {}
+[1.209126] (-) TimerEvent: {}
+[1.309886] (-) TimerEvent: {}
+[1.410749] (-) TimerEvent: {}
+[1.511686] (-) TimerEvent: {}
+[1.612187] (-) TimerEvent: {}
+[1.712793] (-) TimerEvent: {}
+[1.813282] (-) TimerEvent: {}
+[1.915634] (-) TimerEvent: {}
+[2.016243] (-) TimerEvent: {}
+[2.116642] (-) TimerEvent: {}
+[2.216985] (-) TimerEvent: {}
+[2.317647] (-) TimerEvent: {}
+[2.418369] (-) TimerEvent: {}
+[2.518999] (-) TimerEvent: {}
+[2.619775] (-) TimerEvent: {}
+[2.720658] (-) TimerEvent: {}
+[2.821250] (-) TimerEvent: {}
+[2.922369] (-) TimerEvent: {}
+[3.023093] (-) TimerEvent: {}
+[3.123557] (-) TimerEvent: {}
+[3.224274] (-) TimerEvent: {}
+[3.325059] (-) TimerEvent: {}
+[3.426404] (-) TimerEvent: {}
+[3.527035] (-) TimerEvent: {}
+[3.627472] (-) TimerEvent: {}
+[3.728268] (-) TimerEvent: {}
+[3.829298] (-) TimerEvent: {}
+[3.930443] (-) TimerEvent: {}
+[4.007855] (vacuum_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vacuum_robot', 'build', '--build-base', '/home/felipe/ros2_ws/build/vacuum_robot/build', 'install', '--record', '/home/felipe/ros2_ws/build/vacuum_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/felipe/ros2_ws/src/vacuum_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe', 'ROS_PACKAGE_PATH': '/home/felipe/ros2_ws/install/my_robot_description/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe', 'OLDPWD': '/home/felipe', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '25578', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/felipe/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/felipe/ros2_ws/install/my_robot_description/lib/x86_64-linux-gnu/pkgconfig:/home/felipe/ros2_ws/install/my_robot_description/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'felipe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/spark/bin', 'SESSION_MANAGER': 'local/my-pc:@/tmp/.ICE-unix/2873,unix/my-pc:/tmp/.ICE-unix/2873', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/902d69c1_0af8_4b33_8855_b7716abb1d1b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.014TY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.499', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felipe/ros2_ws/build/vacuum_robot', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe/ros2_ws/build/vacuum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/felipe/ros2_ws/install/my_robot_description', 'SPARK_HOME': '/opt/spark'}, 'shell': False}
+[4.030564] (-) TimerEvent: {}
+[4.131225] (-) TimerEvent: {}
+[4.232058] (-) TimerEvent: {}
+[4.332771] (-) TimerEvent: {}
+[4.433553] (-) TimerEvent: {}
+[4.534433] (-) TimerEvent: {}
+[4.635271] (-) TimerEvent: {}
+[4.735650] (-) TimerEvent: {}
+[4.836182] (-) TimerEvent: {}
+[4.937162] (-) TimerEvent: {}
+[5.037596] (-) TimerEvent: {}
+[5.138117] (-) TimerEvent: {}
+[5.239033] (-) TimerEvent: {}
+[5.339938] (-) TimerEvent: {}
+[5.340260] (vacuum_robot) StdoutLine: {'line': b'running egg_info\n'}
+[5.440223] (-) TimerEvent: {}
+[5.447225] (vacuum_robot) StdoutLine: {'line': b'writing ../../build/vacuum_robot/vacuum_robot.egg-info/PKG-INFO\n'}
+[5.450852] (vacuum_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/vacuum_robot/vacuum_robot.egg-info/dependency_links.txt\n'}
+[5.451828] (vacuum_robot) StdoutLine: {'line': b'writing entry points to ../../build/vacuum_robot/vacuum_robot.egg-info/entry_points.txt\n'}
+[5.452669] (vacuum_robot) StdoutLine: {'line': b'writing requirements to ../../build/vacuum_robot/vacuum_robot.egg-info/requires.txt\n'}
+[5.453214] (vacuum_robot) StdoutLine: {'line': b'writing top-level names to ../../build/vacuum_robot/vacuum_robot.egg-info/top_level.txt\n'}
+[5.540615] (-) TimerEvent: {}
+[5.641756] (-) TimerEvent: {}
+[5.655924] (vacuum_robot) StdoutLine: {'line': b"reading manifest file '../../build/vacuum_robot/vacuum_robot.egg-info/SOURCES.txt'\n"}
+[5.659546] (vacuum_robot) StdoutLine: {'line': b"writing manifest file '../../build/vacuum_robot/vacuum_robot.egg-info/SOURCES.txt'\n"}
+[5.660143] (vacuum_robot) StdoutLine: {'line': b'running build\n'}
+[5.660392] (vacuum_robot) StdoutLine: {'line': b'running build_py\n'}
+[5.660768] (vacuum_robot) StdoutLine: {'line': b'copying vacuum_robot/vacuum_robot_controller.py -> /home/felipe/ros2_ws/build/vacuum_robot/build/lib/vacuum_robot\n'}
+[5.661391] (vacuum_robot) StdoutLine: {'line': b'copying vacuum_robot/__init__.py -> /home/felipe/ros2_ws/build/vacuum_robot/build/lib/vacuum_robot\n'}
+[5.662020] (vacuum_robot) StdoutLine: {'line': b'running install\n'}
+[5.683546] (vacuum_robot) StdoutLine: {'line': b'running install_lib\n'}
+[5.741945] (-) TimerEvent: {}
+[5.801481] (vacuum_robot) StdoutLine: {'line': b'copying /home/felipe/ros2_ws/build/vacuum_robot/build/lib/vacuum_robot/vacuum_robot_controller.py -> /home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot\n'}
+[5.802906] (vacuum_robot) StdoutLine: {'line': b'byte-compiling /home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot/vacuum_robot_controller.py to vacuum_robot_controller.cpython-310.pyc\n'}
+[5.805696] (vacuum_robot) StdoutLine: {'line': b'running install_data\n'}
+[5.806594] (vacuum_robot) StdoutLine: {'line': b'copying resource/vacuum_robot -> /home/felipe/ros2_ws/install/vacuum_robot/share/ament_index/resource_index/packages\n'}
+[5.807202] (vacuum_robot) StdoutLine: {'line': b'copying package.xml -> /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot\n'}
+[5.807738] (vacuum_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.842198] (-) TimerEvent: {}
+[5.906956] (vacuum_robot) StdoutLine: {'line': b"removing '/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.908414] (vacuum_robot) StdoutLine: {'line': b'Copying ../../build/vacuum_robot/vacuum_robot.egg-info to /home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot-0.0.0-py3.10.egg-info\n'}
+[5.913011] (vacuum_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[5.942638] (-) TimerEvent: {}
+[6.043916] (-) TimerEvent: {}
+[6.144406] (-) TimerEvent: {}
+[6.245781] (-) TimerEvent: {}
+[6.346856] (-) TimerEvent: {}
+[6.447486] (-) TimerEvent: {}
+[6.548265] (-) TimerEvent: {}
+[6.648935] (-) TimerEvent: {}
+[6.679533] (vacuum_robot) StdoutLine: {'line': b'Installing vacuum_robot_controller script to /home/felipe/ros2_ws/install/vacuum_robot/lib/vacuum_robot\n'}
+[6.680901] (vacuum_robot) StdoutLine: {'line': b"writing list of installed files to '/home/felipe/ros2_ws/build/vacuum_robot/install.log'\n"}
+[6.749542] (-) TimerEvent: {}
+[6.786876] (vacuum_robot) CommandEnded: {'returncode': 0}
+[6.830401] (vacuum_robot) JobEnded: {'identifier': 'vacuum_robot', 'rc': 0}
+[6.833692] (-) EventReactorShutdown: {}

@@ -1,0 +1,29 @@
+[0.074s] Invoking command in '/home/felipe/ros2_ws/build/aws_robomaker_small_house_world': /usr/bin/cmake /home/felipe/ros2_ws/src/aws-robomaker-small-house-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/aws_robomaker_small_house_world
+[0.116s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.116s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.116s]   CMake.
+[0.116s] 
+[0.116s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.117s]   CMake that the project does not need compatibility with older versions.
+[0.117s] 
+[0.117s] [0m
+[0.186s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.187s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.188s] -- Configuring incomplete, errors occurred!
+[0.189s] See also "/home/felipe/ros2_ws/build/aws_robomaker_small_house_world/CMakeFiles/CMakeOutput.log".
+[0.190s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.190s]   CMake did not find one.
+[0.190s] 
+[0.191s]   Could not find a package configuration file provided by "catkin" with any
+[0.191s]   of the following names:
+[0.192s] 
+[0.192s]     catkinConfig.cmake
+[0.192s]     catkin-config.cmake
+[0.193s] 
+[0.194s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.195s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.195s]   provides a separate development package or SDK, be sure it has been
+[0.195s]   installed.
+[0.196s] 
+[0.196s] [0m
+[1.797s] Invoked command in '/home/felipe/ros2_ws/build/aws_robomaker_small_house_world' returned '1': /usr/bin/cmake /home/felipe/ros2_ws/src/aws-robomaker-small-house-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/aws_robomaker_small_house_world

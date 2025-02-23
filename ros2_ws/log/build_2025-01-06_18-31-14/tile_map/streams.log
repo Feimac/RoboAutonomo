@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/felipe/ros2_ws/build/tile_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/felipe/ros2_ws/build/tile_map -- -j8 -l8
+[0.056s] [  5%] [34m[1mGenerating include/tile_map/moc_image_cache.cpp[0m
+[0.056s] [ 15%] [34m[1mGenerating include/tile_map/moc_bing_source.cpp[0m
+[0.056s] [ 15%] [34m[1mGenerating include/tile_map/moc_wmts_source.cpp[0m
+[0.057s] [ 20%] [34m[1mGenerating include/tile_map/moc_tile_source.cpp[0m
+[0.082s] [ 25%] [32mBuilding CXX object CMakeFiles/tile_map.dir/src/image_cache.cpp.o[0m
+[0.084s] [ 30%] [32mBuilding CXX object CMakeFiles/tile_map.dir/src/tile_source.cpp.o[0m
+[0.084s] [ 35%] [32mBuilding CXX object CMakeFiles/tile_map.dir/src/bing_source.cpp.o[0m
+[0.085s] [ 40%] [32mBuilding CXX object CMakeFiles/tile_map.dir/src/wmts_source.cpp.o[0m
+[0.086s] [ 45%] [32mBuilding CXX object CMakeFiles/tile_map.dir/src/texture_cache.cpp.o[0m
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/tile_map.dir/src/tile_map_view.cpp.o[0m
+[0.093s] [ 55%] [32mBuilding CXX object CMakeFiles/tile_map.dir/include/tile_map/moc_tile_source.cpp.o[0m
+[0.095s] [ 60%] [32mBuilding CXX object CMakeFiles/tile_map.dir/include/tile_map/moc_image_cache.cpp.o[0m
+[2.473s] [ 65%] [32mBuilding CXX object CMakeFiles/tile_map.dir/include/tile_map/moc_wmts_source.cpp.o[0m
+[2.705s] [ 70%] [32mBuilding CXX object CMakeFiles/tile_map.dir/include/tile_map/moc_bing_source.cpp.o[0m
+[9.691s] [ 75%] [32m[1mLinking CXX static library libtile_map.a[0m
+[9.748s] [ 75%] Built target tile_map
+[9.761s] [ 85%] [34m[1mGenerating include/tile_map/moc_tile_map_plugin.cpp[0m
+[9.761s] [ 85%] [34m[1mGenerating ui_tile_map_config.h[0m
+[9.809s] [ 95%] [32mBuilding CXX object CMakeFiles/tile_map_plugin.dir/src/tile_map_plugin.cpp.o[0m
+[9.809s] [ 95%] [32mBuilding CXX object CMakeFiles/tile_map_plugin.dir/include/tile_map/moc_tile_map_plugin.cpp.o[0m
+[25.894s] [100%] [32m[1mLinking CXX shared library libtile_map_plugin.so[0m
+[29.232s] [100%] Built target tile_map_plugin

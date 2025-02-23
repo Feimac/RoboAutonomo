@@ -1,0 +1,53 @@
+[0.016s] Invoking command in '/home/felipe/ros2_ws/build/nav2_msgs': AMENT_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/felipe/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/felipe/ros2_ws/src/navigation2/nav2_msgs -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/nav2_msgs
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.347s] -- Detecting CXX compile features
+[0.347s] -- Detecting CXX compile features - done
+[0.351s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.874s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.999s] -- Found nav2_common: 1.3.1 (/home/felipe/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.001s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.052s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.060s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.072s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.113s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.137s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.217s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.241s] [33mCMake Warning at CMakeLists.txt:11 (find_package):
+[1.241s]   By not providing "Findgeographic_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.241s]   project has asked CMake to find a package configuration file provided by
+[1.241s]   "geographic_msgs", but CMake did not find one.
+[1.241s] 
+[1.241s]   Could not find a package configuration file provided by "geographic_msgs"
+[1.241s]   with any of the following names:
+[1.241s] 
+[1.241s]     geographic_msgsConfig.cmake
+[1.241s]     geographic_msgs-config.cmake
+[1.241s] 
+[1.241s]   Add the installation prefix of "geographic_msgs" to CMAKE_PREFIX_PATH or
+[1.242s]   set "geographic_msgs_DIR" to a directory containing one of the above files.
+[1.242s]   If "geographic_msgs" provides a separate development package or SDK, be
+[1.242s]   sure it has been installed.
+[1.242s] 
+[1.242s] [0m
+[1.242s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.276s] -- Setting build type to Release as none was specified.
+[1.940s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):
+[1.940s]   rosidl_generate_interfaces() the passed dependency 'geographic_msgs' has
+[1.940s]   not been found before using find_package()
+[1.941s] Call Stack (most recent call first):
+[1.941s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[1.941s] 
+[1.941s] [0m
+[1.941s] -- Configuring incomplete, errors occurred!
+[1.941s] See also "/home/felipe/ros2_ws/build/nav2_msgs/CMakeFiles/CMakeOutput.log".
+[1.951s] Invoked command in '/home/felipe/ros2_ws/build/nav2_msgs' returned '1': AMENT_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/felipe/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/felipe/ros2_ws/src/navigation2/nav2_msgs -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/nav2_msgs

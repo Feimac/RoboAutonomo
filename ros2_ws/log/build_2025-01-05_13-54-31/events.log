@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.001522] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001627] (vacuum_robot) JobQueued: {'identifier': 'vacuum_robot', 'dependencies': OrderedDict()}
+[0.001676] (turtlbot3_custom) JobQueued: {'identifier': 'turtlbot3_custom', 'dependencies': OrderedDict([('my_py_pkg', '/home/felipe/ros2_ws/install/my_py_pkg')])}
+[0.001724] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.042161] (vacuum_robot) JobStarted: {'identifier': 'vacuum_robot'}
+[0.099277] (-) TimerEvent: {}
+[0.200245] (-) TimerEvent: {}
+[0.300829] (-) TimerEvent: {}
+[0.401785] (-) TimerEvent: {}
+[0.502643] (-) TimerEvent: {}
+[0.603170] (-) TimerEvent: {}
+[0.703861] (-) TimerEvent: {}
+[0.804533] (-) TimerEvent: {}
+[0.904975] (-) TimerEvent: {}
+[1.005639] (-) TimerEvent: {}
+[1.106731] (-) TimerEvent: {}
+[1.208077] (-) TimerEvent: {}
+[1.308801] (-) TimerEvent: {}
+[1.409497] (-) TimerEvent: {}
+[1.510199] (-) TimerEvent: {}
+[1.610657] (-) TimerEvent: {}
+[1.711265] (-) TimerEvent: {}
+[1.811865] (-) TimerEvent: {}
+[1.912634] (-) TimerEvent: {}
+[2.013360] (-) TimerEvent: {}
+[2.114399] (-) TimerEvent: {}
+[2.214931] (-) TimerEvent: {}
+[2.316009] (-) TimerEvent: {}
+[2.417109] (-) TimerEvent: {}
+[2.518037] (-) TimerEvent: {}
+[2.619396] (-) TimerEvent: {}
+[2.720034] (-) TimerEvent: {}
+[2.821025] (-) TimerEvent: {}
+[2.921817] (-) TimerEvent: {}
+[3.023593] (-) TimerEvent: {}
+[3.124215] (-) TimerEvent: {}
+[3.225047] (-) TimerEvent: {}
+[3.326992] (-) TimerEvent: {}
+[3.428828] (-) TimerEvent: {}
+[3.529692] (-) TimerEvent: {}
+[3.630387] (-) TimerEvent: {}
+[3.731265] (-) TimerEvent: {}
+[3.832642] (-) TimerEvent: {}
+[3.934108] (-) TimerEvent: {}
+[4.035280] (-) TimerEvent: {}
+[4.136044] (-) TimerEvent: {}
+[4.236685] (-) TimerEvent: {}
+[4.337324] (-) TimerEvent: {}
+[4.438488] (-) TimerEvent: {}
+[4.539097] (-) TimerEvent: {}
+[4.639641] (-) TimerEvent: {}
+[4.741296] (-) TimerEvent: {}
+[4.841911] (-) TimerEvent: {}
+[4.942660] (-) TimerEvent: {}
+[5.045625] (-) TimerEvent: {}
+[5.148770] (-) TimerEvent: {}
+[5.251912] (-) TimerEvent: {}
+[5.352669] (-) TimerEvent: {}
+[5.453281] (-) TimerEvent: {}
+[5.554032] (-) TimerEvent: {}
+[5.655416] (-) TimerEvent: {}
+[5.757738] (-) TimerEvent: {}
+[5.861204] (-) TimerEvent: {}
+[5.962682] (-) TimerEvent: {}
+[6.063379] (-) TimerEvent: {}
+[6.165030] (-) TimerEvent: {}
+[6.267682] (-) TimerEvent: {}
+[6.371552] (-) TimerEvent: {}
+[6.473052] (-) TimerEvent: {}
+[6.574710] (-) TimerEvent: {}
+[6.675731] (-) TimerEvent: {}
+[6.776817] (-) TimerEvent: {}
+[6.877929] (-) TimerEvent: {}
+[6.978857] (-) TimerEvent: {}
+[6.998546] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/my_py_pkg', 'build', '--build-base', '/home/felipe/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/felipe/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/felipe/ros2_ws/src/Autonomous-Navigation-and-Path-planning-on-ROS2-using-Dijkstra-and-SLAM/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe', 'OLDPWD': '/home/felipe/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '11683', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/felipe/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'felipe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin', 'SESSION_MANAGER': 'local/my-pc:@/tmp/.ICE-unix/2856,unix/my-pc:/tmp/.ICE-unix/2856', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fe76790e_af1d_4e03_9c4d_7b5e9d12f9ba', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/felipe/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FMBTZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.385', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/felipe/ros2_ws/install', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felipe/ros2_ws/build/my_py_pkg', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/felipe/ros2_ws/install/turtlbot3_custom', 'SPARK_HOME': '/opt/spark'}, 'shell': False}
+[7.026745] (vacuum_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vacuum_robot', 'build', '--build-base', '/home/felipe/ros2_ws/build/vacuum_robot/build', 'install', '--record', '/home/felipe/ros2_ws/build/vacuum_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/felipe/ros2_ws/src/vacuum_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe', 'OLDPWD': '/home/felipe/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '11683', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/felipe/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'felipe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin', 'SESSION_MANAGER': 'local/my-pc:@/tmp/.ICE-unix/2856,unix/my-pc:/tmp/.ICE-unix/2856', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fe76790e_af1d_4e03_9c4d_7b5e9d12f9ba', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/felipe/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FMBTZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.385', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/felipe/ros2_ws/install', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felipe/ros2_ws/build/vacuum_robot', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe/ros2_ws/build/vacuum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/felipe/ros2_ws/install/turtlbot3_custom', 'SPARK_HOME': '/opt/spark'}, 'shell': False}
+[7.079077] (-) TimerEvent: {}
+[7.179542] (-) TimerEvent: {}
+[7.280410] (-) TimerEvent: {}
+[7.380931] (-) TimerEvent: {}
+[7.481782] (-) TimerEvent: {}
+[7.583063] (-) TimerEvent: {}
+[7.684100] (-) TimerEvent: {}
+[7.784993] (-) TimerEvent: {}
+[7.885800] (-) TimerEvent: {}
+[7.987410] (-) TimerEvent: {}
+[8.018021] (my_py_pkg) StderrLine: {'line': b"/home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[8.018395] (my_py_pkg) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[8.087672] (-) TimerEvent: {}
+[8.188932] (-) TimerEvent: {}
+[8.290003] (-) TimerEvent: {}
+[8.391053] (-) TimerEvent: {}
+[8.492149] (-) TimerEvent: {}
+[8.593322] (-) TimerEvent: {}
+[8.695318] (-) TimerEvent: {}
+[8.796784] (-) TimerEvent: {}
+[8.887801] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[8.897075] (-) TimerEvent: {}
+[8.967037] (vacuum_robot) StdoutLine: {'line': b'running egg_info\n'}
+[8.997338] (-) TimerEvent: {}
+[9.030195] (my_py_pkg) StdoutLine: {'line': b'writing ../../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[9.033047] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[9.034439] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[9.035857] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[9.037458] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[9.097527] (-) TimerEvent: {}
+[9.114945] (vacuum_robot) StdoutLine: {'line': b'writing ../../build/vacuum_robot/vacuum_robot.egg-info/PKG-INFO\n'}
+[9.118293] (vacuum_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/vacuum_robot/vacuum_robot.egg-info/dependency_links.txt\n'}
+[9.120605] (vacuum_robot) StdoutLine: {'line': b'writing entry points to ../../build/vacuum_robot/vacuum_robot.egg-info/entry_points.txt\n'}
+[9.122736] (vacuum_robot) StdoutLine: {'line': b'writing requirements to ../../build/vacuum_robot/vacuum_robot.egg-info/requires.txt\n'}
+[9.123488] (vacuum_robot) StdoutLine: {'line': b'writing top-level names to ../../build/vacuum_robot/vacuum_robot.egg-info/top_level.txt\n'}
+[9.198012] (-) TimerEvent: {}
+[9.299056] (-) TimerEvent: {}
+[9.350966] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[9.361623] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[9.362411] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[9.363014] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[9.370322] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/robot_command.py -> /home/felipe/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.370747] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/__init__.py -> /home/felipe/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.371108] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[9.391002] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[9.399256] (-) TimerEvent: {}
+[9.467353] (vacuum_robot) StdoutLine: {'line': b"reading manifest file '../../build/vacuum_robot/vacuum_robot.egg-info/SOURCES.txt'\n"}
+[9.476980] (vacuum_robot) StdoutLine: {'line': b"writing manifest file '../../build/vacuum_robot/vacuum_robot.egg-info/SOURCES.txt'\n"}
+[9.478517] (vacuum_robot) StdoutLine: {'line': b'running build\n'}
+[9.479263] (vacuum_robot) StdoutLine: {'line': b'running build_py\n'}
+[9.479846] (vacuum_robot) StdoutLine: {'line': b'copying vacuum_robot/vacuum_robot_controller.py -> /home/felipe/ros2_ws/build/vacuum_robot/build/lib/vacuum_robot\n'}
+[9.483209] (vacuum_robot) StdoutLine: {'line': b'running install\n'}
+[9.499599] (-) TimerEvent: {}
+[9.517100] (vacuum_robot) StdoutLine: {'line': b'running install_lib\n'}
+[9.573047] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[9.575542] (my_py_pkg) StdoutLine: {'line': b'copying resource/my_py_pkg -> /home/felipe/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[9.578627] (my_py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/felipe/ros2_ws/install/my_py_pkg/share/my_py_pkg\n'}
+[9.579585] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.599707] (-) TimerEvent: {}
+[9.700811] (-) TimerEvent: {}
+[9.740644] (vacuum_robot) StdoutLine: {'line': b'running install_data\n'}
+[9.745322] (vacuum_robot) StdoutLine: {'line': b'copying package.xml -> /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot\n'}
+[9.750481] (vacuum_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.799106] (my_py_pkg) StdoutLine: {'line': b"removing '/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.801139] (my_py_pkg) StdoutLine: {'line': b'Copying ../../../build/my_py_pkg/my_py_pkg.egg-info to /home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[9.801919] (-) TimerEvent: {}
+[9.806976] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[9.902124] (-) TimerEvent: {}
+[9.982067] (vacuum_robot) StdoutLine: {'line': b"removing '/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.983235] (vacuum_robot) StdoutLine: {'line': b'Copying ../../build/vacuum_robot/vacuum_robot.egg-info to /home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot-0.0.0-py3.10.egg-info\n'}
+[9.990499] (vacuum_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[10.002326] (-) TimerEvent: {}
+[10.105533] (-) TimerEvent: {}
+[10.206480] (-) TimerEvent: {}
+[10.307060] (-) TimerEvent: {}
+[10.408130] (-) TimerEvent: {}
+[10.508522] (-) TimerEvent: {}
+[10.609162] (-) TimerEvent: {}
+[10.709847] (-) TimerEvent: {}
+[10.810349] (-) TimerEvent: {}
+[10.910928] (-) TimerEvent: {}
+[11.011570] (-) TimerEvent: {}
+[11.072068] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.073541] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.075635] (my_py_pkg) StdoutLine: {'line': b'Installing battery script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.076975] (my_py_pkg) StdoutLine: {'line': b'Installing camera_stream script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.078967] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.079762] (my_py_pkg) StdoutLine: {'line': b'Installing led_panel script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.080414] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.080925] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.082086] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.084284] (my_py_pkg) StdoutLine: {'line': b'Installing robot_commmand_publisher script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.086027] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.086739] (my_py_pkg) StdoutLine: {'line': b'Installing send_waypoints script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.088085] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.089659] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/felipe/ros2_ws/build/my_py_pkg/install.log'\n"}
+[11.111747] (-) TimerEvent: {}
+[11.119470] (vacuum_robot) StdoutLine: {'line': b'Installing vacuum_robot_controller script to /home/felipe/ros2_ws/install/vacuum_robot/lib/vacuum_robot\n'}
+[11.122089] (vacuum_robot) StdoutLine: {'line': b"writing list of installed files to '/home/felipe/ros2_ws/build/vacuum_robot/install.log'\n"}
+[11.212032] (-) TimerEvent: {}
+[11.275092] (my_py_pkg) CommandEnded: {'returncode': 0}
+[11.312573] (-) TimerEvent: {}
+[11.327817] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[11.335591] (turtlbot3_custom) JobStarted: {'identifier': 'turtlbot3_custom'}
+[11.363202] (vacuum_robot) CommandEnded: {'returncode': 0}
+[11.394815] (vacuum_robot) JobEnded: {'identifier': 'vacuum_robot', 'rc': 0}
+[11.400343] (turtlbot3_custom) JobProgress: {'identifier': 'turtlbot3_custom', 'progress': 'cmake'}
+[11.402747] (turtlbot3_custom) JobProgress: {'identifier': 'turtlbot3_custom', 'progress': 'build'}
+[11.406693] (turtlbot3_custom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/felipe/ros2_ws/build/turtlbot3_custom', '--', '-j8', '-l8'], 'cwd': '/home/felipe/ros2_ws/build/turtlbot3_custom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'felipe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/felipe'), ('OLDPWD', '/home/felipe/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '11683'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/felipe/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'felipe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'felipe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin'), ('SESSION_MANAGER', 'local/my-pc:@/tmp/.ICE-unix/2856,unix/my-pc:/tmp/.ICE-unix/2856'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe76790e_af1d_4e03_9c4d_7b5e9d12f9ba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/felipe/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FMBTZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.385'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/felipe/ros2_ws/build/turtlbot3_custom'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SPARK_HOME', '/opt/spark')]), 'shell': False}
+[11.417065] (-) TimerEvent: {}
+[11.518291] (-) TimerEvent: {}
+[11.552103] (turtlbot3_custom) CommandEnded: {'returncode': 0}
+[11.556480] (turtlbot3_custom) JobProgress: {'identifier': 'turtlbot3_custom', 'progress': 'install'}
+[11.590266] (turtlbot3_custom) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/felipe/ros2_ws/build/turtlbot3_custom'], 'cwd': '/home/felipe/ros2_ws/build/turtlbot3_custom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'felipe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/felipe'), ('OLDPWD', '/home/felipe/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '11683'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/felipe/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'felipe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'felipe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin'), ('SESSION_MANAGER', 'local/my-pc:@/tmp/.ICE-unix/2856,unix/my-pc:/tmp/.ICE-unix/2856'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe76790e_af1d_4e03_9c4d_7b5e9d12f9ba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/felipe/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FMBTZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.385'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/felipe/ros2_ws/build/turtlbot3_custom'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SPARK_HOME', '/opt/spark')]), 'shell': False}
+[11.615605] (turtlbot3_custom) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.617831] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/launch\n'}
+[11.618516] (-) TimerEvent: {}
+[11.620038] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/launch/turtlebot3_world.launch.py\n'}
+[11.622032] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/worlds\n'}
+[11.622564] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/worlds/path1.world\n'}
+[11.623015] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/worlds/path2.world\n'}
+[11.623680] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/worlds/maze_3.world\n'}
+[11.624134] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/ament_index/resource_index/package_run_dependencies/turtlbot3_custom\n'}
+[11.624355] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/ament_index/resource_index/parent_prefix_path/turtlbot3_custom\n'}
+[11.624529] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/environment/ament_prefix_path.sh\n'}
+[11.624679] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/environment/ament_prefix_path.dsv\n'}
+[11.624841] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/environment/path.sh\n'}
+[11.625371] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/environment/path.dsv\n'}
+[11.625954] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/local_setup.bash\n'}
+[11.626350] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/local_setup.sh\n'}
+[11.626535] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/local_setup.zsh\n'}
+[11.626704] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/local_setup.dsv\n'}
+[11.626889] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/package.dsv\n'}
+[11.627599] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/ament_index/resource_index/packages/turtlbot3_custom\n'}
+[11.628514] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/cmake/turtlbot3_customConfig.cmake\n'}
+[11.628987] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/cmake/turtlbot3_customConfig-version.cmake\n'}
+[11.633266] (turtlbot3_custom) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/package.xml\n'}
+[11.634289] (turtlbot3_custom) CommandEnded: {'returncode': 0}
+[11.707473] (turtlbot3_custom) JobEnded: {'identifier': 'turtlbot3_custom', 'rc': 0}
+[11.709303] (-) EventReactorShutdown: {}

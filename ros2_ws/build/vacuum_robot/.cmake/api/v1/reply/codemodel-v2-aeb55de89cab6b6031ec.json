@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c432e3aead4e68cb1eb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vacuum_robot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vacuum_robot_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vacuum_robot_egg-c1b0087a765121bd42b6.json",
+					"name" : "ament_cmake_python_build_vacuum_robot_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_vacuum_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_vacuum_robot-257a01bc1e7e97f4f86b.json",
+					"name" : "ament_cmake_python_copy_vacuum_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_vacuum_robot_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_vacuum_robot_setup-35dacd2e2e7ee3867457.json",
+					"name" : "ament_cmake_python_copy_vacuum_robot_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c93c8c67bdd55c9ad146.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vacuum_robot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vacuum_robot_uninstall-12fe33df4e2c70e7a957.json",
+					"name" : "vacuum_robot_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/felipe/ros2_ws/build/vacuum_robot",
+		"source" : "/home/felipe/ros2_ws/src/vacuum_robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

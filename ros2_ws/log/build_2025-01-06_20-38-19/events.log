@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (auto_mapper_py) JobQueued: {'identifier': 'auto_mapper_py', 'dependencies': OrderedDict()}
+[0.000429] (vacuum_robot) JobQueued: {'identifier': 'vacuum_robot', 'dependencies': OrderedDict()}
+[0.000464] (auto_mapper_py) JobStarted: {'identifier': 'auto_mapper_py'}
+[0.042338] (vacuum_robot) JobStarted: {'identifier': 'vacuum_robot'}
+[0.098549] (-) TimerEvent: {}
+[0.199009] (-) TimerEvent: {}
+[0.300127] (-) TimerEvent: {}
+[0.400516] (-) TimerEvent: {}
+[0.501175] (-) TimerEvent: {}
+[0.601925] (-) TimerEvent: {}
+[0.703122] (-) TimerEvent: {}
+[0.803535] (-) TimerEvent: {}
+[0.904285] (-) TimerEvent: {}
+[1.005429] (-) TimerEvent: {}
+[1.105834] (-) TimerEvent: {}
+[1.206450] (-) TimerEvent: {}
+[1.307139] (-) TimerEvent: {}
+[1.407522] (-) TimerEvent: {}
+[1.508095] (-) TimerEvent: {}
+[1.609381] (-) TimerEvent: {}
+[1.709854] (-) TimerEvent: {}
+[1.810419] (-) TimerEvent: {}
+[1.911025] (-) TimerEvent: {}
+[2.011900] (-) TimerEvent: {}
+[2.112456] (-) TimerEvent: {}
+[2.213119] (-) TimerEvent: {}
+[2.313939] (-) TimerEvent: {}
+[2.414508] (-) TimerEvent: {}
+[2.515055] (-) TimerEvent: {}
+[2.615693] (-) TimerEvent: {}
+[2.716955] (-) TimerEvent: {}
+[2.817510] (-) TimerEvent: {}
+[2.918060] (-) TimerEvent: {}
+[3.018813] (-) TimerEvent: {}
+[3.119256] (-) TimerEvent: {}
+[3.220624] (-) TimerEvent: {}
+[3.321686] (-) TimerEvent: {}
+[3.422058] (-) TimerEvent: {}
+[3.522414] (-) TimerEvent: {}
+[3.623112] (-) TimerEvent: {}
+[3.724572] (-) TimerEvent: {}
+[3.825282] (-) TimerEvent: {}
+[3.925700] (-) TimerEvent: {}
+[4.026594] (-) TimerEvent: {}
+[4.127378] (-) TimerEvent: {}
+[4.227833] (-) TimerEvent: {}
+[4.328374] (-) TimerEvent: {}
+[4.429202] (-) TimerEvent: {}
+[4.529851] (-) TimerEvent: {}
+[4.630475] (-) TimerEvent: {}
+[4.732070] (-) TimerEvent: {}
+[4.753212] (vacuum_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vacuum_robot', 'build', '--build-base', '/home/felipe/ros2_ws/build/vacuum_robot/build', 'install', '--record', '/home/felipe/ros2_ws/build/vacuum_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/felipe/ros2_ws/src/vacuum_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '16905', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/felipe/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'felipe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin', 'SESSION_MANAGER': 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/daa4fb5f_7b13_495f_9bfc_1dc600da6c9d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/felipe/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.271', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felipe/ros2_ws/build/vacuum_robot', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe/ros2_ws/build/vacuum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer', 'SPARK_HOME': '/opt/spark'}, 'shell': False}
+[4.800544] (auto_mapper_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/auto_mapper_py', 'build', '--build-base', '/home/felipe/ros2_ws/build/auto_mapper_py/build', 'install', '--record', '/home/felipe/ros2_ws/build/auto_mapper_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/felipe/ros2_ws/src/auto_mapper_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '16905', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/felipe/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'felipe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin', 'SESSION_MANAGER': 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/daa4fb5f_7b13_495f_9bfc_1dc600da6c9d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/felipe/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.271', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felipe/ros2_ws/build/auto_mapper_py', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe/ros2_ws/build/auto_mapper_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer', 'SPARK_HOME': '/opt/spark'}, 'shell': False}
+[4.832135] (-) TimerEvent: {}
+[4.932832] (-) TimerEvent: {}
+[5.034533] (-) TimerEvent: {}
+[5.135377] (-) TimerEvent: {}
+[5.235891] (-) TimerEvent: {}
+[5.337425] (-) TimerEvent: {}
+[5.437998] (-) TimerEvent: {}
+[5.484591] (auto_mapper_py) StderrLine: {'line': b"/home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[5.484879] (auto_mapper_py) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[5.538426] (-) TimerEvent: {}
+[5.639207] (-) TimerEvent: {}
+[5.740374] (-) TimerEvent: {}
+[5.841085] (-) TimerEvent: {}
+[5.941521] (-) TimerEvent: {}
+[6.042114] (-) TimerEvent: {}
+[6.079875] (auto_mapper_py) StdoutLine: {'line': b'running egg_info\n'}
+[6.086433] (vacuum_robot) StdoutLine: {'line': b'running egg_info\n'}
+[6.142434] (-) TimerEvent: {}
+[6.170499] (auto_mapper_py) StdoutLine: {'line': b'writing ../../build/auto_mapper_py/auto_mapper_py.egg-info/PKG-INFO\n'}
+[6.172713] (auto_mapper_py) StdoutLine: {'line': b'writing dependency_links to ../../build/auto_mapper_py/auto_mapper_py.egg-info/dependency_links.txt\n'}
+[6.173270] (auto_mapper_py) StdoutLine: {'line': b'writing entry points to ../../build/auto_mapper_py/auto_mapper_py.egg-info/entry_points.txt\n'}
+[6.173695] (auto_mapper_py) StdoutLine: {'line': b'writing requirements to ../../build/auto_mapper_py/auto_mapper_py.egg-info/requires.txt\n'}
+[6.174009] (auto_mapper_py) StdoutLine: {'line': b'writing top-level names to ../../build/auto_mapper_py/auto_mapper_py.egg-info/top_level.txt\n'}
+[6.182740] (vacuum_robot) StdoutLine: {'line': b'writing ../../build/vacuum_robot/vacuum_robot.egg-info/PKG-INFO\n'}
+[6.185026] (vacuum_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/vacuum_robot/vacuum_robot.egg-info/dependency_links.txt\n'}
+[6.185890] (vacuum_robot) StdoutLine: {'line': b'writing entry points to ../../build/vacuum_robot/vacuum_robot.egg-info/entry_points.txt\n'}
+[6.186458] (vacuum_robot) StdoutLine: {'line': b'writing requirements to ../../build/vacuum_robot/vacuum_robot.egg-info/requires.txt\n'}
+[6.186992] (vacuum_robot) StdoutLine: {'line': b'writing top-level names to ../../build/vacuum_robot/vacuum_robot.egg-info/top_level.txt\n'}
+[6.242505] (-) TimerEvent: {}
+[6.343016] (-) TimerEvent: {}
+[6.376747] (auto_mapper_py) StdoutLine: {'line': b"reading manifest file '../../build/auto_mapper_py/auto_mapper_py.egg-info/SOURCES.txt'\n"}
+[6.380994] (auto_mapper_py) StdoutLine: {'line': b"writing manifest file '../../build/auto_mapper_py/auto_mapper_py.egg-info/SOURCES.txt'\n"}
+[6.381348] (auto_mapper_py) StdoutLine: {'line': b'running build\n'}
+[6.381512] (auto_mapper_py) StdoutLine: {'line': b'running build_py\n'}
+[6.381804] (auto_mapper_py) StdoutLine: {'line': b'copying auto_mapper_py/__init__.py -> /home/felipe/ros2_ws/build/auto_mapper_py/build/lib/auto_mapper_py\n'}
+[6.382293] (auto_mapper_py) StdoutLine: {'line': b'copying auto_mapper_py/auto_mapper.py -> /home/felipe/ros2_ws/build/auto_mapper_py/build/lib/auto_mapper_py\n'}
+[6.382905] (auto_mapper_py) StdoutLine: {'line': b'running install\n'}
+[6.388831] (vacuum_robot) StdoutLine: {'line': b"reading manifest file '../../build/vacuum_robot/vacuum_robot.egg-info/SOURCES.txt'\n"}
+[6.396060] (vacuum_robot) StdoutLine: {'line': b"writing manifest file '../../build/vacuum_robot/vacuum_robot.egg-info/SOURCES.txt'\n"}
+[6.396605] (vacuum_robot) StdoutLine: {'line': b'running build\n'}
+[6.398402] (vacuum_robot) StdoutLine: {'line': b'running build_py\n'}
+[6.400460] (vacuum_robot) StdoutLine: {'line': b'copying vacuum_robot/vacuum_robot_controller.py -> /home/felipe/ros2_ws/build/vacuum_robot/build/lib/vacuum_robot\n'}
+[6.402649] (vacuum_robot) StdoutLine: {'line': b'running install\n'}
+[6.404098] (auto_mapper_py) StdoutLine: {'line': b'running install_lib\n'}
+[6.418876] (vacuum_robot) StdoutLine: {'line': b'running install_lib\n'}
+[6.443380] (-) TimerEvent: {}
+[6.500653] (auto_mapper_py) StdoutLine: {'line': b'running install_data\n'}
+[6.502467] (auto_mapper_py) StdoutLine: {'line': b'copying resource/auto_mapper_py -> /home/felipe/ros2_ws/install/auto_mapper_py/share/ament_index/resource_index/packages\n'}
+[6.504582] (auto_mapper_py) StdoutLine: {'line': b'copying package.xml -> /home/felipe/ros2_ws/install/auto_mapper_py/share/auto_mapper_py\n'}
+[6.505996] (auto_mapper_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.516479] (vacuum_robot) StdoutLine: {'line': b'running install_data\n'}
+[6.520909] (vacuum_robot) StdoutLine: {'line': b'copying package.xml -> /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot\n'}
+[6.521930] (vacuum_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.543458] (-) TimerEvent: {}
+[6.616560] (auto_mapper_py) StdoutLine: {'line': b"removing '/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages/auto_mapper_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.618016] (auto_mapper_py) StdoutLine: {'line': b'Copying ../../build/auto_mapper_py/auto_mapper_py.egg-info to /home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages/auto_mapper_py-0.0.0-py3.10.egg-info\n'}
+[6.623938] (auto_mapper_py) StdoutLine: {'line': b'running install_scripts\n'}
+[6.628962] (vacuum_robot) StdoutLine: {'line': b"removing '/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.629522] (vacuum_robot) StdoutLine: {'line': b'Copying ../../build/vacuum_robot/vacuum_robot.egg-info to /home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot-0.0.0-py3.10.egg-info\n'}
+[6.634696] (vacuum_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[6.643604] (-) TimerEvent: {}
+[6.744151] (-) TimerEvent: {}
+[6.845729] (-) TimerEvent: {}
+[6.946230] (-) TimerEvent: {}
+[7.046853] (-) TimerEvent: {}
+[7.147858] (-) TimerEvent: {}
+[7.248489] (-) TimerEvent: {}
+[7.349967] (-) TimerEvent: {}
+[7.380722] (auto_mapper_py) StdoutLine: {'line': b'Installing auto_mapper_node script to /home/felipe/ros2_ws/install/auto_mapper_py/lib/auto_mapper_py\n'}
+[7.381786] (auto_mapper_py) StdoutLine: {'line': b"writing list of installed files to '/home/felipe/ros2_ws/build/auto_mapper_py/install.log'\n"}
+[7.414720] (vacuum_robot) StdoutLine: {'line': b'Installing vacuum_robot_controller script to /home/felipe/ros2_ws/install/vacuum_robot/lib/vacuum_robot\n'}
+[7.417398] (vacuum_robot) StdoutLine: {'line': b"writing list of installed files to '/home/felipe/ros2_ws/build/vacuum_robot/install.log'\n"}
+[7.450193] (-) TimerEvent: {}
+[7.498320] (auto_mapper_py) CommandEnded: {'returncode': 0}
+[7.548024] (auto_mapper_py) JobEnded: {'identifier': 'auto_mapper_py', 'rc': 0}
+[7.550821] (-) TimerEvent: {}
+[7.551104] (vacuum_robot) CommandEnded: {'returncode': 0}
+[7.566664] (vacuum_robot) JobEnded: {'identifier': 'vacuum_robot', 'rc': 0}
+[7.567715] (-) EventReactorShutdown: {}

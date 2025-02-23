@@ -1,0 +1,4 @@
+source;share/mapviz/local_setup.bash
+source;share/mapviz/local_setup.dsv
+source;share/mapviz/local_setup.sh
+source;share/mapviz/local_setup.zsh

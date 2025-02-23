@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+vacuum_robot/__init__.py
+vacuum_robot/vacuum_robot_controller.py
+vacuum_robot.egg-info/PKG-INFO
+vacuum_robot.egg-info/SOURCES.txt
+vacuum_robot.egg-info/dependency_links.txt
+vacuum_robot.egg-info/top_level.txt

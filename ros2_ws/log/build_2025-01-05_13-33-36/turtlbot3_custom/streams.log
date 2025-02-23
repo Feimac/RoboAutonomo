@@ -1,0 +1,45 @@
+[0.008s] Invoking command in '/home/felipe/ros2_ws/build/turtlbot3_custom': AMENT_PREFIX_PATH=/home/felipe/ros2_ws/install/my_py_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install PYTHONPATH=/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/felipe/ros2_ws/src/Autonomous-Navigation-and-Path-planning-on-ROS2-using-Dijkstra-and-SLAM/turtlbot3_custom -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/turtlbot3_custom
+[0.216s] -- The C compiler identification is GNU 11.4.0
+[0.307s] -- The CXX compiler identification is GNU 11.4.0
+[0.316s] -- Detecting C compiler ABI info
+[0.395s] -- Detecting C compiler ABI info - done
+[0.403s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.403s] -- Detecting C compile features
+[0.404s] -- Detecting C compile features - done
+[0.407s] -- Detecting CXX compiler ABI info
+[0.478s] -- Detecting CXX compiler ABI info - done
+[0.487s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.487s] -- Detecting CXX compile features
+[0.488s] -- Detecting CXX compile features - done
+[0.494s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.859s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.022s] -- Configuring done
+[1.025s] -- Generating done
+[1.026s] -- Build files have been written to: /home/felipe/ros2_ws/build/turtlbot3_custom
+[1.030s] Invoked command in '/home/felipe/ros2_ws/build/turtlbot3_custom' returned '0': AMENT_PREFIX_PATH=/home/felipe/ros2_ws/install/my_py_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install PYTHONPATH=/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/felipe/ros2_ws/src/Autonomous-Navigation-and-Path-planning-on-ROS2-using-Dijkstra-and-SLAM/turtlbot3_custom -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/turtlbot3_custom
+[1.032s] Invoking command in '/home/felipe/ros2_ws/build/turtlbot3_custom': AMENT_PREFIX_PATH=/home/felipe/ros2_ws/install/my_py_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install PYTHONPATH=/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/felipe/ros2_ws/build/turtlbot3_custom -- -j8 -l8
+[1.063s] Invoked command in '/home/felipe/ros2_ws/build/turtlbot3_custom' returned '0': AMENT_PREFIX_PATH=/home/felipe/ros2_ws/install/my_py_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install PYTHONPATH=/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/felipe/ros2_ws/build/turtlbot3_custom -- -j8 -l8
+[1.071s] Invoking command in '/home/felipe/ros2_ws/build/turtlbot3_custom': AMENT_PREFIX_PATH=/home/felipe/ros2_ws/install/my_py_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install PYTHONPATH=/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/felipe/ros2_ws/build/turtlbot3_custom
+[1.077s] -- Install configuration: ""
+[1.078s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/launch
+[1.078s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/launch/turtlebot3_world.launch.py
+[1.078s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/worlds
+[1.078s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/worlds/path1.world
+[1.078s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/worlds/path2.world
+[1.078s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/worlds/maze_3.world
+[1.078s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/ament_index/resource_index/package_run_dependencies/turtlbot3_custom
+[1.078s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/ament_index/resource_index/parent_prefix_path/turtlbot3_custom
+[1.078s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/environment/ament_prefix_path.sh
+[1.079s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/environment/ament_prefix_path.dsv
+[1.079s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/environment/path.sh
+[1.079s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/environment/path.dsv
+[1.079s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/local_setup.bash
+[1.079s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/local_setup.sh
+[1.079s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/local_setup.zsh
+[1.079s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/local_setup.dsv
+[1.079s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/package.dsv
+[1.080s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/ament_index/resource_index/packages/turtlbot3_custom
+[1.080s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/cmake/turtlbot3_customConfig.cmake
+[1.080s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/cmake/turtlbot3_customConfig-version.cmake
+[1.080s] -- Installing: /home/felipe/ros2_ws/install/turtlbot3_custom/share/turtlbot3_custom/package.xml
+[1.081s] Invoked command in '/home/felipe/ros2_ws/build/turtlbot3_custom' returned '0': AMENT_PREFIX_PATH=/home/felipe/ros2_ws/install/my_py_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install PYTHONPATH=/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/felipe/ros2_ws/build/turtlbot3_custom

@@ -1,0 +1,7 @@
+/home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+  File "/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages/meu_pacote_launch/all_nodes.launch.py", line 55
+    return ld
+    ^^^^^^^^^
+SyntaxError: 'return' outside function
+

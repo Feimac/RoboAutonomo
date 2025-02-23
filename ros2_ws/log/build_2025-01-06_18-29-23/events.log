@@ -1,0 +1,1214 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (auto_mapper_py) JobQueued: {'identifier': 'auto_mapper_py', 'dependencies': OrderedDict()}
+[0.001084] (mapviz_interfaces) JobQueued: {'identifier': 'mapviz_interfaces', 'dependencies': OrderedDict()}
+[0.001231] (vacuum_robot) JobQueued: {'identifier': 'vacuum_robot', 'dependencies': OrderedDict()}
+[0.001270] (mapviz) JobQueued: {'identifier': 'mapviz', 'dependencies': OrderedDict([('mapviz_interfaces', '/home/felipe/ros2_ws/install/mapviz_interfaces')])}
+[0.001300] (mapviz_plugins) JobQueued: {'identifier': 'mapviz_plugins', 'dependencies': OrderedDict([('mapviz_interfaces', '/home/felipe/ros2_ws/install/mapviz_interfaces'), ('mapviz', '/home/felipe/ros2_ws/install/mapviz')])}
+[0.001330] (multires_image) JobQueued: {'identifier': 'multires_image', 'dependencies': OrderedDict([('mapviz_interfaces', '/home/felipe/ros2_ws/install/mapviz_interfaces'), ('mapviz', '/home/felipe/ros2_ws/install/mapviz')])}
+[0.001355] (tile_map) JobQueued: {'identifier': 'tile_map', 'dependencies': OrderedDict([('mapviz_interfaces', '/home/felipe/ros2_ws/install/mapviz_interfaces'), ('mapviz', '/home/felipe/ros2_ws/install/mapviz')])}
+[0.001380] (mapviz_interfaces) JobStarted: {'identifier': 'mapviz_interfaces'}
+[0.012102] (auto_mapper_py) JobStarted: {'identifier': 'auto_mapper_py'}
+[0.021485] (vacuum_robot) JobStarted: {'identifier': 'vacuum_robot'}
+[0.038406] (mapviz_interfaces) JobProgress: {'identifier': 'mapviz_interfaces', 'progress': 'cmake'}
+[0.039198] (mapviz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/felipe/ros2_ws/src/mapviz/mapviz_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/mapviz_interfaces'], 'cwd': '/home/felipe/ros2_ws/build/mapviz_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'felipe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/felipe'), ('OLDPWD', '/home/felipe/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '16905'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/felipe/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'felipe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'felipe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin'), ('SESSION_MANAGER', 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39d79806_569d_42db_a055_94b91c76ac58'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/felipe/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/felipe/ros2_ws/build/mapviz_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SPARK_HOME', '/opt/spark')]), 'shell': False}
+[0.098624] (-) TimerEvent: {}
+[0.202645] (-) TimerEvent: {}
+[0.304107] (-) TimerEvent: {}
+[0.404531] (-) TimerEvent: {}
+[0.506105] (-) TimerEvent: {}
+[0.606493] (-) TimerEvent: {}
+[0.705684] (mapviz_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.706667] (-) TimerEvent: {}
+[0.785136] (mapviz_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.806798] (-) TimerEvent: {}
+[0.819123] (mapviz_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.906916] (-) TimerEvent: {}
+[1.007356] (-) TimerEvent: {}
+[1.023609] (mapviz_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.053373] (mapviz_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.054865] (mapviz_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.056975] (mapviz_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.070254] (mapviz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.107461] (-) TimerEvent: {}
+[1.209161] (-) TimerEvent: {}
+[1.300734] (mapviz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.309986] (-) TimerEvent: {}
+[1.336575] (mapviz_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.337622] (mapviz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.339210] (mapviz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.371155] (mapviz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.411220] (-) TimerEvent: {}
+[1.516429] (-) TimerEvent: {}
+[1.616903] (-) TimerEvent: {}
+[1.719130] (-) TimerEvent: {}
+[1.819684] (-) TimerEvent: {}
+[1.921109] (-) TimerEvent: {}
+[2.021531] (-) TimerEvent: {}
+[2.121996] (-) TimerEvent: {}
+[2.222982] (-) TimerEvent: {}
+[2.324586] (-) TimerEvent: {}
+[2.425017] (-) TimerEvent: {}
+[2.525415] (-) TimerEvent: {}
+[2.615104] (mapviz_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.625749] (-) TimerEvent: {}
+[2.726862] (-) TimerEvent: {}
+[2.827378] (-) TimerEvent: {}
+[2.898910] (mapviz_interfaces) StdoutLine: {'line': b'-- Found marti_common_msgs: 1.6.1 (/opt/ros/humble/share/marti_common_msgs/cmake)\n'}
+[2.927491] (-) TimerEvent: {}
+[3.018903] (mapviz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.027638] (-) TimerEvent: {}
+[3.036311] (mapviz_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.066295] (mapviz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.116214] (mapviz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.127815] (-) TimerEvent: {}
+[3.180580] (mapviz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.228333] (-) TimerEvent: {}
+[3.328775] (-) TimerEvent: {}
+[3.333359] (mapviz_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.391285] (auto_mapper_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/auto_mapper_py', 'build', '--build-base', '/home/felipe/ros2_ws/build/auto_mapper_py/build', 'install', '--record', '/home/felipe/ros2_ws/build/auto_mapper_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/felipe/ros2_ws/src/auto_mapper_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe', 'OLDPWD': '/home/felipe/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '16905', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/felipe/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'felipe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin', 'SESSION_MANAGER': 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/39d79806_569d_42db_a055_94b91c76ac58', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/felipe/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.271', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felipe/ros2_ws/build/auto_mapper_py', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe/ros2_ws/build/auto_mapper_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer', 'SPARK_HOME': '/opt/spark'}, 'shell': False}
+[3.428907] (-) TimerEvent: {}
+[3.476527] (vacuum_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vacuum_robot', 'build', '--build-base', '/home/felipe/ros2_ws/build/vacuum_robot/build', 'install', '--record', '/home/felipe/ros2_ws/build/vacuum_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/felipe/ros2_ws/src/vacuum_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe', 'OLDPWD': '/home/felipe/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '16905', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/felipe/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'felipe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin', 'SESSION_MANAGER': 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/39d79806_569d_42db_a055_94b91c76ac58', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/felipe/.cache/dotnet_bundle_extract', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.271', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felipe/ros2_ws/build/vacuum_robot', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe/ros2_ws/build/vacuum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer', 'SPARK_HOME': '/opt/spark'}, 'shell': False}
+[3.529421] (-) TimerEvent: {}
+[3.630507] (-) TimerEvent: {}
+[3.730880] (-) TimerEvent: {}
+[3.808171] (auto_mapper_py) StderrLine: {'line': b"/home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[3.808494] (auto_mapper_py) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[3.830990] (-) TimerEvent: {}
+[3.931408] (-) TimerEvent: {}
+[4.032131] (-) TimerEvent: {}
+[4.048950] (mapviz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.132103] (-) TimerEvent: {}
+[4.197627] (auto_mapper_py) StdoutLine: {'line': b'running egg_info\n'}
+[4.232196] (-) TimerEvent: {}
+[4.263878] (auto_mapper_py) StdoutLine: {'line': b'writing ../../build/auto_mapper_py/auto_mapper_py.egg-info/PKG-INFO\n'}
+[4.264198] (auto_mapper_py) StdoutLine: {'line': b'writing dependency_links to ../../build/auto_mapper_py/auto_mapper_py.egg-info/dependency_links.txt\n'}
+[4.264534] (auto_mapper_py) StdoutLine: {'line': b'writing entry points to ../../build/auto_mapper_py/auto_mapper_py.egg-info/entry_points.txt\n'}
+[4.264868] (auto_mapper_py) StdoutLine: {'line': b'writing requirements to ../../build/auto_mapper_py/auto_mapper_py.egg-info/requires.txt\n'}
+[4.265210] (auto_mapper_py) StdoutLine: {'line': b'writing top-level names to ../../build/auto_mapper_py/auto_mapper_py.egg-info/top_level.txt\n'}
+[4.303207] (vacuum_robot) StdoutLine: {'line': b'running egg_info\n'}
+[4.332394] (-) TimerEvent: {}
+[4.371659] (vacuum_robot) StdoutLine: {'line': b'writing ../../build/vacuum_robot/vacuum_robot.egg-info/PKG-INFO\n'}
+[4.372484] (vacuum_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/vacuum_robot/vacuum_robot.egg-info/dependency_links.txt\n'}
+[4.372962] (vacuum_robot) StdoutLine: {'line': b'writing entry points to ../../build/vacuum_robot/vacuum_robot.egg-info/entry_points.txt\n'}
+[4.373325] (vacuum_robot) StdoutLine: {'line': b'writing requirements to ../../build/vacuum_robot/vacuum_robot.egg-info/requires.txt\n'}
+[4.373638] (vacuum_robot) StdoutLine: {'line': b'writing top-level names to ../../build/vacuum_robot/vacuum_robot.egg-info/top_level.txt\n'}
+[4.420160] (auto_mapper_py) StdoutLine: {'line': b"reading manifest file '../../build/auto_mapper_py/auto_mapper_py.egg-info/SOURCES.txt'\n"}
+[4.426158] (auto_mapper_py) StdoutLine: {'line': b"writing manifest file '../../build/auto_mapper_py/auto_mapper_py.egg-info/SOURCES.txt'\n"}
+[4.427158] (auto_mapper_py) StdoutLine: {'line': b'running build\n'}
+[4.427292] (auto_mapper_py) StdoutLine: {'line': b'running build_py\n'}
+[4.427391] (auto_mapper_py) StdoutLine: {'line': b'copying auto_mapper_py/__init__.py -> /home/felipe/ros2_ws/build/auto_mapper_py/build/lib/auto_mapper_py\n'}
+[4.427485] (auto_mapper_py) StdoutLine: {'line': b'copying auto_mapper_py/auto_mapper.py -> /home/felipe/ros2_ws/build/auto_mapper_py/build/lib/auto_mapper_py\n'}
+[4.427575] (auto_mapper_py) StdoutLine: {'line': b'running install\n'}
+[4.432502] (-) TimerEvent: {}
+[4.445478] (auto_mapper_py) StdoutLine: {'line': b'running install_lib\n'}
+[4.515450] (vacuum_robot) StdoutLine: {'line': b"reading manifest file '../../build/vacuum_robot/vacuum_robot.egg-info/SOURCES.txt'\n"}
+[4.518856] (vacuum_robot) StdoutLine: {'line': b"writing manifest file '../../build/vacuum_robot/vacuum_robot.egg-info/SOURCES.txt'\n"}
+[4.519173] (vacuum_robot) StdoutLine: {'line': b'running build\n'}
+[4.519322] (vacuum_robot) StdoutLine: {'line': b'running build_py\n'}
+[4.519875] (vacuum_robot) StdoutLine: {'line': b'copying vacuum_robot/vacuum_robot_controller.py -> /home/felipe/ros2_ws/build/vacuum_robot/build/lib/vacuum_robot\n'}
+[4.520810] (vacuum_robot) StdoutLine: {'line': b'running install\n'}
+[4.526106] (auto_mapper_py) StdoutLine: {'line': b'running install_data\n'}
+[4.526936] (auto_mapper_py) StdoutLine: {'line': b'copying resource/auto_mapper_py -> /home/felipe/ros2_ws/install/auto_mapper_py/share/ament_index/resource_index/packages\n'}
+[4.527516] (auto_mapper_py) StdoutLine: {'line': b'copying package.xml -> /home/felipe/ros2_ws/install/auto_mapper_py/share/auto_mapper_py\n'}
+[4.527793] (auto_mapper_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.532287] (vacuum_robot) StdoutLine: {'line': b'running install_lib\n'}
+[4.532556] (-) TimerEvent: {}
+[4.595351] (vacuum_robot) StdoutLine: {'line': b'running install_data\n'}
+[4.596132] (auto_mapper_py) StdoutLine: {'line': b"removing '/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages/auto_mapper_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.596441] (vacuum_robot) StdoutLine: {'line': b'copying package.xml -> /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot\n'}
+[4.596744] (auto_mapper_py) StdoutLine: {'line': b'Copying ../../build/auto_mapper_py/auto_mapper_py.egg-info to /home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages/auto_mapper_py-0.0.0-py3.10.egg-info\n'}
+[4.596992] (vacuum_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.597972] (auto_mapper_py) StdoutLine: {'line': b'running install_scripts\n'}
+[4.632785] (-) TimerEvent: {}
+[4.674914] (vacuum_robot) StdoutLine: {'line': b"removing '/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.675477] (vacuum_robot) StdoutLine: {'line': b'Copying ../../build/vacuum_robot/vacuum_robot.egg-info to /home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages/vacuum_robot-0.0.0-py3.10.egg-info\n'}
+[4.677196] (vacuum_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[4.733324] (-) TimerEvent: {}
+[4.834414] (-) TimerEvent: {}
+[4.936144] (-) TimerEvent: {}
+[5.036551] (-) TimerEvent: {}
+[5.119086] (auto_mapper_py) StdoutLine: {'line': b'Installing auto_mapper_node script to /home/felipe/ros2_ws/install/auto_mapper_py/lib/auto_mapper_py\n'}
+[5.120130] (auto_mapper_py) StdoutLine: {'line': b"writing list of installed files to '/home/felipe/ros2_ws/build/auto_mapper_py/install.log'\n"}
+[5.136665] (-) TimerEvent: {}
+[5.190005] (auto_mapper_py) CommandEnded: {'returncode': 0}
+[5.192506] (mapviz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.221224] (vacuum_robot) StdoutLine: {'line': b'Installing vacuum_robot_controller script to /home/felipe/ros2_ws/install/vacuum_robot/lib/vacuum_robot\n'}
+[5.223322] (vacuum_robot) StdoutLine: {'line': b"writing list of installed files to '/home/felipe/ros2_ws/build/vacuum_robot/install.log'\n"}
+[5.234093] (auto_mapper_py) JobEnded: {'identifier': 'auto_mapper_py', 'rc': 0}
+[5.236803] (-) TimerEvent: {}
+[5.288384] (vacuum_robot) CommandEnded: {'returncode': 0}
+[5.304070] (vacuum_robot) JobEnded: {'identifier': 'vacuum_robot', 'rc': 0}
+[5.336986] (-) TimerEvent: {}
+[5.437610] (-) TimerEvent: {}
+[5.538110] (-) TimerEvent: {}
+[5.596537] (mapviz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.638230] (-) TimerEvent: {}
+[5.642964] (mapviz_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.646945] (mapviz_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.703591] (mapviz_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.703922] (mapviz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.704066] (mapviz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.704212] (mapviz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.738321] (-) TimerEvent: {}
+[5.758814] (mapviz_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.838452] (-) TimerEvent: {}
+[5.909338] (mapviz_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.938599] (-) TimerEvent: {}
+[5.978760] (mapviz_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[6.003856] (mapviz_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/felipe/ros2_ws/build/mapviz_interfaces\n'}
+[6.019913] (mapviz_interfaces) CommandEnded: {'returncode': 0}
+[6.020678] (mapviz_interfaces) JobProgress: {'identifier': 'mapviz_interfaces', 'progress': 'build'}
+[6.022156] (mapviz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/felipe/ros2_ws/build/mapviz_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/felipe/ros2_ws/build/mapviz_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'felipe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/felipe'), ('OLDPWD', '/home/felipe/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '16905'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/felipe/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'felipe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'felipe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin'), ('SESSION_MANAGER', 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39d79806_569d_42db_a055_94b91c76ac58'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/felipe/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/felipe/ros2_ws/build/mapviz_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SPARK_HOME', '/opt/spark')]), 'shell': False}
+[6.038744] (-) TimerEvent: {}
+[6.089924] (mapviz_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.109129] (mapviz_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.123335] (mapviz_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_mapviz_interfaces\n'}
+[6.138861] (-) TimerEvent: {}
+[6.239315] (-) TimerEvent: {}
+[6.339820] (-) TimerEvent: {}
+[6.441294] (-) TimerEvent: {}
+[6.541974] (-) TimerEvent: {}
+[6.643573] (-) TimerEvent: {}
+[6.743980] (-) TimerEvent: {}
+[6.800876] (mapviz_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.844094] (-) TimerEvent: {}
+[6.875794] (mapviz_interfaces) StdoutLine: {'line': b'creating mapviz_interfaces.egg-info\n'}
+[6.876149] (mapviz_interfaces) StdoutLine: {'line': b'writing mapviz_interfaces.egg-info/PKG-INFO\n'}
+[6.877109] (mapviz_interfaces) StdoutLine: {'line': b'writing dependency_links to mapviz_interfaces.egg-info/dependency_links.txt\n'}
+[6.877984] (mapviz_interfaces) StdoutLine: {'line': b'writing top-level names to mapviz_interfaces.egg-info/top_level.txt\n'}
+[6.878262] (mapviz_interfaces) StdoutLine: {'line': b"writing manifest file 'mapviz_interfaces.egg-info/SOURCES.txt'\n"}
+[6.944209] (-) TimerEvent: {}
+[7.041468] (mapviz_interfaces) StdoutLine: {'line': b'[  6%] Built target mapviz_interfaces__cpp\n'}
+[7.047239] (-) TimerEvent: {}
+[7.070063] (mapviz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.070430] (mapviz_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.071343] (mapviz_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.094196] (mapviz_interfaces) StdoutLine: {'line': b"reading manifest file 'mapviz_interfaces.egg-info/SOURCES.txt'\n"}
+[7.094631] (mapviz_interfaces) StdoutLine: {'line': b"writing manifest file 'mapviz_interfaces.egg-info/SOURCES.txt'\n"}
+[7.147503] (-) TimerEvent: {}
+[7.175128] (mapviz_interfaces) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_mapviz_interfaces_egg\n'}
+[7.183032] (mapviz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapviz_interfaces/srv/detail/add_mapviz_display__functions.c.o\x1b[0m\n'}
+[7.248093] (-) TimerEvent: {}
+[7.348480] (-) TimerEvent: {}
+[7.396588] (mapviz_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmapviz_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.448705] (-) TimerEvent: {}
+[7.479098] (mapviz_interfaces) StdoutLine: {'line': b'[ 22%] Built target mapviz_interfaces__rosidl_generator_c\n'}
+[7.504885] (mapviz_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.510304] (mapviz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.516257] (mapviz_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.554103] (-) TimerEvent: {}
+[7.654629] (-) TimerEvent: {}
+[7.755169] (-) TimerEvent: {}
+[7.856111] (-) TimerEvent: {}
+[7.956564] (-) TimerEvent: {}
+[8.061951] (-) TimerEvent: {}
+[8.162445] (-) TimerEvent: {}
+[8.262842] (-) TimerEvent: {}
+[8.269779] (mapviz_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/mapviz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mapviz_interfaces/srv/add_mapviz_display__type_support.cpp.o\x1b[0m\n'}
+[8.281369] (mapviz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mapviz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.cpp.o\x1b[0m\n'}
+[8.329471] (mapviz_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/mapviz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapviz_interfaces/srv/detail/dds_fastrtps/add_mapviz_display__type_support.cpp.o\x1b[0m\n'}
+[8.362952] (-) TimerEvent: {}
+[8.463504] (-) TimerEvent: {}
+[8.566276] (-) TimerEvent: {}
+[8.598279] (mapviz_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/mapviz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mapviz_interfaces/srv/add_mapviz_display__type_support.cpp.o\x1b[0m\n'}
+[8.666664] (-) TimerEvent: {}
+[8.709227] (mapviz_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmapviz_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.756330] (mapviz_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.c.o\x1b[0m\n'}
+[8.767221] (-) TimerEvent: {}
+[8.769905] (mapviz_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/mapviz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mapviz_interfaces/srv/detail/add_mapviz_display__type_support_c.cpp.o\x1b[0m\n'}
+[8.867349] (-) TimerEvent: {}
+[8.880542] (mapviz_interfaces) StdoutLine: {'line': b'[ 54%] Built target mapviz_interfaces__rosidl_typesupport_c\n'}
+[8.931084] (mapviz_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libmapviz_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.967467] (-) TimerEvent: {}
+[9.015170] (mapviz_interfaces) StdoutLine: {'line': b'[ 58%] Built target mapviz_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.067702] (-) TimerEvent: {}
+[9.169229] (-) TimerEvent: {}
+[9.219935] (mapviz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmapviz_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.269336] (-) TimerEvent: {}
+[9.314578] (mapviz_interfaces) StdoutLine: {'line': b'[ 61%] Built target mapviz_interfaces__rosidl_typesupport_cpp\n'}
+[9.369762] (-) TimerEvent: {}
+[9.470608] (-) TimerEvent: {}
+[9.571101] (-) TimerEvent: {}
+[9.660209] (mapviz_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmapviz_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.671222] (-) TimerEvent: {}
+[9.682818] (mapviz_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmapviz_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.716157] (mapviz_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmapviz_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.771368] (-) TimerEvent: {}
+[9.805548] (mapviz_interfaces) StdoutLine: {'line': b'[ 70%] Built target mapviz_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.855319] (mapviz_interfaces) StdoutLine: {'line': b'[ 70%] Built target mapviz_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.871477] (-) TimerEvent: {}
+[9.881928] (mapviz_interfaces) StdoutLine: {'line': b'[ 70%] Built target mapviz_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.911759] (mapviz_interfaces) StdoutLine: {'line': b'[ 70%] Built target mapviz_interfaces\n'}
+[9.940595] (mapviz_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.971609] (-) TimerEvent: {}
+[10.071903] (-) TimerEvent: {}
+[10.172260] (-) TimerEvent: {}
+[10.272717] (-) TimerEvent: {}
+[10.373343] (-) TimerEvent: {}
+[10.474476] (-) TimerEvent: {}
+[10.574818] (-) TimerEvent: {}
+[10.675119] (-) TimerEvent: {}
+[10.775413] (-) TimerEvent: {}
+[10.837616] (mapviz_interfaces) StdoutLine: {'line': b'[ 74%] Built target mapviz_interfaces__py\n'}
+[10.863991] (mapviz_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mapviz_interfaces/srv/_add_mapviz_display_s.c.o\x1b[0m\n'}
+[10.875546] (-) TimerEvent: {}
+[10.975810] (-) TimerEvent: {}
+[11.076111] (-) TimerEvent: {}
+[11.093839] (mapviz_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mapviz_interfaces/libmapviz_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.149286] (mapviz_interfaces) StdoutLine: {'line': b'[ 80%] Built target mapviz_interfaces__rosidl_generator_py\n'}
+[11.177074] (-) TimerEvent: {}
+[11.187962] (mapviz_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.192421] (mapviz_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.194208] (mapviz_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/mapviz_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.280226] (-) TimerEvent: {}
+[11.383157] (-) TimerEvent: {}
+[11.439420] (mapviz_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.440901] (mapviz_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.447433] (mapviz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.483290] (-) TimerEvent: {}
+[11.548780] (mapviz_interfaces) StdoutLine: {'line': b'[100%] Built target mapviz_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.549825] (mapviz_interfaces) StdoutLine: {'line': b'[100%] Built target mapviz_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.557109] (mapviz_interfaces) StdoutLine: {'line': b'[100%] Built target mapviz_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.581304] (mapviz_interfaces) CommandEnded: {'returncode': 0}
+[11.582494] (mapviz_interfaces) JobProgress: {'identifier': 'mapviz_interfaces', 'progress': 'install'}
+[11.583369] (-) TimerEvent: {}
+[11.599229] (mapviz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/felipe/ros2_ws/build/mapviz_interfaces'], 'cwd': '/home/felipe/ros2_ws/build/mapviz_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'felipe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/felipe'), ('OLDPWD', '/home/felipe/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '16905'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/felipe/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'felipe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'felipe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin'), ('SESSION_MANAGER', 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39d79806_569d_42db_a055_94b91c76ac58'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/felipe/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/felipe/ros2_ws/build/mapviz_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SPARK_HOME', '/opt/spark')]), 'shell': False}
+[11.616433] (mapviz_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.616820] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/ament_index/resource_index/rosidl_interfaces/mapviz_interfaces\n'}
+[11.617097] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces\n'}
+[11.617401] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv\n'}
+[11.617668] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/add_mapviz_display.h\n'}
+[11.617942] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail\n'}
+[11.618160] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.h\n'}
+[11.618314] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__struct.h\n'}
+[11.618537] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__functions.h\n'}
+[11.618770] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__functions.c\n'}
+[11.619382] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg\n'}
+[11.619662] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.619995] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/library_path.sh\n'}
+[11.620174] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/library_path.dsv\n'}
+[11.620321] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_generator_c.so\n'}
+[11.620555] (mapviz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_generator_c.so" to ""\n'}
+[11.620766] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces\n'}
+[11.621117] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv\n'}
+[11.621311] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail\n'}
+[11.621487] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__rosidl_typesupport_fastrtps_c.h\n'}
+[11.621652] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg\n'}
+[11.621804] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.622154] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.622352] (mapviz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.622623] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces\n'}
+[11.622802] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv\n'}
+[11.622965] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/add_mapviz_display.hpp\n'}
+[11.623247] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail\n'}
+[11.623414] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__traits.hpp\n'}
+[11.623583] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.hpp\n'}
+[11.623757] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__struct.hpp\n'}
+[11.623929] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__builder.hpp\n'}
+[11.624207] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg\n'}
+[11.624393] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.624552] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces\n'}
+[11.624717] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv\n'}
+[11.625083] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail\n'}
+[11.625273] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.625448] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/dds_fastrtps\n'}
+[11.625684] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg\n'}
+[11.625993] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.626220] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.626358] (mapviz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.626511] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces\n'}
+[11.626690] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv\n'}
+[11.626834] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail\n'}
+[11.626985] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__rosidl_typesupport_introspection_c.h\n'}
+[11.627163] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.c\n'}
+[11.627310] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg\n'}
+[11.627450] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.627633] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.627833] (mapviz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.627925] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_c.so\n'}
+[11.628078] (mapviz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[11.628177] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces\n'}
+[11.628297] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv\n'}
+[11.628414] (mapviz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail\n'}
+[11.628564] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.628705] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/include/mapviz_interfaces/mapviz_interfaces/srv/detail/add_mapviz_display__type_support.cpp\n'}
+[11.628962] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.629200] (mapviz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.629367] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.629599] (mapviz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[11.629826] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/pythonpath.sh\n'}
+[11.630057] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/pythonpath.dsv\n'}
+[11.630274] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces-2.4.4-py3.10.egg-info\n'}
+[11.630511] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces-2.4.4-py3.10.egg-info/top_level.txt\n'}
+[11.630777] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces-2.4.4-py3.10.egg-info/dependency_links.txt\n'}
+[11.631006] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces-2.4.4-py3.10.egg-info/PKG-INFO\n'}
+[11.631259] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces-2.4.4-py3.10.egg-info/SOURCES.txt\n'}
+[11.631493] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces\n'}
+[11.632728] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.634260] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv\n'}
+[11.634516] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv/_add_mapviz_display_s.c\n'}
+[11.635236] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv/_add_mapviz_display.py\n'}
+[11.636326] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv/__init__.py\n'}
+[11.637298] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.637935] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.638895] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[11.639652] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/_mapviz_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.640210] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/libmapviz_interfaces__rosidl_generator_py.so\n'}
+[11.640518] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/__init__.py\n'}
+[11.640686] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.683495] (-) TimerEvent: {}
+[11.724295] (mapviz_interfaces) StdoutLine: {'line': b"Listing '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces'...\n"}
+[11.724514] (mapviz_interfaces) StdoutLine: {'line': b"Compiling '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/__init__.py'...\n"}
+[11.724623] (mapviz_interfaces) StdoutLine: {'line': b"Listing '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv'...\n"}
+[11.724714] (mapviz_interfaces) StdoutLine: {'line': b"Compiling '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv/__init__.py'...\n"}
+[11.724802] (mapviz_interfaces) StdoutLine: {'line': b"Compiling '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/srv/_add_mapviz_display.py'...\n"}
+[11.736513] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.737077] (mapviz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.737451] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.738056] (mapviz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.738416] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.739036] (mapviz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages/mapviz_interfaces/mapviz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.739493] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_generator_py.so\n'}
+[11.739849] (mapviz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz_interfaces/lib/libmapviz_interfaces__rosidl_generator_py.so" to ""\n'}
+[11.740085] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/srv/AddMapvizDisplay.idl\n'}
+[11.740410] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/srv/AddMapvizDisplay.srv\n'}
+[11.740710] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/srv/AddMapvizDisplay_Request.msg\n'}
+[11.741013] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/srv/AddMapvizDisplay_Response.msg\n'}
+[11.741588] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/ament_index/resource_index/package_run_dependencies/mapviz_interfaces\n'}
+[11.741951] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/ament_index/resource_index/parent_prefix_path/mapviz_interfaces\n'}
+[11.742347] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/ament_prefix_path.sh\n'}
+[11.743498] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.744372] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/path.sh\n'}
+[11.745617] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/environment/path.dsv\n'}
+[11.747439] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/local_setup.bash\n'}
+[11.747828] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/local_setup.sh\n'}
+[11.748497] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/local_setup.zsh\n'}
+[11.748870] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/local_setup.dsv\n'}
+[11.750019] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.dsv\n'}
+[11.750388] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/ament_index/resource_index/packages/mapviz_interfaces\n'}
+[11.750563] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.750720] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.751009] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.751240] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.751393] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.751611] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.751867] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.752033] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.752297] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.752594] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.752936] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.754636] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.754888] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.754997] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.755196] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.755349] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_generator_pyExport.cmake\n'}
+[11.755489] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/export_mapviz_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.755639] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.755879] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.756281] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.756465] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.756591] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.756734] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.757000] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.757198] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfacesConfig.cmake\n'}
+[11.757377] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake/mapviz_interfacesConfig-version.cmake\n'}
+[11.757625] (mapviz_interfaces) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/package.xml\n'}
+[11.761907] (mapviz_interfaces) CommandEnded: {'returncode': 0}
+[11.785378] (-) TimerEvent: {}
+[11.797369] (mapviz_interfaces) JobEnded: {'identifier': 'mapviz_interfaces', 'rc': 0}
+[11.799446] (mapviz) JobStarted: {'identifier': 'mapviz'}
+[11.813303] (mapviz) JobProgress: {'identifier': 'mapviz', 'progress': 'cmake'}
+[11.814118] (mapviz) Command: {'cmd': ['/usr/bin/cmake', '/home/felipe/ros2_ws/src/mapviz/mapviz', '-DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/mapviz'], 'cwd': '/home/felipe/ros2_ws/build/mapviz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'felipe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/felipe'), ('OLDPWD', '/home/felipe/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '16905'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/felipe/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'felipe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'felipe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin'), ('SESSION_MANAGER', 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39d79806_569d_42db_a055_94b91c76ac58'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/felipe/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/felipe/ros2_ws/build/mapviz'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SPARK_HOME', '/opt/spark')]), 'shell': False}
+[11.885503] (-) TimerEvent: {}
+[11.933246] (mapviz) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[11.946203] (mapviz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.985615] (-) TimerEvent: {}
+[12.068275] (mapviz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.081689] (mapviz) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.081982] (mapviz) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.082709] (mapviz) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.085740] (-) TimerEvent: {}
+[12.087300] (mapviz) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[12.185847] (-) TimerEvent: {}
+[12.286190] (-) TimerEvent: {}
+[12.386460] (-) TimerEvent: {}
+[12.486765] (-) TimerEvent: {}
+[12.587056] (-) TimerEvent: {}
+[12.588174] (mapviz) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[12.687160] (-) TimerEvent: {}
+[12.696433] (mapviz) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[12.762153] (mapviz) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.768365] (mapviz) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.777989] (mapviz) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.787240] (-) TimerEvent: {}
+[12.791763] (mapviz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.810480] (mapviz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.887381] (-) TimerEvent: {}
+[12.889195] (mapviz) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[12.960715] (mapviz) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[12.965220] (mapviz) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.987482] (-) TimerEvent: {}
+[13.058312] (mapviz) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[13.087621] (-) TimerEvent: {}
+[13.087976] (mapviz) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[13.131576] (mapviz) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.144445] (mapviz) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[13.187763] (-) TimerEvent: {}
+[13.217264] (mapviz) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[13.217506] (mapviz) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.287910] (-) TimerEvent: {}
+[13.289234] (mapviz) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.290214] (mapviz) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.377729] (mapviz) StdoutLine: {'line': b'-- Found mapviz_interfaces: 2.4.4 (/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake)\n'}
+[13.387988] (-) TimerEvent: {}
+[13.411565] (mapviz) StdoutLine: {'line': b'-- Found rqt_gui_cpp: 1.1.7 (/opt/ros/humble/share/rqt_gui_cpp/cmake)\n'}
+[13.456505] (mapviz) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[13.472300] (mapviz) StdoutLine: {'line': b'-- Found swri_math_util: 3.7.3 (/opt/ros/humble/share/swri_math_util/cmake)\n'}
+[13.478822] (mapviz) StdoutLine: {'line': b'-- Found swri_transform_util: 3.7.3 (/opt/ros/humble/share/swri_transform_util/cmake)\n'}
+[13.488070] (-) TimerEvent: {}
+[13.566071] (mapviz) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[13.567598] (mapviz) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[13.567746] (mapviz) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[13.588177] (-) TimerEvent: {}
+[13.682500] (mapviz) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[13.683323] (mapviz) StdoutLine: {'line': b"-- Checking for module 'yaml-cpp'\n"}
+[13.688270] (-) TimerEvent: {}
+[13.694489] (mapviz) StdoutLine: {'line': b'--   Found yaml-cpp, version 0.7.0\n'}
+[13.744664] (mapviz) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time system filesystem \n'}
+[13.748049] (mapviz) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core imgproc imgcodecs videoio \n'}
+[13.763539] (mapviz) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[13.769233] (mapviz) StdoutLine: {'line': b"-- Checking for module 'glut'\n"}
+[13.771634] (mapviz) StdoutLine: {'line': b"--   No package 'glut' found\n"}
+[13.774939] (mapviz) StdoutLine: {'line': b'-- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  \n'}
+[13.788389] (-) TimerEvent: {}
+[13.822426] (mapviz) StdoutLine: {'line': b'-- Found GLEW: /usr/include (found version "2.2.0") \n'}
+[13.888522] (-) TimerEvent: {}
+[13.912709] (mapviz) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.980910] (mapviz) StdoutLine: {'line': b'-- Generating done\n'}
+[13.988756] (mapviz) StdoutLine: {'line': b'-- Build files have been written to: /home/felipe/ros2_ws/build/mapviz\n'}
+[13.988883] (-) TimerEvent: {}
+[14.000641] (mapviz) CommandEnded: {'returncode': 0}
+[14.001798] (mapviz) JobProgress: {'identifier': 'mapviz', 'progress': 'build'}
+[14.001838] (mapviz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/felipe/ros2_ws/build/mapviz', '--', '-j8', '-l8'], 'cwd': '/home/felipe/ros2_ws/build/mapviz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'felipe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/felipe'), ('OLDPWD', '/home/felipe/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '16905'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/felipe/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'felipe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'felipe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin'), ('SESSION_MANAGER', 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39d79806_569d_42db_a055_94b91c76ac58'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/felipe/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/felipe/ros2_ws/build/mapviz'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SPARK_HOME', '/opt/spark')]), 'shell': False}
+[14.039458] (mapviz) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating include/mapviz/moc_mapviz.cpp\x1b[0m\n'}
+[14.039713] (mapviz) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating include/mapviz/moc_config_item.cpp\x1b[0m\n'}
+[14.039835] (mapviz) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating include/mapviz/moc_mapviz_plugin.cpp\x1b[0m\n'}
+[14.039922] (mapviz) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating include/mapviz/moc_select_frame_dialog.cpp\x1b[0m\n'}
+[14.040588] (mapviz) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating ui_pluginselect.h\x1b[0m\n'}
+[14.040836] (mapviz) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating include/mapviz/moc_rqt_mapviz.cpp\x1b[0m\n'}
+[14.040945] (mapviz) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating include/mapviz/moc_map_canvas.cpp\x1b[0m\n'}
+[14.041596] (mapviz) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating include/mapviz/moc_color_button.cpp\x1b[0m\n'}
+[14.089008] (-) TimerEvent: {}
+[14.092891] (mapviz) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating include/mapviz/moc_select_service_dialog.cpp\x1b[0m\n'}
+[14.103366] (mapviz) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating include/mapviz/moc_widgets.cpp\x1b[0m\n'}
+[14.103600] (mapviz) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating ui_mapviz.h\x1b[0m\n'}
+[14.103706] (mapviz) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating ui_configitem.h\x1b[0m\n'}
+[14.104904] (mapviz) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating include/mapviz/moc_video_writer.cpp\x1b[0m\n'}
+[14.105388] (mapviz) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating qrc_icons.cpp\x1b[0m\n'}
+[14.157952] (mapviz) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_mapviz_plugin.cpp.o\x1b[0m\n'}
+[14.158271] (mapviz) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_color_button.cpp.o\x1b[0m\n'}
+[14.158395] (mapviz) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_config_item.cpp.o\x1b[0m\n'}
+[14.158488] (mapviz) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_map_canvas.cpp.o\x1b[0m\n'}
+[14.158595] (mapviz) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_mapviz.cpp.o\x1b[0m\n'}
+[14.158688] (mapviz) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_rqt_mapviz.cpp.o\x1b[0m\n'}
+[14.158772] (mapviz) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_select_frame_dialog.cpp.o\x1b[0m\n'}
+[14.165211] (mapviz) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_select_service_dialog.cpp.o\x1b[0m\n'}
+[14.189110] (-) TimerEvent: {}
+[14.289450] (-) TimerEvent: {}
+[14.389817] (-) TimerEvent: {}
+[14.493087] (-) TimerEvent: {}
+[14.593565] (-) TimerEvent: {}
+[14.693960] (-) TimerEvent: {}
+[14.798270] (-) TimerEvent: {}
+[14.898785] (-) TimerEvent: {}
+[14.999191] (-) TimerEvent: {}
+[15.099614] (-) TimerEvent: {}
+[15.200095] (-) TimerEvent: {}
+[15.300540] (-) TimerEvent: {}
+[15.401680] (-) TimerEvent: {}
+[15.502290] (-) TimerEvent: {}
+[15.606305] (-) TimerEvent: {}
+[15.706720] (-) TimerEvent: {}
+[15.807125] (-) TimerEvent: {}
+[15.907535] (-) TimerEvent: {}
+[16.007960] (-) TimerEvent: {}
+[16.108389] (-) TimerEvent: {}
+[16.211134] (-) TimerEvent: {}
+[16.311577] (-) TimerEvent: {}
+[16.412018] (-) TimerEvent: {}
+[16.512433] (-) TimerEvent: {}
+[16.612863] (-) TimerEvent: {}
+[16.713340] (-) TimerEvent: {}
+[16.748033] (mapviz) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_video_writer.cpp.o\x1b[0m\n'}
+[16.813462] (-) TimerEvent: {}
+[16.913872] (-) TimerEvent: {}
+[17.015255] (-) TimerEvent: {}
+[17.115853] (-) TimerEvent: {}
+[17.218119] (-) TimerEvent: {}
+[17.318540] (-) TimerEvent: {}
+[17.418960] (-) TimerEvent: {}
+[17.519370] (-) TimerEvent: {}
+[17.611614] (mapviz) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_widgets.cpp.o\x1b[0m\n'}
+[17.619497] (-) TimerEvent: {}
+[17.720548] (-) TimerEvent: {}
+[17.820972] (-) TimerEvent: {}
+[17.924287] (-) TimerEvent: {}
+[18.024694] (-) TimerEvent: {}
+[18.125114] (-) TimerEvent: {}
+[18.225520] (-) TimerEvent: {}
+[18.325938] (-) TimerEvent: {}
+[18.426355] (-) TimerEvent: {}
+[18.526758] (-) TimerEvent: {}
+[18.629124] (-) TimerEvent: {}
+[18.729526] (-) TimerEvent: {}
+[18.829938] (-) TimerEvent: {}
+[18.933375] (-) TimerEvent: {}
+[19.033822] (-) TimerEvent: {}
+[19.134294] (-) TimerEvent: {}
+[19.234734] (-) TimerEvent: {}
+[19.342236] (-) TimerEvent: {}
+[19.444120] (-) TimerEvent: {}
+[19.544538] (-) TimerEvent: {}
+[19.654214] (-) TimerEvent: {}
+[19.754650] (-) TimerEvent: {}
+[19.855063] (-) TimerEvent: {}
+[19.955467] (-) TimerEvent: {}
+[20.059124] (-) TimerEvent: {}
+[20.159546] (-) TimerEvent: {}
+[20.259971] (-) TimerEvent: {}
+[20.324682] (mapviz) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/mapviz.cpp.o\x1b[0m\n'}
+[20.360106] (-) TimerEvent: {}
+[20.460511] (-) TimerEvent: {}
+[20.560928] (-) TimerEvent: {}
+[20.661357] (-) TimerEvent: {}
+[20.761753] (-) TimerEvent: {}
+[20.863234] (-) TimerEvent: {}
+[20.963648] (-) TimerEvent: {}
+[21.079836] (-) TimerEvent: {}
+[21.138007] (mapviz) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/color_button.cpp.o\x1b[0m\n'}
+[21.179960] (-) TimerEvent: {}
+[21.281129] (-) TimerEvent: {}
+[21.381560] (-) TimerEvent: {}
+[21.483122] (-) TimerEvent: {}
+[21.583698] (-) TimerEvent: {}
+[21.684133] (-) TimerEvent: {}
+[21.786420] (-) TimerEvent: {}
+[21.886862] (-) TimerEvent: {}
+[21.987311] (-) TimerEvent: {}
+[22.087754] (-) TimerEvent: {}
+[22.189064] (-) TimerEvent: {}
+[22.289477] (-) TimerEvent: {}
+[22.391289] (-) TimerEvent: {}
+[22.491700] (-) TimerEvent: {}
+[22.592112] (-) TimerEvent: {}
+[22.692521] (-) TimerEvent: {}
+[22.797126] (-) TimerEvent: {}
+[22.897564] (-) TimerEvent: {}
+[22.997988] (-) TimerEvent: {}
+[23.102123] (mapviz) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/config_item.cpp.o\x1b[0m\n'}
+[23.102496] (-) TimerEvent: {}
+[23.105563] (mapviz) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/mapviz_application.cpp.o\x1b[0m\n'}
+[23.202628] (-) TimerEvent: {}
+[23.303029] (-) TimerEvent: {}
+[23.403448] (-) TimerEvent: {}
+[23.503869] (-) TimerEvent: {}
+[23.604300] (-) TimerEvent: {}
+[23.704705] (-) TimerEvent: {}
+[23.805127] (-) TimerEvent: {}
+[23.897145] (mapviz) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/map_canvas.cpp.o\x1b[0m\n'}
+[23.905259] (-) TimerEvent: {}
+[24.005675] (-) TimerEvent: {}
+[24.106093] (-) TimerEvent: {}
+[24.206520] (-) TimerEvent: {}
+[24.307108] (-) TimerEvent: {}
+[24.407531] (-) TimerEvent: {}
+[24.510360] (-) TimerEvent: {}
+[24.610793] (-) TimerEvent: {}
+[24.711239] (-) TimerEvent: {}
+[24.811671] (-) TimerEvent: {}
+[24.912124] (-) TimerEvent: {}
+[25.012700] (-) TimerEvent: {}
+[25.115330] (-) TimerEvent: {}
+[25.215765] (-) TimerEvent: {}
+[25.316203] (-) TimerEvent: {}
+[25.416634] (-) TimerEvent: {}
+[25.517071] (-) TimerEvent: {}
+[25.620341] (-) TimerEvent: {}
+[25.720755] (-) TimerEvent: {}
+[25.821194] (-) TimerEvent: {}
+[25.921606] (-) TimerEvent: {}
+[26.025135] (-) TimerEvent: {}
+[26.125555] (-) TimerEvent: {}
+[26.225973] (-) TimerEvent: {}
+[26.326428] (-) TimerEvent: {}
+[26.372242] (mapviz) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/rqt_mapviz.cpp.o\x1b[0m\n'}
+[26.426564] (-) TimerEvent: {}
+[26.527134] (-) TimerEvent: {}
+[26.627718] (-) TimerEvent: {}
+[26.639490] (mapviz) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/select_frame_dialog.cpp.o\x1b[0m\n'}
+[26.727848] (-) TimerEvent: {}
+[26.828317] (-) TimerEvent: {}
+[26.860516] (mapviz) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/select_service_dialog.cpp.o\x1b[0m\n'}
+[26.928452] (-) TimerEvent: {}
+[27.028886] (-) TimerEvent: {}
+[27.129347] (-) TimerEvent: {}
+[27.231306] (-) TimerEvent: {}
+[27.331711] (-) TimerEvent: {}
+[27.432140] (-) TimerEvent: {}
+[27.532555] (-) TimerEvent: {}
+[27.635131] (-) TimerEvent: {}
+[27.735534] (-) TimerEvent: {}
+[27.835933] (-) TimerEvent: {}
+[27.936371] (-) TimerEvent: {}
+[28.036801] (-) TimerEvent: {}
+[28.137224] (-) TimerEvent: {}
+[28.241124] (-) TimerEvent: {}
+[28.341546] (-) TimerEvent: {}
+[28.441968] (-) TimerEvent: {}
+[28.542396] (-) TimerEvent: {}
+[28.642814] (-) TimerEvent: {}
+[28.743265] (-) TimerEvent: {}
+[28.843704] (-) TimerEvent: {}
+[28.944142] (-) TimerEvent: {}
+[29.044551] (-) TimerEvent: {}
+[29.147130] (-) TimerEvent: {}
+[29.247559] (-) TimerEvent: {}
+[29.347984] (-) TimerEvent: {}
+[29.448414] (-) TimerEvent: {}
+[29.548851] (-) TimerEvent: {}
+[29.649295] (-) TimerEvent: {}
+[29.751130] (-) TimerEvent: {}
+[29.851619] (-) TimerEvent: {}
+[29.952077] (-) TimerEvent: {}
+[30.052401] (-) TimerEvent: {}
+[30.155555] (-) TimerEvent: {}
+[30.255958] (-) TimerEvent: {}
+[30.356384] (-) TimerEvent: {}
+[30.456811] (-) TimerEvent: {}
+[30.557263] (-) TimerEvent: {}
+[30.657675] (-) TimerEvent: {}
+[30.758111] (-) TimerEvent: {}
+[30.859138] (-) TimerEvent: {}
+[30.961133] (-) TimerEvent: {}
+[31.061567] (-) TimerEvent: {}
+[31.161991] (-) TimerEvent: {}
+[31.262447] (-) TimerEvent: {}
+[31.362876] (-) TimerEvent: {}
+[31.466322] (-) TimerEvent: {}
+[31.566752] (-) TimerEvent: {}
+[31.667208] (-) TimerEvent: {}
+[31.719009] (mapviz) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/video_writer.cpp.o\x1b[0m\n'}
+[31.767339] (-) TimerEvent: {}
+[31.867743] (-) TimerEvent: {}
+[31.968142] (-) TimerEvent: {}
+[32.070316] (-) TimerEvent: {}
+[32.170752] (-) TimerEvent: {}
+[32.271212] (-) TimerEvent: {}
+[32.371634] (-) TimerEvent: {}
+[32.474120] (-) TimerEvent: {}
+[32.574541] (-) TimerEvent: {}
+[32.674972] (-) TimerEvent: {}
+[32.775410] (-) TimerEvent: {}
+[32.875832] (-) TimerEvent: {}
+[32.976269] (-) TimerEvent: {}
+[33.080126] (-) TimerEvent: {}
+[33.180542] (-) TimerEvent: {}
+[33.280955] (-) TimerEvent: {}
+[33.381403] (-) TimerEvent: {}
+[33.481850] (-) TimerEvent: {}
+[33.574997] (mapviz) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/qrc_icons.cpp.o\x1b[0m\n'}
+[33.581980] (-) TimerEvent: {}
+[33.682403] (-) TimerEvent: {}
+[33.782815] (-) TimerEvent: {}
+[33.883242] (-) TimerEvent: {}
+[33.983654] (-) TimerEvent: {}
+[34.084078] (-) TimerEvent: {}
+[34.184476] (-) TimerEvent: {}
+[34.284871] (-) TimerEvent: {}
+[34.385276] (-) TimerEvent: {}
+[34.485670] (-) TimerEvent: {}
+[34.586078] (-) TimerEvent: {}
+[34.686487] (-) TimerEvent: {}
+[34.786894] (-) TimerEvent: {}
+[34.887388] (-) TimerEvent: {}
+[34.987773] (-) TimerEvent: {}
+[35.089127] (-) TimerEvent: {}
+[35.189555] (-) TimerEvent: {}
+[35.289955] (-) TimerEvent: {}
+[35.390345] (-) TimerEvent: {}
+[35.490739] (-) TimerEvent: {}
+[35.591134] (-) TimerEvent: {}
+[35.691536] (-) TimerEvent: {}
+[35.791932] (-) TimerEvent: {}
+[35.892351] (-) TimerEvent: {}
+[35.992758] (-) TimerEvent: {}
+[36.093139] (-) TimerEvent: {}
+[36.193540] (-) TimerEvent: {}
+[36.293940] (-) TimerEvent: {}
+[36.394343] (-) TimerEvent: {}
+[36.494740] (-) TimerEvent: {}
+[36.595141] (-) TimerEvent: {}
+[36.695545] (-) TimerEvent: {}
+[36.795919] (-) TimerEvent: {}
+[36.896315] (-) TimerEvent: {}
+[36.996706] (-) TimerEvent: {}
+[37.097099] (-) TimerEvent: {}
+[37.197451] (-) TimerEvent: {}
+[37.297805] (-) TimerEvent: {}
+[37.398154] (-) TimerEvent: {}
+[37.498516] (-) TimerEvent: {}
+[37.598858] (-) TimerEvent: {}
+[37.699205] (-) TimerEvent: {}
+[37.799549] (-) TimerEvent: {}
+[37.899908] (-) TimerEvent: {}
+[38.000289] (-) TimerEvent: {}
+[38.100652] (-) TimerEvent: {}
+[38.201019] (-) TimerEvent: {}
+[38.301395] (-) TimerEvent: {}
+[38.401750] (-) TimerEvent: {}
+[38.502116] (-) TimerEvent: {}
+[38.602460] (-) TimerEvent: {}
+[38.702800] (-) TimerEvent: {}
+[38.803125] (-) TimerEvent: {}
+[38.903499] (-) TimerEvent: {}
+[39.003854] (-) TimerEvent: {}
+[39.104208] (-) TimerEvent: {}
+[39.204570] (-) TimerEvent: {}
+[39.304927] (-) TimerEvent: {}
+[39.405294] (-) TimerEvent: {}
+[39.505635] (-) TimerEvent: {}
+[39.605986] (-) TimerEvent: {}
+[39.706337] (-) TimerEvent: {}
+[39.806663] (-) TimerEvent: {}
+[39.907003] (-) TimerEvent: {}
+[40.007341] (-) TimerEvent: {}
+[40.107663] (-) TimerEvent: {}
+[40.207983] (-) TimerEvent: {}
+[40.308319] (-) TimerEvent: {}
+[40.408661] (-) TimerEvent: {}
+[40.508966] (-) TimerEvent: {}
+[40.609248] (-) TimerEvent: {}
+[40.709569] (-) TimerEvent: {}
+[40.809857] (-) TimerEvent: {}
+[40.910146] (-) TimerEvent: {}
+[41.010454] (-) TimerEvent: {}
+[41.110765] (-) TimerEvent: {}
+[41.211073] (-) TimerEvent: {}
+[41.311379] (-) TimerEvent: {}
+[41.411677] (-) TimerEvent: {}
+[41.511974] (-) TimerEvent: {}
+[41.612274] (-) TimerEvent: {}
+[41.712591] (-) TimerEvent: {}
+[41.812863] (-) TimerEvent: {}
+[41.913181] (-) TimerEvent: {}
+[42.013500] (-) TimerEvent: {}
+[42.113824] (-) TimerEvent: {}
+[42.214172] (-) TimerEvent: {}
+[42.314492] (-) TimerEvent: {}
+[42.414827] (-) TimerEvent: {}
+[42.515195] (-) TimerEvent: {}
+[42.615497] (-) TimerEvent: {}
+[42.715790] (-) TimerEvent: {}
+[42.816165] (-) TimerEvent: {}
+[42.916508] (-) TimerEvent: {}
+[43.016786] (-) TimerEvent: {}
+[43.117130] (-) TimerEvent: {}
+[43.217433] (-) TimerEvent: {}
+[43.317745] (-) TimerEvent: {}
+[43.418107] (-) TimerEvent: {}
+[43.518419] (-) TimerEvent: {}
+[43.618734] (-) TimerEvent: {}
+[43.719069] (-) TimerEvent: {}
+[43.819372] (-) TimerEvent: {}
+[43.919680] (-) TimerEvent: {}
+[44.019994] (-) TimerEvent: {}
+[44.120313] (-) TimerEvent: {}
+[44.220623] (-) TimerEvent: {}
+[44.320937] (-) TimerEvent: {}
+[44.421242] (-) TimerEvent: {}
+[44.521558] (-) TimerEvent: {}
+[44.621872] (-) TimerEvent: {}
+[44.722190] (-) TimerEvent: {}
+[44.822503] (-) TimerEvent: {}
+[44.922814] (-) TimerEvent: {}
+[45.023116] (-) TimerEvent: {}
+[45.123418] (-) TimerEvent: {}
+[45.223736] (-) TimerEvent: {}
+[45.324076] (-) TimerEvent: {}
+[45.424393] (-) TimerEvent: {}
+[45.524704] (-) TimerEvent: {}
+[45.625023] (-) TimerEvent: {}
+[45.725384] (-) TimerEvent: {}
+[45.825650] (-) TimerEvent: {}
+[45.925998] (-) TimerEvent: {}
+[46.026300] (-) TimerEvent: {}
+[46.126598] (-) TimerEvent: {}
+[46.226919] (-) TimerEvent: {}
+[46.327244] (-) TimerEvent: {}
+[46.427556] (-) TimerEvent: {}
+[46.527871] (-) TimerEvent: {}
+[46.628185] (-) TimerEvent: {}
+[46.728437] (-) TimerEvent: {}
+[46.828730] (-) TimerEvent: {}
+[46.929045] (-) TimerEvent: {}
+[47.029293] (-) TimerEvent: {}
+[47.129577] (-) TimerEvent: {}
+[47.229829] (-) TimerEvent: {}
+[47.330161] (-) TimerEvent: {}
+[47.430453] (-) TimerEvent: {}
+[47.530743] (-) TimerEvent: {}
+[47.631028] (-) TimerEvent: {}
+[47.731377] (-) TimerEvent: {}
+[47.831669] (-) TimerEvent: {}
+[47.931969] (-) TimerEvent: {}
+[48.032316] (-) TimerEvent: {}
+[48.132621] (-) TimerEvent: {}
+[48.232927] (-) TimerEvent: {}
+[48.333248] (-) TimerEvent: {}
+[48.433552] (-) TimerEvent: {}
+[48.533869] (-) TimerEvent: {}
+[48.634200] (-) TimerEvent: {}
+[48.734526] (-) TimerEvent: {}
+[48.834849] (-) TimerEvent: {}
+[48.935158] (-) TimerEvent: {}
+[49.035455] (-) TimerEvent: {}
+[49.135774] (-) TimerEvent: {}
+[49.236114] (-) TimerEvent: {}
+[49.279475] (mapviz) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX static library librqt_mapviz.a\x1b[0m\n'}
+[49.336253] (-) TimerEvent: {}
+[49.436565] (-) TimerEvent: {}
+[49.470801] (mapviz) StdoutLine: {'line': b'[ 94%] Built target rqt_mapviz\n'}
+[49.490679] (mapviz) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/mapviz.dir/src/mapviz_main.cpp.o\x1b[0m\n'}
+[49.536725] (-) TimerEvent: {}
+[49.637087] (-) TimerEvent: {}
+[49.737391] (-) TimerEvent: {}
+[49.837721] (-) TimerEvent: {}
+[49.938044] (-) TimerEvent: {}
+[50.038294] (-) TimerEvent: {}
+[50.138610] (-) TimerEvent: {}
+[50.238928] (-) TimerEvent: {}
+[50.339209] (-) TimerEvent: {}
+[50.439529] (-) TimerEvent: {}
+[50.539854] (-) TimerEvent: {}
+[50.640138] (-) TimerEvent: {}
+[50.740455] (-) TimerEvent: {}
+[50.840778] (-) TimerEvent: {}
+[50.941081] (-) TimerEvent: {}
+[51.041384] (-) TimerEvent: {}
+[51.141682] (-) TimerEvent: {}
+[51.241982] (-) TimerEvent: {}
+[51.342256] (-) TimerEvent: {}
+[51.442558] (-) TimerEvent: {}
+[51.542856] (-) TimerEvent: {}
+[51.643134] (-) TimerEvent: {}
+[51.743422] (-) TimerEvent: {}
+[51.843717] (-) TimerEvent: {}
+[51.944012] (-) TimerEvent: {}
+[52.044280] (-) TimerEvent: {}
+[52.144561] (-) TimerEvent: {}
+[52.244856] (-) TimerEvent: {}
+[52.345132] (-) TimerEvent: {}
+[52.445418] (-) TimerEvent: {}
+[52.545688] (-) TimerEvent: {}
+[52.645961] (-) TimerEvent: {}
+[52.746238] (-) TimerEvent: {}
+[52.846562] (-) TimerEvent: {}
+[52.946864] (-) TimerEvent: {}
+[53.047139] (-) TimerEvent: {}
+[53.147431] (-) TimerEvent: {}
+[53.247721] (-) TimerEvent: {}
+[53.348033] (-) TimerEvent: {}
+[53.448281] (-) TimerEvent: {}
+[53.548574] (-) TimerEvent: {}
+[53.648873] (-) TimerEvent: {}
+[53.749132] (-) TimerEvent: {}
+[53.849425] (-) TimerEvent: {}
+[53.949731] (-) TimerEvent: {}
+[54.050031] (-) TimerEvent: {}
+[54.150365] (-) TimerEvent: {}
+[54.250683] (-) TimerEvent: {}
+[54.350998] (-) TimerEvent: {}
+[54.451342] (-) TimerEvent: {}
+[54.551661] (-) TimerEvent: {}
+[54.651987] (-) TimerEvent: {}
+[54.752295] (-) TimerEvent: {}
+[54.852577] (-) TimerEvent: {}
+[54.952913] (-) TimerEvent: {}
+[55.053171] (-) TimerEvent: {}
+[55.153486] (-) TimerEvent: {}
+[55.253797] (-) TimerEvent: {}
+[55.354096] (-) TimerEvent: {}
+[55.454359] (-) TimerEvent: {}
+[55.554653] (-) TimerEvent: {}
+[55.654955] (-) TimerEvent: {}
+[55.755205] (-) TimerEvent: {}
+[55.855447] (-) TimerEvent: {}
+[55.955716] (-) TimerEvent: {}
+[56.056047] (-) TimerEvent: {}
+[56.156331] (-) TimerEvent: {}
+[56.256645] (-) TimerEvent: {}
+[56.356973] (-) TimerEvent: {}
+[56.457253] (-) TimerEvent: {}
+[56.557572] (-) TimerEvent: {}
+[56.657865] (-) TimerEvent: {}
+[56.758136] (-) TimerEvent: {}
+[56.858420] (-) TimerEvent: {}
+[56.958730] (-) TimerEvent: {}
+[57.059044] (-) TimerEvent: {}
+[57.159333] (-) TimerEvent: {}
+[57.259634] (-) TimerEvent: {}
+[57.315257] (mapviz) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mapviz\x1b[0m\n'}
+[57.359764] (-) TimerEvent: {}
+[57.460120] (-) TimerEvent: {}
+[57.560462] (-) TimerEvent: {}
+[57.660741] (-) TimerEvent: {}
+[57.761074] (-) TimerEvent: {}
+[57.861380] (-) TimerEvent: {}
+[57.961691] (-) TimerEvent: {}
+[58.061994] (-) TimerEvent: {}
+[58.162302] (-) TimerEvent: {}
+[58.262644] (-) TimerEvent: {}
+[58.362943] (-) TimerEvent: {}
+[58.463293] (-) TimerEvent: {}
+[58.563988] (-) TimerEvent: {}
+[58.664320] (-) TimerEvent: {}
+[58.764673] (-) TimerEvent: {}
+[58.865004] (-) TimerEvent: {}
+[58.965332] (-) TimerEvent: {}
+[59.065648] (-) TimerEvent: {}
+[59.165973] (-) TimerEvent: {}
+[59.266292] (-) TimerEvent: {}
+[59.366615] (-) TimerEvent: {}
+[59.466923] (-) TimerEvent: {}
+[59.567223] (-) TimerEvent: {}
+[59.667482] (-) TimerEvent: {}
+[59.767795] (-) TimerEvent: {}
+[59.868165] (-) TimerEvent: {}
+[59.968474] (-) TimerEvent: {}
+[60.068770] (-) TimerEvent: {}
+[60.169091] (-) TimerEvent: {}
+[60.269428] (-) TimerEvent: {}
+[60.369742] (-) TimerEvent: {}
+[60.470072] (-) TimerEvent: {}
+[60.509113] (mapviz) StdoutLine: {'line': b'[100%] Built target mapviz\n'}
+[60.518921] (mapviz) CommandEnded: {'returncode': 0}
+[60.519823] (mapviz) JobProgress: {'identifier': 'mapviz', 'progress': 'install'}
+[60.520820] (mapviz) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/felipe/ros2_ws/build/mapviz'], 'cwd': '/home/felipe/ros2_ws/build/mapviz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'felipe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/felipe'), ('OLDPWD', '/home/felipe/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '16905'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/felipe/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'felipe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'felipe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin'), ('SESSION_MANAGER', 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39d79806_569d_42db_a055_94b91c76ac58'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/felipe/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/felipe/ros2_ws/build/mapviz'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SPARK_HOME', '/opt/spark')]), 'shell': False}
+[60.527558] (mapviz) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[60.527915] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz\n'}
+[60.528005] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/widgets.h\n'}
+[60.528182] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/mapviz_application.h\n'}
+[60.528280] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/stopwatch.h\n'}
+[60.528385] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/select_service_dialog.h\n'}
+[60.528460] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/config_item.h\n'}
+[60.528537] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/map_canvas.h\n'}
+[60.528626] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/select_frame_dialog.h\n'}
+[60.528690] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/rqt_mapviz.h\n'}
+[60.528761] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/video_writer.h\n'}
+[60.528828] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/mapviz_plugin.h\n'}
+[60.528879] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/color_button.h\n'}
+[60.528948] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/lib/mapviz/mapviz\n'}
+[60.532881] (mapviz) StdoutLine: {'line': b'-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz/lib/mapviz/mapviz" to ""\n'}
+[60.533018] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/lib/librqt_mapviz.a\n'}
+[60.543392] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/launch\n'}
+[60.543527] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/launch/mapviz.launch.py\n'}
+[60.543779] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/launch/mapviz.launch.xml\n'}
+[60.543946] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/plugin.xml\n'}
+[60.544377] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/library_path.sh\n'}
+[60.544640] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/library_path.dsv\n'}
+[60.544893] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/ament_index/resource_index/package_run_dependencies/mapviz\n'}
+[60.545002] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/ament_index/resource_index/parent_prefix_path/mapviz\n'}
+[60.545096] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/ament_prefix_path.sh\n'}
+[60.545187] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/ament_prefix_path.dsv\n'}
+[60.545338] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/path.sh\n'}
+[60.545490] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/path.dsv\n'}
+[60.545586] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/local_setup.bash\n'}
+[60.545668] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/local_setup.sh\n'}
+[60.545968] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/local_setup.zsh\n'}
+[60.546274] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/local_setup.dsv\n'}
+[60.546537] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/package.dsv\n'}
+[60.546719] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/ament_index/resource_index/packages/mapviz\n'}
+[60.546826] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[60.546906] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[60.546988] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[60.547368] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake/mapvizConfig.cmake\n'}
+[60.547587] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake/mapvizConfig-version.cmake\n'}
+[60.547729] (mapviz) StdoutLine: {'line': b'-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/package.xml\n'}
+[60.549782] (mapviz) CommandEnded: {'returncode': 0}
+[60.568267] (mapviz) JobEnded: {'identifier': 'mapviz', 'rc': 0}
+[60.568967] (mapviz_plugins) JobStarted: {'identifier': 'mapviz_plugins'}
+[60.570184] (-) TimerEvent: {}
+[60.581731] (multires_image) JobStarted: {'identifier': 'multires_image'}
+[60.586849] (tile_map) JobStarted: {'identifier': 'tile_map'}
+[60.591828] (mapviz_plugins) JobProgress: {'identifier': 'mapviz_plugins', 'progress': 'cmake'}
+[60.592629] (mapviz_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/felipe/ros2_ws/src/mapviz/mapviz_plugins', '-DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/mapviz_plugins'], 'cwd': '/home/felipe/ros2_ws/build/mapviz_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'felipe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/felipe'), ('OLDPWD', '/home/felipe/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '16905'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/felipe/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'felipe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'felipe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin'), ('SESSION_MANAGER', 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39d79806_569d_42db_a055_94b91c76ac58'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/felipe/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/felipe/ros2_ws/build/mapviz_plugins'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SPARK_HOME', '/opt/spark')]), 'shell': False}
+[60.593968] (multires_image) JobProgress: {'identifier': 'multires_image', 'progress': 'cmake'}
+[60.594315] (multires_image) Command: {'cmd': ['/usr/bin/cmake', '/home/felipe/ros2_ws/src/mapviz/multires_image', '-DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/multires_image'], 'cwd': '/home/felipe/ros2_ws/build/multires_image', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'felipe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/felipe'), ('OLDPWD', '/home/felipe/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '16905'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/felipe/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'felipe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'felipe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin'), ('SESSION_MANAGER', 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39d79806_569d_42db_a055_94b91c76ac58'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/felipe/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/felipe/ros2_ws/build/multires_image'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SPARK_HOME', '/opt/spark')]), 'shell': False}
+[60.597210] (tile_map) JobProgress: {'identifier': 'tile_map', 'progress': 'cmake'}
+[60.597790] (tile_map) Command: {'cmd': ['/usr/bin/cmake', '/home/felipe/ros2_ws/src/mapviz/tile_map', '-DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/tile_map'], 'cwd': '/home/felipe/ros2_ws/build/tile_map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'felipe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/felipe'), ('OLDPWD', '/home/felipe/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '16905'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/felipe/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'felipe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'felipe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin'), ('SESSION_MANAGER', 'local/my-pc:@/tmp/.ICE-unix/2865,unix/my-pc:/tmp/.ICE-unix/2865'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39d79806_569d_42db_a055_94b91c76ac58'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/felipe/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UQ7UZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/felipe/ros2_ws/build/tile_map'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/vacuum_robot/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install'), ('SPARK_HOME', '/opt/spark')]), 'shell': False}
+[60.656769] (multires_image) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[60.657005] (mapviz_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[60.659350] (tile_map) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[60.664159] (mapviz_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[60.664289] (multires_image) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[60.665541] (tile_map) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[60.670283] (-) TimerEvent: {}
+[60.738047] (tile_map) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[60.738351] (multires_image) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[60.738552] (mapviz_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[60.745889] (tile_map) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[60.746184] (tile_map) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[60.746816] (tile_map) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[60.750866] (tile_map) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[60.753074] (mapviz_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[60.753219] (multires_image) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[60.753434] (mapviz_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[60.753578] (multires_image) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[60.754129] (multires_image) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[60.754340] (mapviz_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[60.758987] (mapviz_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[60.759157] (multires_image) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[60.770404] (-) TimerEvent: {}
+[60.870656] (-) TimerEvent: {}
+[60.970983] (-) TimerEvent: {}
+[61.071263] (-) TimerEvent: {}
+[61.171587] (-) TimerEvent: {}
+[61.254547] (multires_image) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[61.254807] (tile_map) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[61.254972] (mapviz_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[61.271720] (-) TimerEvent: {}
+[61.372008] (-) TimerEvent: {}
+[61.402842] (tile_map) StdoutLine: {'line': b'-- Found mapviz: 2.4.4 (/home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake)\n'}
+[61.403472] (mapviz_plugins) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[61.406938] (multires_image) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[61.407116] (mapviz_plugins) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[61.472165] (-) TimerEvent: {}
+[61.481118] (tile_map) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[61.482675] (mapviz_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[61.491399] (mapviz_plugins) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[61.505526] (mapviz_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[61.505806] (multires_image) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[61.518661] (multires_image) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[61.526506] (mapviz_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[61.537713] (multires_image) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[61.551459] (mapviz_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[61.564412] (multires_image) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[61.568149] (tile_map) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[61.572250] (-) TimerEvent: {}
+[61.587300] (multires_image) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[61.613870] (tile_map) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[61.621727] (tile_map) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[61.633728] (tile_map) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[61.650771] (tile_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[61.665275] (mapviz_plugins) StdoutLine: {'line': b'-- Found gps_msgs: 2.0.4 (/opt/ros/humble/share/gps_msgs/cmake)\n'}
+[61.668720] (tile_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[61.672357] (-) TimerEvent: {}
+[61.695030] (mapviz_plugins) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[61.701159] (multires_image) StdoutLine: {'line': b'-- Found gps_msgs: 2.0.4 (/opt/ros/humble/share/gps_msgs/cmake)\n'}
+[61.717306] (multires_image) StdoutLine: {'line': b'-- Found mapviz: 2.4.4 (/home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake)\n'}
+[61.740860] (tile_map) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[61.742961] (multires_image) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[61.746311] (tile_map) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[61.757794] (mapviz_plugins) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[61.762231] (mapviz_plugins) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[61.772466] (-) TimerEvent: {}
+[61.784308] (multires_image) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[61.788432] (tile_map) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[61.839302] (multires_image) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[61.844008] (multires_image) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[61.846575] (tile_map) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[61.851150] (tile_map) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[61.872639] (-) TimerEvent: {}
+[61.876560] (tile_map) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[61.877566] (mapviz_plugins) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[61.882284] (multires_image) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[61.883509] (tile_map) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[61.896549] (tile_map) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[61.910146] (tile_map) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[61.923045] (mapviz_plugins) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[61.928107] (tile_map) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[61.942154] (multires_image) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[61.945649] (multires_image) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[61.966024] (multires_image) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[61.970323] (multires_image) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[61.972743] (-) TimerEvent: {}
+[61.980903] (mapviz_plugins) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[61.983192] (multires_image) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[61.994825] (mapviz_plugins) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[61.997447] (multires_image) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[62.011224] (multires_image) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[62.030154] (tile_map) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[62.030376] (tile_map) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[62.072857] (-) TimerEvent: {}
+[62.092852] (mapviz_plugins) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[62.093243] (mapviz_plugins) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[62.113915] (multires_image) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[62.114248] (multires_image) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[62.130627] (tile_map) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[62.131992] (tile_map) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[62.173017] (-) TimerEvent: {}
+[62.199785] (mapviz_plugins) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[62.201145] (mapviz_plugins) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[62.222328] (multires_image) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[62.223940] (multires_image) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[62.224104] (tile_map) StdoutLine: {'line': b'-- Found swri_math_util: 3.7.3 (/opt/ros/humble/share/swri_math_util/cmake)\n'}
+[62.233938] (tile_map) StdoutLine: {'line': b'-- Found swri_transform_util: 3.7.3 (/opt/ros/humble/share/swri_transform_util/cmake)\n'}
+[62.273133] (-) TimerEvent: {}
+[62.281946] (multires_image) StdoutLine: {'line': b'-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)\n'}
+[62.289733] (multires_image) StdoutLine: {'line': b'-- Found swri_transform_util: 3.7.3 (/opt/ros/humble/share/swri_transform_util/cmake)\n'}
+[62.319855] (mapviz_plugins) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[62.364645] (tile_map) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[62.364873] (multires_image) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[62.366340] (multires_image) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[62.366525] (tile_map) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[62.366757] (multires_image) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[62.366937] (tile_map) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[62.373219] (-) TimerEvent: {}
+[62.384314] (mapviz_plugins) StdoutLine: {'line': b'-- Found mapviz: 2.4.4 (/home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake)\n'}
+[62.411935] (mapviz_plugins) StdoutLine: {'line': b'-- Found marti_common_msgs: 1.6.1 (/opt/ros/humble/share/marti_common_msgs/cmake)\n'}
+[62.436765] (mapviz_plugins) StdoutLine: {'line': b'-- Found marti_nav_msgs: 1.6.1 (/opt/ros/humble/share/marti_nav_msgs/cmake)\n'}
+[62.473358] (-) TimerEvent: {}
+[62.499504] (multires_image) StdoutLine: {'line': b'-- Found swri_math_util: 3.7.3 (/opt/ros/humble/share/swri_math_util/cmake)\n'}
+[62.512659] (tile_map) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[62.535846] (multires_image) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem thread \n'}
+[62.538953] (mapviz_plugins) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (find_package):\n'}
+[62.539198] (mapviz_plugins) StderrLine: {'line': b'  By not providing "Findmarti_sensor_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[62.539285] (mapviz_plugins) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[62.539360] (mapviz_plugins) StderrLine: {'line': b'  "marti_sensor_msgs", but CMake did not find one.\n'}
+[62.539429] (mapviz_plugins) StderrLine: {'line': b'\n'}
+[62.539496] (mapviz_plugins) StderrLine: {'line': b'  Could not find a package configuration file provided by "marti_sensor_msgs"\n'}
+[62.539594] (mapviz_plugins) StderrLine: {'line': b'  with any of the following names:\n'}
+[62.539660] (mapviz_plugins) StderrLine: {'line': b'\n'}
+[62.539724] (mapviz_plugins) StderrLine: {'line': b'    marti_sensor_msgsConfig.cmake\n'}
+[62.539790] (mapviz_plugins) StderrLine: {'line': b'    marti_sensor_msgs-config.cmake\n'}
+[62.539856] (mapviz_plugins) StderrLine: {'line': b'\n'}
+[62.539921] (mapviz_plugins) StderrLine: {'line': b'  Add the installation prefix of "marti_sensor_msgs" to CMAKE_PREFIX_PATH or\n'}
+[62.539994] (mapviz_plugins) StderrLine: {'line': b'  set "marti_sensor_msgs_DIR" to a directory containing one of the above\n'}
+[62.540073] (mapviz_plugins) StderrLine: {'line': b'  files.  If "marti_sensor_msgs" provides a separate development package or\n'}
+[62.540146] (mapviz_plugins) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[62.540211] (mapviz_plugins) StderrLine: {'line': b'\n'}
+[62.540276] (mapviz_plugins) StderrLine: {'line': b'\x1b[0m\n'}
+[62.540341] (mapviz_plugins) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[62.540416] (mapviz_plugins) StdoutLine: {'line': b'See also "/home/felipe/ros2_ws/build/mapviz_plugins/CMakeFiles/CMakeOutput.log".\n'}
+[62.544685] (multires_image) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[62.547233] (multires_image) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core imgproc \n'}
+[62.550871] (mapviz_plugins) CommandEnded: {'returncode': 1}
+[62.569179] (mapviz_plugins) JobEnded: {'identifier': 'mapviz_plugins', 'rc': 1}
+[62.573460] (-) TimerEvent: {}
+[62.579932] (tile_map) StdoutLine: {'line': b'-- Found GLEW: /usr/include (found version "2.2.0") \n'}
+[62.585459] (tile_map) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[62.586495] (tile_map) StdoutLine: {'line': b"-- Checking for module 'yaml-cpp'\n"}
+[62.602691] (tile_map) StdoutLine: {'line': b'--   Found yaml-cpp, version 0.7.0\n'}
+[62.637736] (tile_map) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[62.652522] (tile_map) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[62.673577] (-) TimerEvent: {}
+[62.674593] (multires_image) StdoutLine: {'line': b'-- Configuring done\n'}
+[62.766083] (multires_image) StdoutLine: {'line': b'-- Generating done\n'}
+[62.773683] (-) TimerEvent: {}
+[62.781027] (multires_image) StdoutLine: {'line': b'-- Build files have been written to: /home/felipe/ros2_ws/build/multires_image\n'}
+[62.790437] (tile_map) StdoutLine: {'line': b'-- Configuring done\n'}
+[62.793823] (multires_image) JobEnded: {'identifier': 'multires_image', 'rc': 'SIGINT'}
+[62.832977] (tile_map) StdoutLine: {'line': b'-- Generating done\n'}
+[62.840346] (tile_map) StdoutLine: {'line': b'-- Build files have been written to: /home/felipe/ros2_ws/build/tile_map\n'}
+[62.851784] (tile_map) JobEnded: {'identifier': 'tile_map', 'rc': 'SIGINT'}
+[62.862428] (-) EventReactorShutdown: {}

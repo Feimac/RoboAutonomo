@@ -1,0 +1,15 @@
+/home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+writing meu_pacote_launch.egg-info/PKG-INFO
+writing dependency_links to meu_pacote_launch.egg-info/dependency_links.txt
+writing requirements to meu_pacote_launch.egg-info/requires.txt
+writing top-level names to meu_pacote_launch.egg-info/top_level.txt
+reading manifest file 'meu_pacote_launch.egg-info/SOURCES.txt'
+writing manifest file 'meu_pacote_launch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages/meu-pacote-launch.egg-link (link to .)
+
+Installed /home/felipe/ros2_ws/build/meu_pacote_launch
+running symlink_data

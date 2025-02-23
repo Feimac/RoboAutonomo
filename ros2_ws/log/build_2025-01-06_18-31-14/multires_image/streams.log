@@ -1,0 +1,29 @@
+[0.015s] Invoking command in '/home/felipe/ros2_ws/build/multires_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install LD_LIBRARY_PATH=/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/felipe/ros2_ws/build/multires_image -- -j8 -l8
+[0.064s] [  4%] [34m[1mGenerating include/multires_image/moc_tile_cache.cpp[0m
+[0.089s] [  8%] [32mBuilding CXX object CMakeFiles/multires_image.dir/src/tile.cpp.o[0m
+[0.094s] [ 12%] [32mBuilding CXX object CMakeFiles/multires_image.dir/src/tile_cache.cpp.o[0m
+[0.103s] [ 16%] [32mBuilding CXX object CMakeFiles/multires_image.dir/include/multires_image/moc_tile_cache.cpp.o[0m
+[0.104s] [ 20%] [32mBuilding CXX object CMakeFiles/multires_image.dir/src/tile_set.cpp.o[0m
+[0.106s] [ 25%] [32mBuilding CXX object CMakeFiles/multires_image.dir/src/tile_set_layer.cpp.o[0m
+[10.381s] [ 29%] [32m[1mLinking CXX static library libmultires_image.a[0m
+[10.426s] [ 29%] Built target multires_image
+[10.439s] [ 33%] [34m[1mGenerating ui_QGLMap.h[0m
+[10.442s] [ 37%] [34m[1mGenerating ui_multires_config.h[0m
+[10.443s] [ 41%] [34m[1mGenerating include/multires_image/moc_QGLMap.cpp[0m
+[10.444s] [ 45%] [34m[1mGenerating ui_multires_config.h[0m
+[10.444s] [ 50%] [34m[1mGenerating include/multires_image/moc_multires_image_plugin.cpp[0m
+[10.477s] [ 54%] [32mBuilding CXX object CMakeFiles/multires_widget.dir/src/tile_view.cpp.o[0m
+[10.477s] [ 62%] [32mBuilding CXX object CMakeFiles/multires_widget.dir/src/QGLMap.cpp.o[0m
+[10.477s] [ 62%] [32mBuilding CXX object CMakeFiles/multires_widget.dir/include/multires_image/moc_QGLMap.cpp.o[0m
+[10.483s] [ 66%] [32mBuilding CXX object CMakeFiles/multires_image_plugin.dir/src/multires_image_plugin.cpp.o[0m
+[10.483s] [ 70%] [32mBuilding CXX object CMakeFiles/multires_image_plugin.dir/src/multires_view.cpp.o[0m
+[10.483s] [ 75%] [32mBuilding CXX object CMakeFiles/multires_image_plugin.dir/include/multires_image/moc_multires_image_plugin.cpp.o[0m
+[22.989s] [ 79%] [32m[1mLinking CXX static library libmultires_widget.a[0m
+[23.032s] [ 79%] Built target multires_widget
+[23.046s] [ 83%] [34m[1mGenerating include/multires_image/moc_multires_view_node.cpp[0m
+[23.076s] [ 87%] [32mBuilding CXX object CMakeFiles/multires_view_node.dir/src/nodes/multires_view_node.cpp.o[0m
+[23.080s] [ 91%] [32mBuilding CXX object CMakeFiles/multires_view_node.dir/include/multires_image/moc_multires_view_node.cpp.o[0m
+[24.888s] [ 95%] [32m[1mLinking CXX shared library libmultires_image_plugin.so[0m
+[29.139s] [ 95%] Built target multires_image_plugin
+[33.037s] [100%] [32m[1mLinking CXX executable multires_view_node[0m
+[33.641s] [100%] Built target multires_view_node

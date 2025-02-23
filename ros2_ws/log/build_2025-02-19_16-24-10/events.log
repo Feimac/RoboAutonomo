@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.004560] (-) JobUnselected: {'identifier': 'ros2_whisper'}
+[0.005383] (-) JobUnselected: {'identifier': 'voice_control'}
+[0.005844] (meu_pacote_launch) JobQueued: {'identifier': 'meu_pacote_launch', 'dependencies': OrderedDict()}
+[0.006277] (meu_pacote_launch) JobStarted: {'identifier': 'meu_pacote_launch'}
+[0.098550] (-) TimerEvent: {}
+[0.199288] (-) TimerEvent: {}
+[0.300230] (-) TimerEvent: {}
+[0.401516] (-) TimerEvent: {}
+[0.502929] (-) TimerEvent: {}
+[0.603790] (-) TimerEvent: {}
+[0.704201] (-) TimerEvent: {}
+[0.805038] (-) TimerEvent: {}
+[0.905960] (-) TimerEvent: {}
+[1.007131] (-) TimerEvent: {}
+[1.108290] (-) TimerEvent: {}
+[1.209049] (-) TimerEvent: {}
+[1.309583] (-) TimerEvent: {}
+[1.410138] (-) TimerEvent: {}
+[1.511258] (-) TimerEvent: {}
+[1.612881] (-) TimerEvent: {}
+[1.714049] (-) TimerEvent: {}
+[1.814815] (-) TimerEvent: {}
+[1.915374] (-) TimerEvent: {}
+[2.016177] (-) TimerEvent: {}
+[2.117192] (-) TimerEvent: {}
+[2.218197] (-) TimerEvent: {}
+[2.318810] (-) TimerEvent: {}
+[2.419392] (-) TimerEvent: {}
+[2.520556] (-) TimerEvent: {}
+[2.621117] (-) TimerEvent: {}
+[2.722276] (-) TimerEvent: {}
+[2.823463] (-) TimerEvent: {}
+[2.924440] (-) TimerEvent: {}
+[3.025048] (-) TimerEvent: {}
+[3.125827] (-) TimerEvent: {}
+[3.227030] (-) TimerEvent: {}
+[3.327619] (-) TimerEvent: {}
+[3.428866] (-) TimerEvent: {}
+[3.530085] (-) TimerEvent: {}
+[3.630811] (-) TimerEvent: {}
+[3.731370] (-) TimerEvent: {}
+[3.832187] (-) TimerEvent: {}
+[3.933540] (-) TimerEvent: {}
+[4.034881] (-) TimerEvent: {}
+[4.135489] (-) TimerEvent: {}
+[4.236216] (-) TimerEvent: {}
+[4.336770] (-) TimerEvent: {}
+[4.437193] (-) TimerEvent: {}
+[4.537929] (-) TimerEvent: {}
+[4.638879] (-) TimerEvent: {}
+[4.739908] (-) TimerEvent: {}
+[4.840956] (-) TimerEvent: {}
+[4.942123] (-) TimerEvent: {}
+[5.042925] (-) TimerEvent: {}
+[5.143792] (-) TimerEvent: {}
+[5.246196] (-) TimerEvent: {}
+[5.349189] (-) TimerEvent: {}
+[5.450084] (-) TimerEvent: {}
+[5.550788] (-) TimerEvent: {}
+[5.651318] (-) TimerEvent: {}
+[5.752484] (-) TimerEvent: {}
+[5.853431] (-) TimerEvent: {}
+[5.954329] (-) TimerEvent: {}
+[6.047754] (meu_pacote_launch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/felipe/ros2_ws/build/meu_pacote_launch/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/felipe/ros2_ws/build/meu_pacote_launch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/felipe/ros2_ws/install/mapviz/lib:/home/felipe/ros2_ws/install/mapviz_interfaces/lib:/home/felipe/ros2_ws/install/explorer_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe', 'OLDPWD': '/home/felipe/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '26347', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/felipe/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'felipe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/felipe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/felipe/.dotnet/tools:/opt/spark/bin', 'SESSION_MANAGER': 'local/my-pc:@/tmp/.ICE-unix/3974,unix/my-pc:/tmp/.ICE-unix/3974', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ac9792c7_351a_492e_87a1_1b478ce682f6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/felipe/.cache/dotnet_bundle_extract', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y4KK22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.329', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/felipe/ros2_ws/install/meu_pacote_launch:/home/felipe/ros2_ws/install/voice_control:/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/ros2_whisper:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felipe/ros2_ws/build/meu_pacote_launch', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/felipe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe/ros2_ws/build/meu_pacote_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/mapviz_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_map_utils/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/felipe/ros2_ws/install/turtlbot3_custom:/home/felipe/ros2_ws/install/mapviz:/home/felipe/ros2_ws/install/mapviz_interfaces:/home/felipe/ros2_ws/install/explorer_interfaces:/home/felipe/ros2_ws/install/explorer_gazebo:/home/felipe/ros2_ws/install/explorer_cartographer', 'SPARK_HOME': '/opt/spark'}, 'shell': False}
+[6.058239] (-) TimerEvent: {}
+[6.161832] (-) TimerEvent: {}
+[6.262665] (-) TimerEvent: {}
+[6.363368] (-) TimerEvent: {}
+[6.463865] (-) TimerEvent: {}
+[6.566196] (-) TimerEvent: {}
+[6.667366] (-) TimerEvent: {}
+[6.768238] (-) TimerEvent: {}
+[6.869535] (-) TimerEvent: {}
+[6.970587] (-) TimerEvent: {}
+[7.071858] (-) TimerEvent: {}
+[7.172651] (-) TimerEvent: {}
+[7.266132] (meu_pacote_launch) StderrLine: {'line': b"/home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[7.266622] (meu_pacote_launch) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[7.272831] (-) TimerEvent: {}
+[7.374292] (-) TimerEvent: {}
+[7.475063] (-) TimerEvent: {}
+[7.576523] (-) TimerEvent: {}
+[7.677705] (-) TimerEvent: {}
+[7.779309] (-) TimerEvent: {}
+[7.880627] (-) TimerEvent: {}
+[7.981112] (-) TimerEvent: {}
+[8.082467] (-) TimerEvent: {}
+[8.184801] (-) TimerEvent: {}
+[8.285524] (-) TimerEvent: {}
+[8.386119] (-) TimerEvent: {}
+[8.486666] (-) TimerEvent: {}
+[8.587905] (-) TimerEvent: {}
+[8.689580] (-) TimerEvent: {}
+[8.790300] (-) TimerEvent: {}
+[8.890928] (-) TimerEvent: {}
+[8.991838] (-) TimerEvent: {}
+[9.092508] (-) TimerEvent: {}
+[9.157381] (meu_pacote_launch) StdoutLine: {'line': b'running develop\n'}
+[9.192746] (-) TimerEvent: {}
+[9.293752] (-) TimerEvent: {}
+[9.395231] (-) TimerEvent: {}
+[9.496200] (-) TimerEvent: {}
+[9.597523] (-) TimerEvent: {}
+[9.698384] (-) TimerEvent: {}
+[9.798857] (-) TimerEvent: {}
+[9.899771] (-) TimerEvent: {}
+[10.000381] (-) TimerEvent: {}
+[10.101190] (-) TimerEvent: {}
+[10.202398] (-) TimerEvent: {}
+[10.304049] (-) TimerEvent: {}
+[10.405334] (-) TimerEvent: {}
+[10.506590] (-) TimerEvent: {}
+[10.607696] (-) TimerEvent: {}
+[10.708343] (-) TimerEvent: {}
+[10.808813] (-) TimerEvent: {}
+[10.909800] (-) TimerEvent: {}
+[11.011278] (-) TimerEvent: {}
+[11.112609] (-) TimerEvent: {}
+[11.214219] (-) TimerEvent: {}
+[11.315653] (-) TimerEvent: {}
+[11.422911] (-) TimerEvent: {}
+[11.523484] (-) TimerEvent: {}
+[11.624832] (-) TimerEvent: {}
+[11.725712] (-) TimerEvent: {}
+[11.817482] (meu_pacote_launch) StdoutLine: {'line': b'running egg_info\n'}
+[11.825826] (-) TimerEvent: {}
+[11.926252] (-) TimerEvent: {}
+[12.013231] (meu_pacote_launch) StdoutLine: {'line': b'writing meu_pacote_launch.egg-info/PKG-INFO\n'}
+[12.015603] (meu_pacote_launch) StdoutLine: {'line': b'writing dependency_links to meu_pacote_launch.egg-info/dependency_links.txt\n'}
+[12.017280] (meu_pacote_launch) StdoutLine: {'line': b'writing requirements to meu_pacote_launch.egg-info/requires.txt\n'}
+[12.017831] (meu_pacote_launch) StdoutLine: {'line': b'writing top-level names to meu_pacote_launch.egg-info/top_level.txt\n'}
+[12.026506] (-) TimerEvent: {}
+[12.127699] (-) TimerEvent: {}
+[12.228632] (-) TimerEvent: {}
+[12.329386] (-) TimerEvent: {}
+[12.409092] (meu_pacote_launch) StdoutLine: {'line': b"reading manifest file 'meu_pacote_launch.egg-info/SOURCES.txt'\n"}
+[12.417711] (meu_pacote_launch) StdoutLine: {'line': b"writing manifest file 'meu_pacote_launch.egg-info/SOURCES.txt'\n"}
+[12.429667] (-) TimerEvent: {}
+[12.530818] (-) TimerEvent: {}
+[12.631784] (-) TimerEvent: {}
+[12.654205] (meu_pacote_launch) StdoutLine: {'line': b'running build_ext\n'}
+[12.656070] (meu_pacote_launch) StdoutLine: {'line': b'Creating /home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages/meu-pacote-launch.egg-link (link to .)\n'}
+[12.663114] (meu_pacote_launch) StdoutLine: {'line': b'\n'}
+[12.664541] (meu_pacote_launch) StdoutLine: {'line': b'Installed /home/felipe/ros2_ws/build/meu_pacote_launch\n'}
+[12.665919] (meu_pacote_launch) StdoutLine: {'line': b'running symlink_data\n'}
+[12.667078] (meu_pacote_launch) StdoutLine: {'line': b'symbolically linking /home/felipe/ros2_ws/build/meu_pacote_launch/resource/meu_pacote_launch -> /home/felipe/ros2_ws/install/meu_pacote_launch/share/ament_index/resource_index/packages\n'}
+[12.667879] (meu_pacote_launch) StdoutLine: {'line': b'symbolically linking /home/felipe/ros2_ws/build/meu_pacote_launch/package.xml -> /home/felipe/ros2_ws/install/meu_pacote_launch/share/meu_pacote_launch\n'}
+[12.669184] (meu_pacote_launch) StderrLine: {'line': b"error: [Errno 2] No such file or directory: '/home/felipe/ros2_ws/install/meu_pacote_launch/share/meu_pacote_launch/launch/all_nodes.launch.py'\n"}
+[12.732102] (-) TimerEvent: {}
+[12.833619] (-) TimerEvent: {}
+[12.884953] (meu_pacote_launch) CommandEnded: {'returncode': 1}
+[12.886367] (meu_pacote_launch) JobEnded: {'identifier': 'meu_pacote_launch', 'rc': 1}
+[12.899778] (-) EventReactorShutdown: {}

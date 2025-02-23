@@ -1,0 +1,18 @@
+[0.880s] Invoking command in '/home/felipe/ros2_ws/build/meu_pacote_launch': PYTHONPATH=/home/felipe/ros2_ws/build/meu_pacote_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/felipe/ros2_ws/build/meu_pacote_launch/build --no-deps symlink_data
+[1.049s] /home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.049s]   warnings.warn(msg)
+[1.288s] running develop
+[1.613s] running egg_info
+[1.645s] writing meu_pacote_launch.egg-info/PKG-INFO
+[1.646s] writing dependency_links to meu_pacote_launch.egg-info/dependency_links.txt
+[1.646s] writing requirements to meu_pacote_launch.egg-info/requires.txt
+[1.646s] writing top-level names to meu_pacote_launch.egg-info/top_level.txt
+[1.696s] reading manifest file 'meu_pacote_launch.egg-info/SOURCES.txt'
+[1.698s] writing manifest file 'meu_pacote_launch.egg-info/SOURCES.txt'
+[1.724s] running build_ext
+[1.724s] Creating /home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages/meu-pacote-launch.egg-link (link to .)
+[1.725s] 
+[1.725s] Installed /home/felipe/ros2_ws/build/meu_pacote_launch
+[1.725s] running symlink_data
+[1.725s] symbolically linking /home/felipe/ros2_ws/build/meu_pacote_launch/launch/all_nodes.launch.py -> /home/felipe/ros2_ws/install/meu_pacote_launch/share/meu_pacote_launch/launch
+[1.762s] Invoked command in '/home/felipe/ros2_ws/build/meu_pacote_launch' returned '0': PYTHONPATH=/home/felipe/ros2_ws/build/meu_pacote_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/felipe/ros2_ws/build/meu_pacote_launch/build --no-deps symlink_data

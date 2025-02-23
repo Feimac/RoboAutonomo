@@ -1,0 +1,43 @@
+[2.187s] Invoking command in '/home/felipe/ros2_ws/src/ros2_explorer/explorer_wanderer': PYTHONPATH=/home/felipe/ros2_ws/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/felipe/ros2_ws/build/explorer_wanderer/build install --record /home/felipe/ros2_ws/build/explorer_wanderer/install.log --single-version-externally-managed install_data
+[2.474s] /home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.474s]   warnings.warn(msg)
+[2.723s] running egg_info
+[2.764s] creating ../../../build/explorer_wanderer/explorer_wanderer.egg-info
+[2.765s] writing ../../../build/explorer_wanderer/explorer_wanderer.egg-info/PKG-INFO
+[2.765s] writing dependency_links to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/dependency_links.txt
+[2.765s] writing entry points to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/entry_points.txt
+[2.766s] writing requirements to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/requires.txt
+[2.766s] writing top-level names to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/top_level.txt
+[2.766s] writing manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[2.851s] reading manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[2.853s] writing manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[2.854s] running build
+[2.854s] running build_py
+[2.854s] creating /home/felipe/ros2_ws/build/explorer_wanderer/build/lib/explorer_wanderer
+[2.856s] copying explorer_wanderer/wanderer.py -> /home/felipe/ros2_ws/build/explorer_wanderer/build/lib/explorer_wanderer
+[2.856s] copying explorer_wanderer/discoverer_server.py -> /home/felipe/ros2_ws/build/explorer_wanderer/build/lib/explorer_wanderer
+[2.856s] copying explorer_wanderer/__init__.py -> /home/felipe/ros2_ws/build/explorer_wanderer/build/lib/explorer_wanderer
+[2.856s] copying explorer_wanderer/wanderer_server.py -> /home/felipe/ros2_ws/build/explorer_wanderer/build/lib/explorer_wanderer
+[2.857s] running install
+[2.867s] running install_lib
+[2.913s] creating /home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[2.913s] copying /home/felipe/ros2_ws/build/explorer_wanderer/build/lib/explorer_wanderer/wanderer.py -> /home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[2.913s] copying /home/felipe/ros2_ws/build/explorer_wanderer/build/lib/explorer_wanderer/discoverer_server.py -> /home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[2.914s] copying /home/felipe/ros2_ws/build/explorer_wanderer/build/lib/explorer_wanderer/__init__.py -> /home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[2.915s] copying /home/felipe/ros2_ws/build/explorer_wanderer/build/lib/explorer_wanderer/wanderer_server.py -> /home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[2.915s] byte-compiling /home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/wanderer.py to wanderer.cpython-310.pyc
+[2.918s] byte-compiling /home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/discoverer_server.py to discoverer_server.cpython-310.pyc
+[2.920s] byte-compiling /home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/__init__.py to __init__.cpython-310.pyc
+[2.922s] byte-compiling /home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/wanderer_server.py to wanderer_server.cpython-310.pyc
+[2.923s] running install_data
+[2.923s] creating /home/felipe/ros2_ws/install/explorer_wanderer/share/ament_index/resource_index/packages
+[2.923s] copying resource/explorer_wanderer -> /home/felipe/ros2_ws/install/explorer_wanderer/share/ament_index/resource_index/packages
+[2.924s] copying package.xml -> /home/felipe/ros2_ws/install/explorer_wanderer/share/explorer_wanderer
+[2.924s] running install_egg_info
+[2.967s] Copying ../../../build/explorer_wanderer/explorer_wanderer.egg-info to /home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer-0.0.0-py3.10.egg-info
+[2.972s] running install_scripts
+[3.257s] Installing discoverer_server script to /home/felipe/ros2_ws/install/explorer_wanderer/lib/explorer_wanderer
+[3.257s] Installing wanderer script to /home/felipe/ros2_ws/install/explorer_wanderer/lib/explorer_wanderer
+[3.258s] Installing wanderer_server script to /home/felipe/ros2_ws/install/explorer_wanderer/lib/explorer_wanderer
+[3.258s] writing list of installed files to '/home/felipe/ros2_ws/build/explorer_wanderer/install.log'
+[3.316s] Invoked command in '/home/felipe/ros2_ws/src/ros2_explorer/explorer_wanderer' returned '0': PYTHONPATH=/home/felipe/ros2_ws/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/felipe/ros2_ws/build/explorer_wanderer/build install --record /home/felipe/ros2_ws/build/explorer_wanderer/install.log --single-version-externally-managed install_data

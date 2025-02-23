@@ -1,0 +1,35 @@
+[1.287s] Invoking command in '/home/felipe/ros2_ws/src/ros2_whisper': PYTHONPATH=/home/felipe/ros2_ws/build/ros2_whisper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_whisper build --build-base /home/felipe/ros2_ws/build/ros2_whisper/build install --record /home/felipe/ros2_ws/build/ros2_whisper/install.log --single-version-externally-managed install_data
+[1.538s] /home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.538s]   warnings.warn(msg)
+[1.722s] running egg_info
+[1.754s] creating ../../build/ros2_whisper/ros2_whisper.egg-info
+[1.754s] writing ../../build/ros2_whisper/ros2_whisper.egg-info/PKG-INFO
+[1.755s] writing dependency_links to ../../build/ros2_whisper/ros2_whisper.egg-info/dependency_links.txt
+[1.755s] writing entry points to ../../build/ros2_whisper/ros2_whisper.egg-info/entry_points.txt
+[1.757s] writing requirements to ../../build/ros2_whisper/ros2_whisper.egg-info/requires.txt
+[1.757s] writing top-level names to ../../build/ros2_whisper/ros2_whisper.egg-info/top_level.txt
+[1.757s] writing manifest file '../../build/ros2_whisper/ros2_whisper.egg-info/SOURCES.txt'
+[1.818s] reading manifest file '../../build/ros2_whisper/ros2_whisper.egg-info/SOURCES.txt'
+[1.819s] writing manifest file '../../build/ros2_whisper/ros2_whisper.egg-info/SOURCES.txt'
+[1.819s] running build
+[1.819s] running build_py
+[1.819s] creating /home/felipe/ros2_ws/build/ros2_whisper/build/lib/ros2_whisper
+[1.821s] copying ros2_whisper/whisper_node.py -> /home/felipe/ros2_ws/build/ros2_whisper/build/lib/ros2_whisper
+[1.821s] copying ros2_whisper/__init__.py -> /home/felipe/ros2_ws/build/ros2_whisper/build/lib/ros2_whisper
+[1.822s] running install
+[1.828s] running install_lib
+[1.861s] creating /home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages/ros2_whisper
+[1.861s] copying /home/felipe/ros2_ws/build/ros2_whisper/build/lib/ros2_whisper/whisper_node.py -> /home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages/ros2_whisper
+[1.861s] copying /home/felipe/ros2_ws/build/ros2_whisper/build/lib/ros2_whisper/__init__.py -> /home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages/ros2_whisper
+[1.862s] byte-compiling /home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages/ros2_whisper/whisper_node.py to whisper_node.cpython-310.pyc
+[1.863s] byte-compiling /home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages/ros2_whisper/__init__.py to __init__.cpython-310.pyc
+[1.863s] running install_data
+[1.863s] creating /home/felipe/ros2_ws/install/ros2_whisper/share/ament_index/resource_index/packages
+[1.864s] copying resource/ros2_whisper -> /home/felipe/ros2_ws/install/ros2_whisper/share/ament_index/resource_index/packages
+[1.864s] copying package.xml -> /home/felipe/ros2_ws/install/ros2_whisper/share/ros2_whisper
+[1.864s] running install_egg_info
+[1.906s] Copying ../../build/ros2_whisper/ros2_whisper.egg-info to /home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages/ros2_whisper-0.0.1-py3.10.egg-info
+[1.907s] running install_scripts
+[2.159s] Installing whisper_node script to /home/felipe/ros2_ws/install/ros2_whisper/lib/ros2_whisper
+[2.159s] writing list of installed files to '/home/felipe/ros2_ws/build/ros2_whisper/install.log'
+[2.201s] Invoked command in '/home/felipe/ros2_ws/src/ros2_whisper' returned '0': PYTHONPATH=/home/felipe/ros2_ws/build/ros2_whisper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/ros2_whisper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_whisper build --build-base /home/felipe/ros2_ws/build/ros2_whisper/build install --record /home/felipe/ros2_ws/build/ros2_whisper/install.log --single-version-externally-managed install_data

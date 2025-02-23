@@ -1,0 +1,29 @@
+[0.038s] Invoking command in '/home/felipe/ros2_ws/build/opennav_docking_core': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/nav2_loopback_sim:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:/home/felipe/ros2_ws/install/my_robot_description /usr/bin/cmake --build /home/felipe/ros2_ws/build/opennav_docking_core -- -j8 -l8
+[0.088s] Invoked command in '/home/felipe/ros2_ws/build/opennav_docking_core' returned '0': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/nav2_loopback_sim:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:/home/felipe/ros2_ws/install/my_robot_description /usr/bin/cmake --build /home/felipe/ros2_ws/build/opennav_docking_core -- -j8 -l8
+[0.088s] Invoking command in '/home/felipe/ros2_ws/build/opennav_docking_core': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/nav2_loopback_sim:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:/home/felipe/ros2_ws/install/my_robot_description /usr/bin/cmake --install /home/felipe/ros2_ws/build/opennav_docking_core
+[0.098s] -- Install configuration: "Release"
+[0.098s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/include/opennav_docking_core
+[0.098s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core
+[0.098s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core/charging_dock.hpp
+[0.099s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core/docking_exceptions.hpp
+[0.099s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core/non_charging_dock.hpp
+[0.099s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/ament_index/resource_index/package_run_dependencies/opennav_docking_core
+[0.099s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/ament_index/resource_index/parent_prefix_path/opennav_docking_core
+[0.099s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/environment/ament_prefix_path.sh
+[0.099s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/environment/ament_prefix_path.dsv
+[0.100s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/environment/path.sh
+[0.100s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/environment/path.dsv
+[0.100s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/local_setup.bash
+[0.100s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/local_setup.sh
+[0.100s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/local_setup.zsh
+[0.101s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/local_setup.dsv
+[0.102s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/package.dsv
+[0.102s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/ament_index/resource_index/packages/opennav_docking_core
+[0.102s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/cmake/opennav_docking_coreExport.cmake
+[0.102s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.102s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.102s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/cmake/ament_cmake_export_targets-extras.cmake
+[0.102s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/cmake/opennav_docking_coreConfig.cmake
+[0.102s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/cmake/opennav_docking_coreConfig-version.cmake
+[0.102s] -- Installing: /home/felipe/ros2_ws/install/opennav_docking_core/share/opennav_docking_core/package.xml
+[0.107s] Invoked command in '/home/felipe/ros2_ws/build/opennav_docking_core' returned '0': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/nav2_loopback_sim:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:/home/felipe/ros2_ws/install/my_robot_description /usr/bin/cmake --install /home/felipe/ros2_ws/build/opennav_docking_core

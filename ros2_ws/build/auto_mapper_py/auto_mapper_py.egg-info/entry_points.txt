@@ -1,0 +1,2 @@
+[console_scripts]
+auto_mapper_node = auto_mapper_py.auto_mapper:main

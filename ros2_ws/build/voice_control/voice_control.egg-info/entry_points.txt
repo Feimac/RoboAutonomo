@@ -1,0 +1,3 @@
+[console_scripts]
+motion_control_node = voice_control.motion_control_node:main
+voice_command_node = voice_control.voice_command_node:main

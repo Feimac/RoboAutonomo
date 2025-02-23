@@ -1,0 +1,169 @@
+[2.827s] Invoking command in '/home/felipe/ros2_ws/build/explorer_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --build /home/felipe/ros2_ws/build/explorer_interfaces -- -j8 -l8
+[7.017s] [  2%] Built target explorer_interfaces__cpp
+[7.021s] [ 12%] Built target explorer_interfaces__rosidl_generator_c
+[7.022s] [ 12%] Built target ament_cmake_python_copy_explorer_interfaces
+[7.024s] [ 23%] Built target explorer_interfaces__rosidl_typesupport_introspection_cpp
+[7.026s] [ 33%] Built target explorer_interfaces__rosidl_typesupport_introspection_c
+[7.027s] [ 43%] Built target explorer_interfaces__rosidl_typesupport_cpp
+[7.030s] [ 64%] Built target explorer_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.032s] [ 64%] Built target explorer_interfaces__rosidl_typesupport_c
+[7.032s] [ 74%] Built target explorer_interfaces__rosidl_typesupport_fastrtps_c
+[7.034s] [ 74%] Built target explorer_interfaces
+[7.034s] [ 76%] Built target explorer_interfaces__py
+[7.034s] [ 84%] Built target explorer_interfaces__rosidl_generator_py
+[7.036s] [ 89%] Built target explorer_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.037s] [ 94%] Built target explorer_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.039s] [100%] Built target explorer_interfaces__rosidl_typesupport_c__pyext
+[7.042s] running egg_info
+[7.042s] writing explorer_interfaces.egg-info/PKG-INFO
+[7.042s] writing dependency_links to explorer_interfaces.egg-info/dependency_links.txt
+[7.043s] writing top-level names to explorer_interfaces.egg-info/top_level.txt
+[7.043s] reading manifest file 'explorer_interfaces.egg-info/SOURCES.txt'
+[7.043s] writing manifest file 'explorer_interfaces.egg-info/SOURCES.txt'
+[7.043s] [100%] Built target ament_cmake_python_build_explorer_interfaces_egg
+[7.090s] Invoked command in '/home/felipe/ros2_ws/build/explorer_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --build /home/felipe/ros2_ws/build/explorer_interfaces -- -j8 -l8
+[7.109s] Invoking command in '/home/felipe/ros2_ws/build/explorer_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --install /home/felipe/ros2_ws/build/explorer_interfaces
+[7.240s] -- Install configuration: ""
+[7.240s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/ament_index/resource_index/rosidl_interfaces/explorer_interfaces
+[7.241s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[7.241s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg
+[7.241s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.241s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[7.252s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/wander.h
+[7.255s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/discover.h
+[7.258s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[7.259s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__type_support.h
+[7.259s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__functions.h
+[7.260s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__functions.c
+[7.260s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__struct.h
+[7.260s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__type_support.h
+[7.261s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__functions.h
+[7.261s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__struct.h
+[7.261s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__functions.c
+[7.266s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/environment/library_path.sh
+[7.267s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/environment/library_path.dsv
+[7.272s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_generator_c.so
+[7.272s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[7.272s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg
+[7.273s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.274s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[7.278s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[7.279s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__rosidl_typesupport_fastrtps_c.h
+[7.279s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__rosidl_typesupport_fastrtps_c.h
+[7.280s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.280s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[7.280s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg
+[7.281s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.281s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[7.281s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[7.290s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__rosidl_typesupport_introspection_c.h
+[7.291s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__type_support.c
+[7.291s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__type_support.c
+[7.295s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__rosidl_typesupport_introspection_c.h
+[7.296s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_introspection_c.so
+[7.296s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_c.so
+[7.296s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[7.296s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg
+[7.296s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.297s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[7.297s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[7.297s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__struct.hpp
+[7.297s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__struct.hpp
+[7.297s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__builder.hpp
+[7.302s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__type_support.hpp
+[7.303s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__traits.hpp
+[7.305s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__traits.hpp
+[7.310s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__builder.hpp
+[7.311s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__type_support.hpp
+[7.313s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/discover.hpp
+[7.318s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/wander.hpp
+[7.319s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[7.324s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg
+[7.324s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.324s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[7.325s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[7.325s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__rosidl_typesupport_fastrtps_cpp.hpp
+[7.325s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/dds_fastrtps
+[7.325s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__rosidl_typesupport_fastrtps_cpp.hpp
+[7.326s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.326s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[7.326s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[7.326s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[7.326s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__type_support.cpp
+[7.327s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__rosidl_typesupport_introspection_cpp.hpp
+[7.327s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__type_support.cpp
+[7.327s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__rosidl_typesupport_introspection_cpp.hpp
+[7.333s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.333s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_cpp.so
+[7.334s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/environment/pythonpath.sh
+[7.334s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/environment/pythonpath.dsv
+[7.334s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces-0.0.0-py3.10.egg-info
+[7.335s] -- Installing: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.335s] -- Installing: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.335s] -- Installing: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.336s] -- Installing: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.336s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces
+[7.336s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/_explorer_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.343s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.344s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.345s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.345s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/libexplorer_interfaces__rosidl_generator_py.so
+[7.346s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/_explorer_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.346s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/_explorer_interfaces_s.ep.rosidl_typesupport_c.c
+[7.350s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/__init__.py
+[7.351s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action
+[7.351s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/_wander_s.c
+[7.351s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/_discover.py
+[7.351s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/__init__.py
+[7.352s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/_wander.py
+[7.352s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/_discover_s.c
+[7.425s] Listing '/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces'...
+[7.426s] Listing '/home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action'...
+[7.455s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.457s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.461s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.468s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_generator_py.so
+[7.468s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/action/Wander.idl
+[7.478s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/action/Discover.idl
+[7.478s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/action/Wander.action
+[7.479s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/action/Discover.action
+[7.479s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/ament_index/resource_index/package_run_dependencies/explorer_interfaces
+[7.479s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/ament_index/resource_index/parent_prefix_path/explorer_interfaces
+[7.479s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/environment/ament_prefix_path.sh
+[7.480s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/environment/ament_prefix_path.dsv
+[7.480s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/environment/path.sh
+[7.480s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/environment/path.dsv
+[7.480s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/local_setup.bash
+[7.481s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/local_setup.sh
+[7.491s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/local_setup.zsh
+[7.491s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/local_setup.dsv
+[7.492s] -- Installing: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/package.dsv
+[7.494s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/ament_index/resource_index/packages/explorer_interfaces
+[7.497s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_generator_cExport.cmake
+[7.498s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.502s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.502s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.502s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.503s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.503s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_cExport.cmake
+[7.503s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.503s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_generator_cppExport.cmake
+[7.503s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.504s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.504s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.504s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.504s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_cppExport.cmake
+[7.504s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.505s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_generator_pyExport.cmake
+[7.505s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.505s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.505s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.510s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.510s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.510s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.510s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.511s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.511s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfacesConfig.cmake
+[7.511s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfacesConfig-version.cmake
+[7.511s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_interfaces/share/explorer_interfaces/package.xml
+[7.536s] Invoked command in '/home/felipe/ros2_ws/build/explorer_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --install /home/felipe/ros2_ws/build/explorer_interfaces

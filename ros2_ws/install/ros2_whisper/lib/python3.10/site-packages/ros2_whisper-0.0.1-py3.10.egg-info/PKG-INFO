@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: ros2_whisper
+Version: 0.0.1
+Summary: Pacote ROS2 para usar Whisper da OpenAI
+Author: Seu Nome
+Author-email: seu_email@exemplo.com
+License: Apache License 2.0
+Requires-Dist: setuptools
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

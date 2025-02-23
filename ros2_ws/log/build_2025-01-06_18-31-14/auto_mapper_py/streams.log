@@ -1,0 +1,26 @@
+[2.649s] Invoking command in '/home/felipe/ros2_ws/src/auto_mapper_py': PYTHONPATH=/home/felipe/ros2_ws/build/auto_mapper_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_mapper_py build --build-base /home/felipe/ros2_ws/build/auto_mapper_py/build install --record /home/felipe/ros2_ws/build/auto_mapper_py/install.log --single-version-externally-managed install_data
+[3.462s] /home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[3.462s]   warnings.warn(msg)
+[4.025s] running egg_info
+[4.121s] writing ../../build/auto_mapper_py/auto_mapper_py.egg-info/PKG-INFO
+[4.122s] writing dependency_links to ../../build/auto_mapper_py/auto_mapper_py.egg-info/dependency_links.txt
+[4.125s] writing entry points to ../../build/auto_mapper_py/auto_mapper_py.egg-info/entry_points.txt
+[4.125s] writing requirements to ../../build/auto_mapper_py/auto_mapper_py.egg-info/requires.txt
+[4.125s] writing top-level names to ../../build/auto_mapper_py/auto_mapper_py.egg-info/top_level.txt
+[4.279s] reading manifest file '../../build/auto_mapper_py/auto_mapper_py.egg-info/SOURCES.txt'
+[4.286s] writing manifest file '../../build/auto_mapper_py/auto_mapper_py.egg-info/SOURCES.txt'
+[4.286s] running build
+[4.286s] running build_py
+[4.290s] copying auto_mapper_py/__init__.py -> /home/felipe/ros2_ws/build/auto_mapper_py/build/lib/auto_mapper_py
+[4.290s] copying auto_mapper_py/auto_mapper.py -> /home/felipe/ros2_ws/build/auto_mapper_py/build/lib/auto_mapper_py
+[4.294s] running install
+[4.309s] running install_lib
+[4.407s] running install_data
+[4.408s] copying resource/auto_mapper_py -> /home/felipe/ros2_ws/install/auto_mapper_py/share/ament_index/resource_index/packages
+[4.408s] copying package.xml -> /home/felipe/ros2_ws/install/auto_mapper_py/share/auto_mapper_py
+[4.408s] running install_egg_info
+[4.508s] removing '/home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages/auto_mapper_py-0.0.0-py3.10.egg-info' (and everything under it)
+[4.508s] Copying ../../build/auto_mapper_py/auto_mapper_py.egg-info to /home/felipe/ros2_ws/install/auto_mapper_py/lib/python3.10/site-packages/auto_mapper_py-0.0.0-py3.10.egg-info
+[4.510s] running install_scripts
+[5.219s] Installing auto_mapper_node script to /home/felipe/ros2_ws/install/auto_mapper_py/lib/auto_mapper_py
+[5.222s] writing list of installed files to '/home/felipe/ros2_ws/build/auto_mapper_py/install.log'

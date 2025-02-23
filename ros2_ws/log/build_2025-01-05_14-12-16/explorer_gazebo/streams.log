@@ -1,0 +1,111 @@
+[0.501s] Invoking command in '/home/felipe/ros2_ws/build/explorer_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/auto_mapper_py:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake /home/felipe/ros2_ws/src/ros2_explorer/explorer_gazebo -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/explorer_gazebo
+[1.065s] -- The C compiler identification is GNU 11.4.0
+[1.065s] -- The CXX compiler identification is GNU 11.4.0
+[1.066s] -- Detecting C compiler ABI info
+[1.066s] -- Detecting C compiler ABI info - done
+[1.066s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.066s] -- Detecting C compile features
+[1.066s] -- Detecting C compile features - done
+[1.066s] -- Detecting CXX compiler ABI info
+[1.066s] -- Detecting CXX compiler ABI info - done
+[1.067s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.067s] -- Detecting CXX compile features
+[1.067s] -- Detecting CXX compile features - done
+[1.067s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.263s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.392s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.566s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.575s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.577s] -- Added test 'lint_cmake' to check CMake code style
+[1.582s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.588s] -- Added test 'xmllint' to check XML markup files
+[1.590s] -- Configuring done
+[1.594s] -- Generating done
+[1.597s] -- Build files have been written to: /home/felipe/ros2_ws/build/explorer_gazebo
+[1.604s] Invoked command in '/home/felipe/ros2_ws/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/auto_mapper_py:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake /home/felipe/ros2_ws/src/ros2_explorer/explorer_gazebo -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/explorer_gazebo
+[1.605s] Invoking command in '/home/felipe/ros2_ws/build/explorer_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/auto_mapper_py:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --build /home/felipe/ros2_ws/build/explorer_gazebo -- -j8 -l8
+[1.688s] Invoked command in '/home/felipe/ros2_ws/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/auto_mapper_py:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --build /home/felipe/ros2_ws/build/explorer_gazebo -- -j8 -l8
+[1.689s] Invoking command in '/home/felipe/ros2_ws/build/explorer_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/auto_mapper_py:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --install /home/felipe/ros2_ws/build/explorer_gazebo
+[1.699s] -- Install configuration: ""
+[1.699s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models
+[1.700s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map1
+[1.700s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map1/model.config
+[1.700s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map1/map1.sdf
+[1.700s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map6
+[1.700s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map6/model.config
+[1.700s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map6/map6.sdf
+[1.701s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map2
+[1.701s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map2/model.config
+[1.701s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map2/map2.sdf
+[1.701s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map11
+[1.701s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map11/model.config
+[1.701s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map11/map11.sdf
+[1.702s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map3
+[1.702s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map3/model.config
+[1.702s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map3/map3.sdf
+[1.702s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map8
+[1.702s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map8/model.config
+[1.702s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map8/map8.sdf
+[1.703s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map10
+[1.703s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map10/model.config
+[1.703s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map10/map10.sdf
+[1.703s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map4
+[1.703s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map4/model.config
+[1.703s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map4/map4.sdf
+[1.704s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map9
+[1.704s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map9/map9.sdf
+[1.704s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map9/model.config
+[1.704s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map5
+[1.704s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map5/model.config
+[1.704s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map5/map5.sdf
+[1.704s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map7
+[1.705s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map7/model.config
+[1.705s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/map7/map7.sdf
+[1.705s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger
+[1.705s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/model.config
+[1.705s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/model.sdf
+[1.705s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[1.706s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/meshes
+[1.706s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[1.706s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[1.706s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[1.706s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds
+[1.706s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map1.world.xml
+[1.707s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map3.world.xml
+[1.707s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map5.world.xml
+[1.707s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map7.world.xml
+[1.707s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map9.world.xml
+[1.707s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map11.world.xml
+[1.708s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map4.world.xml
+[1.708s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map10.world.xml
+[1.708s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map6.world.xml
+[1.708s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map2.world.xml
+[1.708s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map8.world.xml
+[1.708s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps
+[1.708s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map3.csv
+[1.709s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map2.csv
+[1.709s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map11.csv
+[1.709s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map10.csv
+[1.709s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map9.csv
+[1.709s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map8.csv
+[1.709s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map7.csv
+[1.709s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map5.csv
+[1.710s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map6.csv
+[1.710s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map1.csv
+[1.710s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map4.csv
+[1.710s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/ament_index/resource_index/package_run_dependencies/explorer_gazebo
+[1.710s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/ament_index/resource_index/parent_prefix_path/explorer_gazebo
+[1.710s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/environment/ament_prefix_path.sh
+[1.710s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/environment/ament_prefix_path.dsv
+[1.710s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/environment/path.sh
+[1.711s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/environment/path.dsv
+[1.711s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.bash
+[1.711s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.sh
+[1.711s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.zsh
+[1.711s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.dsv
+[1.711s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/package.dsv
+[1.711s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/ament_index/resource_index/packages/explorer_gazebo
+[1.711s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/cmake/explorer_gazeboConfig.cmake
+[1.711s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/cmake/explorer_gazeboConfig-version.cmake
+[1.712s] -- Installing: /home/felipe/ros2_ws/install/explorer_gazebo/share/explorer_gazebo/package.xml
+[1.713s] Invoked command in '/home/felipe/ros2_ws/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/auto_mapper_py:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --install /home/felipe/ros2_ws/build/explorer_gazebo

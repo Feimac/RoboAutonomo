@@ -1,0 +1,44 @@
+[2.645s] Invoking command in '/home/felipe/ros2_ws/src/voice_control': PYTHONPATH=/home/felipe/ros2_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/felipe/ros2_ws/build/voice_control/build install --record /home/felipe/ros2_ws/build/voice_control/install.log --single-version-externally-managed install_data
+[2.745s] Traceback (most recent call last):
+[2.745s]   File "/home/felipe/ros2_ws/src/voice_control/setup.py", line 1, in <module>
+[2.745s]     from setuptools import setup
+[2.745s]   File "/home/felipe/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 22, in <module>
+[2.759s]     import _distutils_hack.override  # noqa: F401
+[2.760s]   File "/home/felipe/.local/lib/python3.10/site-packages/_distutils_hack/override.py", line 1, in <module>
+[2.770s]     __import__('_distutils_hack').do_override()
+[2.770s]   File "/home/felipe/.local/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 89, in do_override
+[2.770s]     ensure_local_distutils()
+[2.770s]   File "/home/felipe/.local/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 72, in ensure_local_distutils
+[2.770s]     importlib.import_module('distutils')
+[2.771s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[2.786s]     return _bootstrap._gcd_import(name[level:], package, level)
+[2.786s]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[2.786s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[2.786s]   File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+[2.787s]   File "<frozen importlib._bootstrap>", line 945, in _find_spec
+[2.787s]   File "/home/felipe/.local/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 109, in find_spec
+[2.787s]     return method()
+[2.787s]   File "/home/felipe/.local/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 120, in spec_for_distutils
+[2.787s]     mod = importlib.import_module('setuptools._distutils')
+[2.788s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[2.788s]     return _bootstrap._gcd_import(name[level:], package, level)
+[2.788s]   File "/home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/__init__.py", line 12, in <module>
+[2.805s]     importlib.import_module('_distutils_system_mod')
+[2.805s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[2.805s]     return _bootstrap._gcd_import(name[level:], package, level)
+[2.805s]   File "/usr/lib/python3.10/_distutils_system_mod.py", line 15, in <module>
+[2.824s]     import distutils.sysconfig
+[2.824s]   File "/home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/sysconfig.py", line 19, in <module>
+[2.846s]     from jaraco.functools import pass_none
+[2.846s]   File "/home/felipe/.local/lib/python3.10/site-packages/setuptools/_vendor/jaraco/functools/__init__.py", line 10, in <module>
+[2.864s]     import more_itertools
+[2.864s]   File "/usr/lib/python3/dist-packages/more_itertools/__init__.py", line 1, in <module>
+[2.877s]     from .more import *  # noqa
+[2.878s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[2.878s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[2.878s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[2.879s]   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[2.879s]   File "<frozen importlib._bootstrap_external>", line 1012, in get_code
+[2.879s]   File "<frozen importlib._bootstrap_external>", line 672, in _compile_bytecode
+[2.880s] KeyboardInterrupt
+[2.896s] Invoked command in '/home/felipe/ros2_ws/src/voice_control' returned '-2': PYTHONPATH=/home/felipe/ros2_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/felipe/ros2_ws/build/voice_control/build install --record /home/felipe/ros2_ws/build/voice_control/install.log --single-version-externally-managed install_data

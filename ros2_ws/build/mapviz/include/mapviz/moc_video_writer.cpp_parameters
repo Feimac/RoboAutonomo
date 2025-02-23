@@ -1,0 +1,7 @@
+-I/home/felipe/ros2_ws/src/mapviz/mapviz
+-I/home/felipe/ros2_ws/build/mapviz
+-DWFlags=WindowFlags
+-DQT_NO_KEYWORDS
+-o
+/home/felipe/ros2_ws/build/mapviz/include/mapviz/moc_video_writer.cpp
+/home/felipe/ros2_ws/src/mapviz/mapviz/include/mapviz/video_writer.h

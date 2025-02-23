@@ -1,0 +1,125 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found mapviz_interfaces: 2.4.4 (/home/felipe/ros2_ws/install/mapviz_interfaces/share/mapviz_interfaces/cmake)
+-- Found rqt_gui_cpp: 1.1.7 (/opt/ros/humble/share/rqt_gui_cpp/cmake)
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found swri_math_util: 3.7.3 (/opt/ros/humble/share/swri_math_util/cmake)
+-- Found swri_transform_util: 3.7.3 (/opt/ros/humble/share/swri_transform_util/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'yaml-cpp'
+--   Found yaml-cpp, version 0.7.0
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time system filesystem 
+-- Found OpenCV: /usr (found version "4.5.4") found components: core imgproc imgcodecs videoio 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Checking for module 'glut'
+--   No package 'glut' found
+-- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+-- Found GLEW: /usr/include (found version "2.2.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/felipe/ros2_ws/build/mapviz
+[  2%] [34m[1mGenerating include/mapviz/moc_mapviz.cpp[0m
+[  5%] [34m[1mGenerating include/mapviz/moc_config_item.cpp[0m
+[ 10%] [34m[1mGenerating include/mapviz/moc_mapviz_plugin.cpp[0m
+[ 13%] [34m[1mGenerating include/mapviz/moc_select_frame_dialog.cpp[0m
+[ 16%] [34m[1mGenerating ui_pluginselect.h[0m
+[ 18%] [34m[1mGenerating include/mapviz/moc_rqt_mapviz.cpp[0m
+[ 18%] [34m[1mGenerating include/mapviz/moc_map_canvas.cpp[0m
+[ 21%] [34m[1mGenerating include/mapviz/moc_color_button.cpp[0m
+[ 24%] [34m[1mGenerating include/mapviz/moc_select_service_dialog.cpp[0m
+[ 32%] [34m[1mGenerating include/mapviz/moc_widgets.cpp[0m
+[ 32%] [34m[1mGenerating ui_mapviz.h[0m
+[ 32%] [34m[1mGenerating ui_configitem.h[0m
+[ 35%] [34m[1mGenerating include/mapviz/moc_video_writer.cpp[0m
+[ 37%] [34m[1mGenerating qrc_icons.cpp[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_mapviz_plugin.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_color_button.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_config_item.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_map_canvas.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_mapviz.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_rqt_mapviz.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_select_frame_dialog.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_select_service_dialog.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_video_writer.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/include/mapviz/moc_widgets.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/mapviz.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/color_button.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/config_item.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/mapviz_application.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/map_canvas.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/rqt_mapviz.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/select_frame_dialog.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/select_service_dialog.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/src/video_writer.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/rqt_mapviz.dir/qrc_icons.cpp.o[0m
+[ 94%] [32m[1mLinking CXX static library librqt_mapviz.a[0m
+[ 94%] Built target rqt_mapviz
+[ 97%] [32mBuilding CXX object CMakeFiles/mapviz.dir/src/mapviz_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mapviz[0m
+[100%] Built target mapviz
+-- Install configuration: ""
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/widgets.h
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/mapviz_application.h
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/stopwatch.h
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/select_service_dialog.h
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/config_item.h
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/map_canvas.h
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/select_frame_dialog.h
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/rqt_mapviz.h
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/video_writer.h
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/mapviz_plugin.h
+-- Installing: /home/felipe/ros2_ws/install/mapviz/include/mapviz/color_button.h
+-- Installing: /home/felipe/ros2_ws/install/mapviz/lib/mapviz/mapviz
+-- Set runtime path of "/home/felipe/ros2_ws/install/mapviz/lib/mapviz/mapviz" to ""
+-- Installing: /home/felipe/ros2_ws/install/mapviz/lib/librqt_mapviz.a
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/launch
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/launch/mapviz.launch.py
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/launch/mapviz.launch.xml
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/plugin.xml
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/library_path.sh
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/library_path.dsv
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/ament_index/resource_index/package_run_dependencies/mapviz
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/ament_index/resource_index/parent_prefix_path/mapviz
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/ament_prefix_path.sh
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/ament_prefix_path.dsv
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/path.sh
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/environment/path.dsv
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/local_setup.bash
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/local_setup.sh
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/local_setup.zsh
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/local_setup.dsv
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/package.dsv
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/ament_index/resource_index/packages/mapviz
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake/mapvizConfig.cmake
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/cmake/mapvizConfig-version.cmake
+-- Installing: /home/felipe/ros2_ws/install/mapviz/share/mapviz/package.xml

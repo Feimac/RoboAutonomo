@@ -1,0 +1,24 @@
+[2.285s] Invoking command in '/home/felipe/ros2_ws/src/voice_control': PYTHONPATH=/home/felipe/ros2_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/felipe/ros2_ws/build/voice_control/build install --record /home/felipe/ros2_ws/build/voice_control/install.log --single-version-externally-managed install_data
+[2.711s] /home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[2.711s]   warnings.warn(msg)
+[3.089s] running egg_info
+[3.149s] writing ../../build/voice_control/voice_control.egg-info/PKG-INFO
+[3.150s] writing dependency_links to ../../build/voice_control/voice_control.egg-info/dependency_links.txt
+[3.151s] writing entry points to ../../build/voice_control/voice_control.egg-info/entry_points.txt
+[3.151s] writing requirements to ../../build/voice_control/voice_control.egg-info/requires.txt
+[3.152s] writing top-level names to ../../build/voice_control/voice_control.egg-info/top_level.txt
+[3.278s] reading manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+[3.281s] writing manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+[3.281s] running build
+[3.282s] running build_py
+[3.283s] running install
+[3.294s] running install_lib
+[3.357s] running install_data
+[3.358s] running install_egg_info
+[3.422s] removing '/home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages/voice_control-0.0.1-py3.10.egg-info' (and everything under it)
+[3.422s] Copying ../../build/voice_control/voice_control.egg-info to /home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages/voice_control-0.0.1-py3.10.egg-info
+[3.425s] running install_scripts
+[3.901s] Installing motion_control_node script to /home/felipe/ros2_ws/install/voice_control/lib/voice_control
+[3.901s] Installing voice_command_node script to /home/felipe/ros2_ws/install/voice_control/lib/voice_control
+[3.902s] writing list of installed files to '/home/felipe/ros2_ws/build/voice_control/install.log'
+[3.977s] Invoked command in '/home/felipe/ros2_ws/src/voice_control' returned '0': PYTHONPATH=/home/felipe/ros2_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/voice_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/felipe/ros2_ws/build/voice_control/build install --record /home/felipe/ros2_ws/build/voice_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,38 @@
+Built target ament_cmake_python_copy_vacuum_robot
+Built target ament_cmake_python_copy_vacuum_robot_setup
+running egg_info
+writing vacuum_robot.egg-info/PKG-INFO
+writing dependency_links to vacuum_robot.egg-info/dependency_links.txt
+writing top-level names to vacuum_robot.egg-info/top_level.txt
+reading manifest file 'vacuum_robot.egg-info/SOURCES.txt'
+writing manifest file 'vacuum_robot.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_vacuum_robot_egg
+-- Install configuration: ""
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/environment/pythonpath.sh
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/environment/pythonpath.dsv
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/local/lib/python3.10/dist-packages/vacuum_robot-0.0.0-py3.10.egg-info
+-- Installing: /home/felipe/ros2_ws/install/vacuum_robot/local/lib/python3.10/dist-packages/vacuum_robot-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/felipe/ros2_ws/install/vacuum_robot/local/lib/python3.10/dist-packages/vacuum_robot-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/felipe/ros2_ws/install/vacuum_robot/local/lib/python3.10/dist-packages/vacuum_robot-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/felipe/ros2_ws/install/vacuum_robot/local/lib/python3.10/dist-packages/vacuum_robot-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/local/lib/python3.10/dist-packages/vacuum_robot
+-- Installing: /home/felipe/ros2_ws/install/vacuum_robot/local/lib/python3.10/dist-packages/vacuum_robot/vacuum_robot_controller.py
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/local/lib/python3.10/dist-packages/vacuum_robot/__init__.py
+Listing '/home/felipe/ros2_ws/install/vacuum_robot/local/lib/python3.10/dist-packages/vacuum_robot'...
+Compiling '/home/felipe/ros2_ws/install/vacuum_robot/local/lib/python3.10/dist-packages/vacuum_robot/vacuum_robot_controller.py'...
+-- Installing: /home/felipe/ros2_ws/install/vacuum_robot/lib/vacuum_robot/vacuum_robot_controller.py
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/ament_index/resource_index/package_run_dependencies/vacuum_robot
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/ament_index/resource_index/parent_prefix_path/vacuum_robot
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/environment/path.sh
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/environment/path.dsv
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/local_setup.bash
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/local_setup.sh
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/local_setup.zsh
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/local_setup.dsv
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/package.dsv
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/ament_index/resource_index/packages/vacuum_robot
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig.cmake
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/cmake/vacuum_robotConfig-version.cmake
+-- Up-to-date: /home/felipe/ros2_ws/install/vacuum_robot/share/vacuum_robot/package.xml

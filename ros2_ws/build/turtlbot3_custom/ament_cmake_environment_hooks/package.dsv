@@ -1,0 +1,4 @@
+source;share/turtlbot3_custom/local_setup.bash
+source;share/turtlbot3_custom/local_setup.dsv
+source;share/turtlbot3_custom/local_setup.sh
+source;share/turtlbot3_custom/local_setup.zsh

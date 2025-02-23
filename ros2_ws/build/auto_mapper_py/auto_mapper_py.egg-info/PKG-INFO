@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: auto_mapper_py
+Version: 0.0.0
+Summary: Pacote ROS2 Python para exploração automática
+Maintainer: SEU_NOME
+Maintainer-email: SEU_EMAIL
+License: Apache License 2.0
+Requires-Dist: setuptools

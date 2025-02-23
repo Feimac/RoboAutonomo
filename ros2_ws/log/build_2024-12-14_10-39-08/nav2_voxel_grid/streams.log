@@ -1,0 +1,64 @@
+[0.016s] Invoking command in '/home/felipe/ros2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/felipe/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/felipe/ros2_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/nav2_voxel_grid
+[0.093s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.161s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.339s] -- Detecting CXX compiler ABI info - done
+[0.353s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.354s] -- Detecting CXX compile features
+[0.354s] -- Detecting CXX compile features - done
+[0.359s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.795s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.907s] -- Found nav2_common: 1.3.1 (/home/felipe/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.910s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.964s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.972s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.985s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.004s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.030s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.112s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.117s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.254s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.291s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.373s] -- Looking for pthread.h
+[1.470s] -- Looking for pthread.h - found
+[1.470s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.550s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.551s] -- Found Threads: TRUE  
+[1.644s] -- Setting build type to Release as none was specified.
+[1.647s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.747s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.763s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.763s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/felipe/ros2_ws/src/navigation2/nav2_voxel_grid/include>
+[1.763s] -- Configured cppcheck exclude dirs and/or files: 
+[1.765s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.765s] -- Configured cpplint exclude dirs and/or files: 
+[1.766s] -- Added test 'lint_cmake' to check CMake code style
+[1.768s] -- Added test 'uncrustify' to check C / C++ code style
+[1.768s] -- Configured uncrustify additional arguments: 
+[1.769s] -- Added test 'xmllint' to check XML markup files
+[1.773s] -- Configuring done
+[1.799s] -- Generating done
+[1.809s] -- Build files have been written to: /home/felipe/ros2_ws/build/nav2_voxel_grid
+[1.826s] Invoked command in '/home/felipe/ros2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/felipe/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/felipe/ros2_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/felipe/ros2_ws/install/nav2_voxel_grid
+[1.826s] Invoking command in '/home/felipe/ros2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/felipe/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/felipe/ros2_ws/build/nav2_voxel_grid -- -j8 -l8
+[1.889s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.889s] [ 20%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[1.889s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.841s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.003s] [ 40%] Built target gtest_main
+[5.096s] [ 50%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[5.447s] [ 50%] Built target voxel_grid
+[13.787s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[13.826s] [ 60%] Built target gtest
+[13.850s] [ 80%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_bresenham_3d.dir/voxel_grid_bresenham_3d.cpp.o[0m
+[13.850s] [ 80%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[16.425s] [ 90%] [32m[1mLinking CXX executable voxel_grid_bresenham_3d[0m
+[16.520s] [100%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[16.566s] [100%] Built target voxel_grid_bresenham_3d
+[16.647s] [100%] Built target voxel_grid_tests

@@ -1,0 +1,27 @@
+[2.831s] Invoking command in '/home/felipe/ros2_ws/build/explorer_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --build /home/felipe/ros2_ws/build/explorer_cartographer -- -j8 -l8
+[7.087s] Invoked command in '/home/felipe/ros2_ws/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --build /home/felipe/ros2_ws/build/explorer_cartographer -- -j8 -l8
+[7.120s] Invoking command in '/home/felipe/ros2_ws/build/explorer_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --install /home/felipe/ros2_ws/build/explorer_cartographer
+[7.158s] -- Install configuration: ""
+[7.158s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/config
+[7.158s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/config/turtlebot3_lds_2d.lua
+[7.158s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/launch
+[7.160s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/launch/occupancy_grid.launch.py
+[7.160s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/launch/cartographer.launch.py
+[7.160s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/rviz
+[7.160s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/rviz/tb3_cartographer.rviz
+[7.160s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/ament_index/resource_index/package_run_dependencies/explorer_cartographer
+[7.161s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/ament_index/resource_index/parent_prefix_path/explorer_cartographer
+[7.165s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/environment/ament_prefix_path.sh
+[7.166s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/environment/ament_prefix_path.dsv
+[7.167s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/environment/path.sh
+[7.167s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/environment/path.dsv
+[7.170s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/local_setup.bash
+[7.171s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/local_setup.sh
+[7.171s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/local_setup.zsh
+[7.178s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/local_setup.dsv
+[7.180s] -- Installing: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/package.dsv
+[7.180s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/ament_index/resource_index/packages/explorer_cartographer
+[7.181s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/cmake/explorer_cartographerConfig.cmake
+[7.182s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/cmake/explorer_cartographerConfig-version.cmake
+[7.183s] -- Up-to-date: /home/felipe/ros2_ws/install/explorer_cartographer/share/explorer_cartographer/package.xml
+[7.395s] Invoked command in '/home/felipe/ros2_ws/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felipe/ros2_ws/install/vacuum_robot:/home/felipe/ros2_ws/install/my_py_pkg:/home/felipe/ros2_ws/install/explorer_wanderer:/home/felipe/ros2_ws/install/explorer_map_utils:/home/felipe/ros2_ws/install/explorer_bringup:/home/felipe/ros2_ws/install/auto_mapper_py:/opt/ros/humble:/home/felipe/ros2_ws/install /usr/bin/cmake --install /home/felipe/ros2_ws/build/explorer_cartographer

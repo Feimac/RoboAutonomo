@@ -1,0 +1,28 @@
+[2.367s] Invoking command in '/home/felipe/ros2_ws/src/ros2_explorer/explorer_bringup': PYTHONPATH=/home/felipe/ros2_ws/build/explorer_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_bringup build --build-base /home/felipe/ros2_ws/build/explorer_bringup/build install --record /home/felipe/ros2_ws/build/explorer_bringup/install.log --single-version-externally-managed install_data
+[2.653s] /home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.653s]   warnings.warn(msg)
+[2.905s] running egg_info
+[2.935s] writing ../../../build/explorer_bringup/explorer_bringup.egg-info/PKG-INFO
+[2.936s] writing dependency_links to ../../../build/explorer_bringup/explorer_bringup.egg-info/dependency_links.txt
+[2.936s] writing entry points to ../../../build/explorer_bringup/explorer_bringup.egg-info/entry_points.txt
+[2.936s] writing requirements to ../../../build/explorer_bringup/explorer_bringup.egg-info/requires.txt
+[2.936s] writing top-level names to ../../../build/explorer_bringup/explorer_bringup.egg-info/top_level.txt
+[2.985s] reading manifest file '../../../build/explorer_bringup/explorer_bringup.egg-info/SOURCES.txt'
+[2.986s] writing manifest file '../../../build/explorer_bringup/explorer_bringup.egg-info/SOURCES.txt'
+[2.986s] running build
+[2.986s] running build_py
+[2.986s] copying explorer_bringup/__init__.py -> /home/felipe/ros2_ws/build/explorer_bringup/build/lib/explorer_bringup
+[2.986s] copying explorer_bringup/manager.py -> /home/felipe/ros2_ws/build/explorer_bringup/build/lib/explorer_bringup
+[2.987s] running install
+[2.992s] running install_lib
+[3.018s] running install_data
+[3.019s] copying resource/explorer_bringup -> /home/felipe/ros2_ws/install/explorer_bringup/share/ament_index/resource_index/packages
+[3.019s] copying package.xml -> /home/felipe/ros2_ws/install/explorer_bringup/share/explorer_bringup
+[3.019s] copying launch/explorer.launch.py -> /home/felipe/ros2_ws/install/explorer_bringup/share/explorer_bringup
+[3.019s] running install_egg_info
+[3.049s] removing '/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[3.049s] Copying ../../../build/explorer_bringup/explorer_bringup.egg-info to /home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup-0.0.0-py3.10.egg-info
+[3.050s] running install_scripts
+[3.231s] Installing manager script to /home/felipe/ros2_ws/install/explorer_bringup/lib/explorer_bringup
+[3.232s] writing list of installed files to '/home/felipe/ros2_ws/build/explorer_bringup/install.log'
+[3.259s] Invoked command in '/home/felipe/ros2_ws/src/ros2_explorer/explorer_bringup' returned '0': PYTHONPATH=/home/felipe/ros2_ws/build/explorer_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_bringup build --build-base /home/felipe/ros2_ws/build/explorer_bringup/build install --record /home/felipe/ros2_ws/build/explorer_bringup/install.log --single-version-externally-managed install_data

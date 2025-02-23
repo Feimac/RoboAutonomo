@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: meu_pacote_launch
+Version: 0.0.0
+Summary: Pacote para executar nós de launch integrados (map_server, static tf, navigation2, gazebo)
+Maintainer: felipe
+Maintainer-email: felipescamillo2020@gmail.com
+License: TODO: License declaration
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

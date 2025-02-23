@@ -1,0 +1,47 @@
+[1.230s] Invoking command in '/home/felipe/ros2_ws/src/Autonomous-Navigation-and-Path-planning-on-ROS2-using-Dijkstra-and-SLAM/my_py_pkg': PYTHONPATH=/home/felipe/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_py_pkg build --build-base /home/felipe/ros2_ws/build/my_py_pkg/build install --record /home/felipe/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.401s] /home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.401s]   warnings.warn(msg)
+[1.547s] running egg_info
+[1.573s] creating ../../../build/my_py_pkg/my_py_pkg.egg-info
+[1.573s] writing ../../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.574s] writing dependency_links to ../../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.575s] writing entry points to ../../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.575s] writing requirements to ../../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.575s] writing top-level names to ../../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.575s] writing manifest file '../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.626s] reading manifest file '../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.627s] writing manifest file '../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.627s] running build
+[1.627s] running build_py
+[1.627s] creating /home/felipe/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.627s] copying my_py_pkg/robot_command.py -> /home/felipe/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.628s] copying my_py_pkg/__init__.py -> /home/felipe/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.628s] running install
+[1.633s] running install_lib
+[1.658s] creating /home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.658s] copying /home/felipe/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_command.py -> /home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.658s] copying /home/felipe/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.659s] byte-compiling /home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_command.py to robot_command.cpython-310.pyc
+[1.659s] byte-compiling /home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.660s] running install_data
+[1.660s] creating /home/felipe/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.660s] copying resource/my_py_pkg -> /home/felipe/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.660s] copying package.xml -> /home/felipe/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.661s] running install_egg_info
+[1.687s] Copying ../../../build/my_py_pkg/my_py_pkg.egg-info to /home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.688s] running install_scripts
+[1.874s] Installing add_two_ints_client script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.874s] Installing add_two_ints_server script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.875s] Installing battery script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.875s] Installing camera_stream script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.875s] Installing hw_status_publisher script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.875s] Installing led_panel script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.875s] Installing number_counter script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.875s] Installing number_publisher script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.875s] Installing py_node script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.875s] Installing robot_commmand_publisher script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.876s] Installing robot_news_station script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.876s] Installing send_waypoints script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.876s] Installing smartphone script to /home/felipe/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.876s] writing list of installed files to '/home/felipe/ros2_ws/build/my_py_pkg/install.log'
+[1.905s] Invoked command in '/home/felipe/ros2_ws/src/Autonomous-Navigation-and-Path-planning-on-ROS2-using-Dijkstra-and-SLAM/my_py_pkg' returned '0': PYTHONPATH=/home/felipe/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_py_pkg build --build-base /home/felipe/ros2_ws/build/my_py_pkg/build install --record /home/felipe/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

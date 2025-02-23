@@ -1,0 +1,17 @@
+[0.922s] Invoking command in '/home/felipe/ros2_ws/build/meu_pacote_launch': PYTHONPATH=/home/felipe/ros2_ws/build/meu_pacote_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/felipe/ros2_ws/build/meu_pacote_launch/build --no-deps symlink_data
+[1.100s] /home/felipe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.100s]   warnings.warn(msg)
+[1.342s] running develop
+[1.674s] running egg_info
+[1.698s] writing meu_pacote_launch.egg-info/PKG-INFO
+[1.699s] writing dependency_links to meu_pacote_launch.egg-info/dependency_links.txt
+[1.699s] writing requirements to meu_pacote_launch.egg-info/requires.txt
+[1.699s] writing top-level names to meu_pacote_launch.egg-info/top_level.txt
+[1.750s] reading manifest file 'meu_pacote_launch.egg-info/SOURCES.txt'
+[1.751s] writing manifest file 'meu_pacote_launch.egg-info/SOURCES.txt'
+[1.777s] running build_ext
+[1.777s] Creating /home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages/meu-pacote-launch.egg-link (link to .)
+[1.778s] 
+[1.778s] Installed /home/felipe/ros2_ws/build/meu_pacote_launch
+[1.778s] running symlink_data
+[1.812s] Invoked command in '/home/felipe/ros2_ws/build/meu_pacote_launch' returned '0': PYTHONPATH=/home/felipe/ros2_ws/build/meu_pacote_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe/ros2_ws/install/meu_pacote_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/felipe/ros2_ws/build/meu_pacote_launch/build --no-deps symlink_data

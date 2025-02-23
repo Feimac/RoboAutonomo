@@ -1,0 +1,43 @@
+[0.041s] Invoking command in '/home/felipe/ros2_ws/build/nav2_voxel_grid': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/nav2_loopback_sim:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:/home/felipe/ros2_ws/install/my_robot_description /usr/bin/cmake --build /home/felipe/ros2_ws/build/nav2_voxel_grid -- -j8 -l8
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid[0m
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.099s] [ 20%] Built target gtest_main
+[0.101s] [ 40%] Built target voxel_grid
+[0.103s] [ 60%] Built target gtest
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_tests[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_bresenham_3d[0m
+[0.139s] [ 80%] Built target voxel_grid_tests
+[0.146s] [100%] Built target voxel_grid_bresenham_3d
+[0.163s] Invoked command in '/home/felipe/ros2_ws/build/nav2_voxel_grid' returned '0': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/nav2_loopback_sim:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:/home/felipe/ros2_ws/install/my_robot_description /usr/bin/cmake --build /home/felipe/ros2_ws/build/nav2_voxel_grid -- -j8 -l8
+[0.167s] Invoking command in '/home/felipe/ros2_ws/build/nav2_voxel_grid': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/nav2_loopback_sim:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:/home/felipe/ros2_ws/install/my_robot_description /usr/bin/cmake --install /home/felipe/ros2_ws/build/nav2_voxel_grid
+[0.192s] -- Install configuration: "Release"
+[0.192s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[0.192s] -- Set runtime path of "/home/felipe/ros2_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so" to ""
+[0.192s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid
+[0.193s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/nav2_voxel_grid
+[0.193s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/nav2_voxel_grid/voxel_grid.hpp
+[0.193s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[0.193s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[0.193s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[0.193s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[0.193s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[0.195s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[0.195s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[0.195s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[0.198s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[0.198s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[0.199s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[0.199s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[0.199s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[0.199s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[0.199s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/voxel_gridExport.cmake
+[0.199s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/voxel_gridExport-release.cmake
+[0.199s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.199s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.199s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[0.199s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_targets-extras.cmake
+[0.200s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[0.200s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[0.200s] -- Installing: /home/felipe/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[0.211s] Invoked command in '/home/felipe/ros2_ws/build/nav2_voxel_grid' returned '0': CMAKE_PREFIX_PATH=/home/felipe/ros2_ws/install/nav2_common:/home/felipe/ros2_ws/install/nav2_loopback_sim:/home/felipe/ros2_ws/install/vacuum_robot:/opt/ros/humble:/home/felipe/ros2_ws/install:/home/felipe/ros2_ws/install/my_robot_description /usr/bin/cmake --install /home/felipe/ros2_ws/build/nav2_voxel_grid
